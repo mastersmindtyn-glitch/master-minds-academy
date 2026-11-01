@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#102b59">
+<title>MASTER MINDS ACADEMY | Navodaya Complete Game Course</title>
+<style>
+:root{--navy:#102b59;--blue:#1d63c7;--cyan:#12a9bd;--ink:#183451;--muted:#637891;--bg:#f2f7ff;--line:#dce7f4;--green:#16834a;--red:#bd3c32}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,"Noto Sans Telugu",sans-serif;background:var(--bg);color:var(--ink)}
+header{background:linear-gradient(120deg,#10234c,#1a5eb0,#12a7b8);color:#fff;padding:24px 15px;text-align:center}header h1{margin:0;font-size:clamp(23px,5vw,35px)}header h2{margin:7px 0;color:#fff;font-size:clamp(18px,4vw,25px)}header p{margin:5px 0;color:#e4f6ff}
+main{max-width:1050px;margin:18px auto;padding:0 14px 30px}.panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px;margin:13px 0;box-shadow:0 8px 24px #16385d0d}
+h2,h3{color:var(--navy)}.muted{color:var(--muted);line-height:1.6}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.stat{text-align:center;background:#f2f7ff;border-radius:13px;padding:11px}.stat b{display:block;font-size:23px;color:var(--navy)}.stat span{font-size:12px;color:var(--muted)}
+.tabs{display:flex;gap:7px;overflow-x:auto;padding:5px 0 12px}.tab{white-space:nowrap;border:0;border-radius:30px;padding:11px 15px;background:#e4edf9;color:var(--navy);font-weight:bold;cursor:pointer}.tab.active{background:var(--navy);color:#fff}
+.page{display:none}.page.active{display:block}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}.topic{border:1px solid var(--line);border-radius:15px;padding:15px;background:#fff}.topic .emoji{font-size:30px}.topic h3{margin:7px 0}.topic p{font-size:13px;line-height:1.5;color:var(--muted)}
+button{font:inherit}.btn{border:0;border-radius:25px;background:var(--blue);color:#fff;padding:11px 18px;font-weight:bold;cursor:pointer}.btn.secondary{background:#e8f0fc;color:var(--navy)}.btn:disabled{opacity:.45;cursor:not-allowed}
+.quizhead{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}.pill{background:#edf4ff;padding:8px 12px;border-radius:30px;font-size:13px;font-weight:bold}.progress{height:9px;background:#e8eef6;border-radius:20px;overflow:hidden;margin:14px 0}.bar{height:100%;width:0;background:linear-gradient(90deg,var(--blue),var(--cyan))}
+.question{font-size:clamp(19px,4vw,26px);font-weight:bold;line-height:1.5;text-align:center;color:var(--navy);margin:22px 0 15px}.passage{background:#f1f7ff;border-left:4px solid var(--cyan);border-radius:10px;padding:13px;line-height:1.65;margin:12px 0}
+.options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.option{border:2px solid var(--line);border-radius:13px;background:#fff;padding:13px;text-align:left;font-weight:bold;color:var(--ink);cursor:pointer;min-height:55px}.option:disabled{cursor:default}.option.correct{background:#e8f8ee;border-color:#28a45d}.option.wrong{background:#fff0ee;border-color:#d45e54}
+.feedback{text-align:center;min-height:52px;padding:13px 4px;font-weight:bold;line-height:1.5}.actions{display:flex;justify-content:center;gap:9px;flex-wrap:wrap;margin-top:10px}.hidden{display:none!important}.result{text-align:center}.result .big{font-size:58px}
+footer{text-align:center;color:var(--muted);font-size:13px;padding:20px}
+@media(max-width:560px){.options{grid-template-columns:1fr}.panel{padding:14px}.stats{gap:6px}.stat{padding:9px 4px}}
+</style>
+</head>
+<body>
+<header>
+<h1>🎓 MASTER MINDS ACADEMY</h1>
+<h2>NAVODAYA JNVST – CLASS 6</h2>
+<p>COMPLETE GAME-BASED PRACTICE COURSE</p>
+<p>TIRYANI • KUMRAM BHEEM ASIFABAD • TELANGANA</p>
+</header>
+<main>
+<section class="panel">
+<h2>🌟 Welcome, Young Champion!</h2>
+<p class="muted">ఆడుతూ నేర్చుకుందాం! Select a subject, answer the questions, read the explanation and improve your score. This is a practice resource, not an official NVS question paper.</p>
+<div class="stats"><div class="stat"><b id="totalPoints">0</b><span>⭐ Points</span></div><div class="stat"><b id="totalCorrect">0</b><span>✅ Correct</span></div><div class="stat"><b id="totalDone">0</b><span>🎯 Answered</span></div></div>
+</section>
+<div class="tabs">
+<button class="tab active" onclick="showPage('home',this)">🏠 Course</button>
+<button class="tab" onclick="showPage('mental',this)">🧠 Mental Ability</button>
+<button class="tab" onclick="showPage('math',this)">➗ Arithmetic</button>
+<button class="tab" onclick="showPage('language',this)">📖 Language</button>
+<button class="tab" onclick="showPage('evs',this)">🌿 EVS Practice</button>
+<button class="tab" onclick="showPage('mock',this)">🏆 Mock Test</button>
+</div>
+<section id="home" class="page active">
+<div class="panel"><h2>📚 Course Map</h2><p class="muted">ప్రతి విభాగాన్ని ఎంచుకుని చిన్న గేమ్ రౌండ్‌తో సాధన ప్రారంభించండి.</p>
+<div class="grid">
+<div class="topic"><div class="emoji">🧠</div><h3>Mental Ability</h3><p>Number series, analogy, odd one out, logical reasoning and pattern questions.</p><button class="btn" onclick="showPage('mental')">Start Game</button></div>
+<div class="topic"><div class="emoji">➗</div><h3>Arithmetic</h3><p>Numbers, operations, fractions, factors, measurement and daily maths.</p><button class="btn" onclick="showPage('math')">Start Game</button></div>
+<div class="topic"><div class="emoji">📖</div><h3>Language</h3><p>Reading comprehension, vocabulary and sentence understanding.</p><button class="btn" onclick="showPage('language')">Start Game</button></div>
+<div class="topic"><div class="emoji">🌿</div><h3>EVS Practice</h3><p>Nature, health, environment, science in daily life and society.</p><button class="btn" onclick="showPage('evs')">Start Practice</button></div>
+<div class="topic"><div class="emoji">🏆</div><h3>Mixed Mock Test</h3><p>Mixed questions from the practice sections with score and explanations.</p><button class="btn" onclick="startQuiz('mock')">Start Mock</button></div>
+</div></div>
+<div class="panel"><h3>How to Play</h3><ol class="muted"><li>Choose a subject.</li><li>Read each question carefully.</li><li>Select one answer.</li><li>Check the explanation and press Next.</li><li>See your final score at the end.</li></ol></div>
+</section>
+<section id="mental" class="page"><div class="panel"><h2>🧠 Mental Ability Game</h2><p class="muted">Reasoning and pattern practice.</p><div id="mentalQuiz"></div></div></section>
+<section id="math" class="page"><div class="panel"><h2>➗ Arithmetic Game</h2><p class="muted">Maths practice with step-by-step explanations.</p><div id="mathQuiz"></div></div></section>
+<section id="language" class="page"><div class="panel"><h2>📖 Language Game</h2><p class="muted">Read the passage and choose the best answer.</p><div id="languageQuiz"></div></div></section>
+<section id="evs" class="page"><div class="panel"><h2>🌿 EVS Practice Game</h2><p class="muted">Nature, human body, science and society practice. Use this as supplementary practice; check the current official NVS prospectus for the applicable exam pattern.</p><div id="evsQuiz"></div></div></section>
+<section id="mock" class="page"><div class="panel"><h2>🏆 Mixed Mock Test</h2><p class="muted">A short mixed practice round from all four learning areas.</p><div id="mockQuiz"></div></div></section>
+</main>
+<footer>MASTER MINDS Tuition Academy – Tiryani<br>మా లక్ష్యం అడ్మిషన్లు కాదు… ప్రతి విద్యార్థిలోని ప్రతిభను వెలికితీయడం.</footer>
+<script>
+const banks={
+mental:[
+{q:"Find the next number: 2, 4, 6, 8, __",o:["9","10","11","12"],a:1,e:"Each number increases by 2. So 8 + 2 = 10."},
+{q:"Which one is different?",o:["Triangle","Square","Circle","Mango"],a:3,e:"The first three are shapes. Mango is a fruit."},
+{q:"Bird : Nest :: Bee : ____",o:["Cave","Hive","Kennel","Stable"],a:1,e:"A bird lives in a nest; a bee lives in a hive."},
+{q:"Find the next letter: A, C, E, G, __",o:["H","I","J","K"],a:1,e:"One letter is skipped each time: A, C, E, G, I."},
+{q:"Which number does not belong?",o:["3","6","9","10"],a:3,e:"3, 6 and 9 are multiples of 3. 10 is not."},
+{q:"If today is Monday, what day will it be after two days?",o:["Tuesday","Wednesday","Thursday","Friday"],a:1,e:"Tuesday is one day later; Wednesday is two days later."}
+],
+math:[
+{q:"245 + 138 = ?",o:["373","383","393","403"],a:1,e:"245 + 100 = 345; 345 + 38 = 383."},
+{q:"12 × 8 = ?",o:["84","86","96","108"],a:2,e:"12 multiplied by 8 equals 96."},
+{q:"What is the HCF of 24 and 36?",o:["6","8","12","18"],a:2,e:"12 is the greatest number that divides both 24 and 36."},
+{q:"One pencil costs ₹5. What is the cost of 7 pencils?",o:["₹25","₹30","₹35","₹40"],a:2,e:"5 × 7 = ₹35."},
+{q:"Which fraction is equal to 1/2?",o:["2/3","2/4","3/4","1/4"],a:1,e:"Multiply numerator and denominator of 1/2 by 2 to get 2/4."},
+{q:"A rectangle is 8 cm long and 3 cm wide. Find its perimeter.",o:["11 cm","16 cm","22 cm","24 cm"],a:2,e:"Perimeter = 2 × (8 + 3) = 22 cm."}
+],
+language:[
+{p:"Ravi wakes up early every morning and waters the plants. He enjoys reading books. He believes that protecting the environment is everyone's responsibility.",q:"When does Ravi wake up?",o:["Late at night","Early in the morning","At noon","In the evening"],a:1,e:"The passage says Ravi wakes up early every morning."},
+{p:"Ravi wakes up early every morning and waters the plants. He enjoys reading books. He believes that protecting the environment is everyone's responsibility.",q:"What does Ravi do for the plants?",o:["Cuts them","Waters them","Sells them","Moves them"],a:1,e:"He waters the plants every morning."},
+{p:"Ravi wakes up early every morning and waters the plants. He enjoys reading books. He believes that protecting the environment is everyone's responsibility.",q:"What does Ravi enjoy reading?",o:["Books","Walls","Road signs","Maps only"],a:0,e:"The passage says he enjoys reading books."},
+{q:"Choose the opposite of 'ancient'.",o:["Old","Modern","Historic","Past"],a:1,e:"Modern is the opposite of ancient."},
+{q:"Choose the correct sentence.",o:["She are a student.","She is a student.","She am a student.","She be student."],a:1,e:"Use 'is' with 'she': She is a student."}
+],
+evs:[
+{q:"Which part of a plant absorbs water from the soil?",o:["Leaf","Flower","Root","Fruit"],a:2,e:"Roots absorb water and minerals from the soil."},
+{q:"Which organ helps humans breathe?",o:["Heart","Lungs","Stomach","Kidney"],a:1,e:"The lungs help us breathe."},
+{q:"Which is a renewable source of energy?",o:["Coal","Petrol","Solar energy","Diesel"],a:2,e:"Solar energy comes from sunlight and is renewable."},
+{q:"Which action helps conserve water?",o:["Leave taps running","Repair leaking taps","Throw waste into rivers","Waste clean water"],a:1,e:"Repairing leaking taps prevents water wastage."},
+{q:"Which gas do plants absorb during photosynthesis?",o:["Oxygen","Carbon dioxide","Helium","Hydrogen"],a:1,e:"Plants absorb carbon dioxide during photosynthesis."},
+{q:"Which animal is known as the ship of the desert?",o:["Horse","Camel","Elephant","Zebra"],a:1,e:"The camel is adapted to desert travel and is called the ship of the desert."}
+]};
+let totals={points:0,correct:0,done:0},current={};
+const mixed=[...banks.mental.slice(0,2),...banks.math.slice(0,2),...banks.language.slice(0,2),...banks.evs.slice(0,2)];
+function showPage(id,btn){document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));document.getElementById(id).classList.add('active');document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));if(btn)btn.classList.add('active');else{let t=[...document.querySelectorAll('.tab')].find(x=>x.getAttribute('onclick')?.includes("'"+id+"'"));if(t)t.classList.add('active')}window.scrollTo({top:0,behavior:'smooth'})}
+function updateTotals(){document.getElementById('totalPoints').textContent=totals.points;document.getElementById('totalCorrect').textContent=totals.correct;document.getElementById('totalDone').textContent=totals.done}
+function startQuiz(type){let list=type==='mock'?mixed:banks[type];let id=type+'Quiz';showPage(type==='mock'?'mock':type);current[type]={list,index:0,score:0,answered:false,id};draw(type)}
+function draw(type){let s=current[type],q=s.list[s.index],el=document.getElementById(s.id);s.answered=false;el.innerHTML=`${q.p?`<div class="passage"><b>Read the passage:</b><br>${q.p}</div>`:''}<div class="quizhead"><span class="pill">Question ${s.index+1} / ${s.list.length}</span><span class="pill">⭐ Round score: ${s.score}</span></div><div class="progress"><div class="bar" style="width:${s.index/s.list.length*100}%"></div></div><div class="question">${q.q}</div><div class="options">${q.o.map((v,i)=>`<button class="option" onclick="answer('${type}',${i},this)">${String.fromCharCode(65+i)}. ${v}</button>`).join('')}</div><div class="feedback" id="${type}Feedback">Choose your answer.</div><div class="actions"><button class="btn secondary" onclick="showPage('home')">Course Home</button><button class="btn" id="${type}Next" disabled onclick="next('${type}')">${s.index===s.list.length-1?'See Result 🏆':'Next ➜'}</button></div>`}
+function answer(type,i,btn){let s=current[type];if(s.answered)return;s.answered=true;let q=s.list[s.index];let buttons=document.querySelectorAll('#'+s.id+' .option');buttons.forEach((b,n)=>{b.disabled=true;if(n===q.a)b.classList.add('correct')});if(i===q.a){s.score++;totals.points+=10;totals.correct++;document.getElementById(type+'Feedback').textContent='🎉 Correct! +10 points. '+q.e;document.getElementById(type+'Feedback').style.color='green'}else{btn.classList.add('wrong');document.getElementById(type+'Feedback').textContent='Correct answer: '+q.o[q.a]+'. '+q.e;document.getElementById(type+'Feedback').style.color='#b83227'}totals.done++;updateTotals();document.getElementById(type+'Next').disabled=false}
+function next(type){let s=current[type];if(!s.answered)return;if(s.index<s.list.length-1){s.index++;draw(type)}else{let pct=Math.round(s.score/s.list.length*100);document.getElementById(s.id).innerHTML=`<div class="result"><div class="big">${pct>=75?'🏆':'🌟'}</div><h2>${pct===100?'Excellent! Perfect score!':pct>=60?'Well done! Keep practising!':'Good effort! Try again!'}</h2><p style="font-size:23px;font-weight:bold">Score: ${s.score} / ${s.list.length}</p><p>${pct}% correct • ${s.score*10} points earned</p><div class="actions"><button class="btn" onclick="startQuiz('${type}')">Play Again 🔁</button><button class="btn secondary" onclick="showPage('home')">Course Home</button></div></div>`}}
+updateTotals();
+</script>
+</body>
+</html>
