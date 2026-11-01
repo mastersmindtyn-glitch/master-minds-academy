@@ -1,0 +1,1695 @@
+{
+  "academy": "MASTER MINDS ACADEMY - TIRYANI",
+  "exam": "UPSC Civil Services Prelims - General Studies",
+  "language": [
+    "te",
+    "en"
+  ],
+  "set": 3,
+  "totalQuestions": 50,
+  "targetQuestionBank": 1000,
+  "sections": [
+    {
+      "id": "polity",
+      "title_te": "భారత రాజ్యాంగం & పాలన",
+      "title_en": "Indian Polity & Governance"
+    },
+    {
+      "id": "history",
+      "title_te": "భారత చరిత్ర",
+      "title_en": "Indian History"
+    },
+    {
+      "id": "geography",
+      "title_te": "భూగోళ శాస్త్రం",
+      "title_en": "Geography"
+    },
+    {
+      "id": "economy",
+      "title_te": "భారత ఆర్థిక వ్యవస్థ",
+      "title_en": "Indian Economy"
+    },
+    {
+      "id": "environment",
+      "title_te": "పర్యావరణం & జీవ వైవిధ్యం",
+      "title_en": "Environment & Biodiversity"
+    },
+    {
+      "id": "science",
+      "title_te": "సైన్స్ & టెక్నాలజీ",
+      "title_en": "Science & Technology"
+    }
+  ],
+  "questions": [
+    {
+      "id": "UPSC-S03-Q01",
+      "section": "polity",
+      "question": {
+        "te": "రాజ్యాంగంలోని ఆర్టికల్ 14 ఏ హక్కును హామీ ఇస్తుంది?",
+        "en": "Which right is guaranteed by Article 14 of the Constitution?"
+      },
+      "options": [
+        {
+          "te": "చట్టం ముందు సమానత్వం",
+          "en": "Equality before law"
+        },
+        {
+          "te": "మత స్వేచ్ఛ",
+          "en": "Freedom of religion"
+        },
+        {
+          "te": "విద్యా హక్కు",
+          "en": "Right to education"
+        },
+        {
+          "te": "ఆస్తి హక్కు",
+          "en": "Right to property"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "ఆర్టికల్ 14 చట్టం ముందు సమానత్వం, చట్టాల సమాన రక్షణను హామీ ఇస్తుంది.",
+        "en": "Article 14 guarantees equality before the law and equal protection of the laws."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q02",
+      "section": "polity",
+      "question": {
+        "te": "అంటరానితనాన్ని రద్దు చేసే ఆర్టికల్ ఏది?",
+        "en": "Which Article abolishes untouchability?"
+      },
+      "options": [
+        {
+          "te": "15",
+          "en": "15"
+        },
+        {
+          "te": "16",
+          "en": "16"
+        },
+        {
+          "te": "17",
+          "en": "17"
+        },
+        {
+          "te": "18",
+          "en": "18"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "ఆర్టికల్ 17 అంటరానితనాన్ని రద్దు చేసి దాని ఆచరణను శిక్షార్హంగా చేస్తుంది.",
+        "en": "Article 17 abolishes untouchability and makes its practice punishable."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q03",
+      "section": "polity",
+      "question": {
+        "te": "భారత ఉపరాష్ట్రపతి ఏ సభకు పదవీరీత్యా ఛైర్మన్?",
+        "en": "The Vice-President of India is the ex-officio Chairperson of which House?"
+      },
+      "options": [
+        {
+          "te": "లోక్‌సభ",
+          "en": "Lok Sabha"
+        },
+        {
+          "te": "రాజ్యసభ",
+          "en": "Rajya Sabha"
+        },
+        {
+          "te": "విధానసభ",
+          "en": "Legislative Assembly"
+        },
+        {
+          "te": "శాసన మండలి",
+          "en": "Legislative Council"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ఆర్టికల్ 64 ప్రకారం ఉపరాష్ట్రపతి రాజ్యసభ పదవీరీత్యా ఛైర్మన్‌గా వ్యవహరిస్తారు.",
+        "en": "Under Article 64, the Vice-President is the ex-officio Chairperson of the Rajya Sabha."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q04",
+      "section": "polity",
+      "question": {
+        "te": "రాష్ట్రంలో ముఖ్యమంత్రిని ఎవరు నియమిస్తారు?",
+        "en": "Who appoints the Chief Minister of a State?"
+      },
+      "options": [
+        {
+          "te": "రాష్ట్రపతి",
+          "en": "President"
+        },
+        {
+          "te": "గవర్నర్",
+          "en": "Governor"
+        },
+        {
+          "te": "శాసనసభ స్పీకర్",
+          "en": "Speaker of the Assembly"
+        },
+        {
+          "te": "ప్రధాన న్యాయమూర్తి",
+          "en": "Chief Justice"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ఆర్టికల్ 164 ప్రకారం గవర్నర్ ముఖ్యమంత్రిని నియమిస్తారు.",
+        "en": "Under Article 164, the Governor appoints the Chief Minister."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q05",
+      "section": "polity",
+      "question": {
+        "te": "రాజ్యాంగంలోని ఏ షెడ్యూల్‌లో భాషల జాబితా ఉంది?",
+        "en": "Which Schedule of the Constitution lists the recognised languages?"
+      },
+      "options": [
+        {
+          "te": "ఐదవ షెడ్యూల్",
+          "en": "Fifth Schedule"
+        },
+        {
+          "te": "ఆరవ షెడ్యూల్",
+          "en": "Sixth Schedule"
+        },
+        {
+          "te": "ఎనిమిదవ షెడ్యూల్",
+          "en": "Eighth Schedule"
+        },
+        {
+          "te": "పదవ షెడ్యూల్",
+          "en": "Tenth Schedule"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "ఎనిమిదవ షెడ్యూల్‌లో రాజ్యాంగం గుర్తించిన భాషలు ఉన్నాయి.",
+        "en": "The Eighth Schedule lists the languages recognised by the Constitution."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q06",
+      "section": "polity",
+      "question": {
+        "te": "పార్టీ ఫిరాయింపుల నిరోధక నిబంధనలు ఏ షెడ్యూల్‌లో ఉన్నాయి?",
+        "en": "Anti-defection provisions are contained in which Schedule?"
+      },
+      "options": [
+        {
+          "te": "ఏడవ",
+          "en": "Seventh"
+        },
+        {
+          "te": "ఎనిమిదవ",
+          "en": "Eighth"
+        },
+        {
+          "te": "తొమ్మిదవ",
+          "en": "Ninth"
+        },
+        {
+          "te": "పదవ",
+          "en": "Tenth"
+        }
+      ],
+      "correctIndex": 3,
+      "correctOption": "D",
+      "explanation": {
+        "te": "52వ సవరణ ద్వారా చేర్చిన పదవ షెడ్యూల్‌లో పార్టీ ఫిరాయింపుల నిరోధక నిబంధనలు ఉన్నాయి.",
+        "en": "The Tenth Schedule, added by the 52nd Amendment, contains anti-defection provisions."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q07",
+      "section": "polity",
+      "question": {
+        "te": "రాష్ట్ర జాబితా, కేంద్ర జాబితా, ఉమ్మడి జాబితాలు ఏ షెడ్యూల్‌లో ఉన్నాయి?",
+        "en": "Which Schedule contains the Union, State and Concurrent Lists?"
+      },
+      "options": [
+        {
+          "te": "ఐదవ",
+          "en": "Fifth"
+        },
+        {
+          "te": "ఆరవ",
+          "en": "Sixth"
+        },
+        {
+          "te": "ఏడవ",
+          "en": "Seventh"
+        },
+        {
+          "te": "తొమ్మిదవ",
+          "en": "Ninth"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "ఏడవ షెడ్యూల్‌లో మూడు శాసన జాబితాలు ఉన్నాయి.",
+        "en": "The Seventh Schedule contains the three legislative lists."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q08",
+      "section": "polity",
+      "question": {
+        "te": "సుప్రీంకోర్టు రిట్ అధికార పరిధిని ప్రధానంగా ఏ ఆర్టికల్ కల్పిస్తుంది?",
+        "en": "Which Article primarily empowers the Supreme Court to issue writs?"
+      },
+      "options": [
+        {
+          "te": "14",
+          "en": "14"
+        },
+        {
+          "te": "21",
+          "en": "21"
+        },
+        {
+          "te": "32",
+          "en": "32"
+        },
+        {
+          "te": "40",
+          "en": "40"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "ఆర్టికల్ 32 ప్రాథమిక హక్కుల అమలుకు సుప్రీంకోర్టును ఆశ్రయించే హక్కును కల్పిస్తుంది.",
+        "en": "Article 32 provides the right to approach the Supreme Court for enforcement of Fundamental Rights."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q09",
+      "section": "polity",
+      "question": {
+        "te": "గ్రామ పంచాయతీల ఏర్పాటు గురించి రాష్ట్రానికి ఆదేశించే ఆర్టికల్ ఏది?",
+        "en": "Which Article directs the State to organise village panchayats?"
+      },
+      "options": [
+        {
+          "te": "Article 32",
+          "en": "Article 32"
+        },
+        {
+          "te": "Article 40",
+          "en": "Article 40"
+        },
+        {
+          "te": "Article 44",
+          "en": "Article 44"
+        },
+        {
+          "te": "Article 50",
+          "en": "Article 50"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ఆర్టికల్ 40 గ్రామ పంచాయతీలను ఏర్పాటు చేసి స్వపరిపాలన యూనిట్లుగా బలోపేతం చేయాలని సూచిస్తుంది.",
+        "en": "Article 40 directs the State to organise village panchayats as units of self-government."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q10",
+      "section": "polity",
+      "question": {
+        "te": "భారత రాష్ట్రపతి పదవీకాలం ఎంత?",
+        "en": "What is the term of office of the President of India?"
+      },
+      "options": [
+        {
+          "te": "4 సంవత్సరాలు",
+          "en": "4 years"
+        },
+        {
+          "te": "5 సంవత్సరాలు",
+          "en": "5 years"
+        },
+        {
+          "te": "6 సంవత్సరాలు",
+          "en": "6 years"
+        },
+        {
+          "te": "7 సంవత్సరాలు",
+          "en": "7 years"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "రాష్ట్రపతి పదవీకాలం ఐదు సంవత్సరాలు; తిరిగి ఎన్నిక కావచ్చు.",
+        "en": "The President's term is five years, and the President is eligible for re-election."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q11",
+      "section": "history",
+      "question": {
+        "te": "సత్యశోధక సమాజాన్ని స్థాపించినవారు ఎవరు?",
+        "en": "Who founded the Satyashodhak Samaj?"
+      },
+      "options": [
+        {
+          "te": "జ్యోతిరావు ఫూలే",
+          "en": "Jyotirao Phule"
+        },
+        {
+          "te": "గోపాలకృష్ణ గోఖలే",
+          "en": "Gopal Krishna Gokhale"
+        },
+        {
+          "te": "దాదాభాయ్ నౌరోజీ",
+          "en": "Dadabhai Naoroji"
+        },
+        {
+          "te": "బాల గంగాధర్ తిలక్",
+          "en": "Bal Gangadhar Tilak"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "జ్యోతిరావు ఫూలే 1873లో సత్యశోధక సమాజాన్ని స్థాపించారు.",
+        "en": "Jyotirao Phule founded the Satyashodhak Samaj in 1873."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q12",
+      "section": "history",
+      "question": {
+        "te": "హోం రూల్ ఉద్యమంతో సంబంధం ఉన్న ప్రముఖ నాయకురాలు ఎవరు?",
+        "en": "Which prominent woman leader was associated with the Home Rule Movement?"
+      },
+      "options": [
+        {
+          "te": "సరోజినీ నాయుడు",
+          "en": "Sarojini Naidu"
+        },
+        {
+          "te": "అనీ బిసెంట్",
+          "en": "Annie Besant"
+        },
+        {
+          "te": "కస్తూర్బా గాంధీ",
+          "en": "Kasturba Gandhi"
+        },
+        {
+          "te": "అరుణా ఆసఫ్ అలీ",
+          "en": "Aruna Asaf Ali"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "అనీ బిసెంట్ 1916లో హోం రూల్ లీగ్‌ను స్థాపించి స్వపరిపాలన కోసం ప్రచారం చేశారు.",
+        "en": "Annie Besant established a Home Rule League in 1916 and campaigned for self-government."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q13",
+      "section": "history",
+      "question": {
+        "te": "గదర్ పార్టీ ప్రధానంగా ఎక్కడ స్థాపించబడింది?",
+        "en": "Where was the Ghadar Party primarily founded?"
+      },
+      "options": [
+        {
+          "te": "లండన్",
+          "en": "London"
+        },
+        {
+          "te": "బెర్లిన్",
+          "en": "Berlin"
+        },
+        {
+          "te": "సాన్ ఫ్రాన్సిస్కో",
+          "en": "San Francisco"
+        },
+        {
+          "te": "టోక్యో",
+          "en": "Tokyo"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "1913లో సాన్ ఫ్రాన్సిస్కోలో గదర్ పార్టీ స్థాపించబడింది.",
+        "en": "The Ghadar Party was founded in San Francisco in 1913."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q14",
+      "section": "history",
+      "question": {
+        "te": "చంపారన్ సత్యాగ్రహం ఏ సంవత్సరంలో జరిగింది?",
+        "en": "In which year did the Champaran Satyagraha take place?"
+      },
+      "options": [
+        {
+          "te": "1915",
+          "en": "1915"
+        },
+        {
+          "te": "1917",
+          "en": "1917"
+        },
+        {
+          "te": "1919",
+          "en": "1919"
+        },
+        {
+          "te": "1921",
+          "en": "1921"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "1917లో బీహార్‌లోని చంపారన్‌లో నీలి రైతుల సమస్యపై గాంధీజీ సత్యాగ్రహం చేపట్టారు.",
+        "en": "In 1917 Gandhi led a satyagraha in Champaran, Bihar, over the grievances of indigo cultivators."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q15",
+      "section": "history",
+      "question": {
+        "te": "సైమన్ కమిషన్‌కు వ్యతిరేకంగా లాహోర్‌లో నిరసనకు నాయకత్వం వహించినవారు ఎవరు?",
+        "en": "Who led the protest against the Simon Commission in Lahore?"
+      },
+      "options": [
+        {
+          "te": "లాలా లజపతి రాయ్",
+          "en": "Lala Lajpat Rai"
+        },
+        {
+          "te": "భగత్ సింగ్",
+          "en": "Bhagat Singh"
+        },
+        {
+          "te": "మోతీలాల్ నెహ్రూ",
+          "en": "Motilal Nehru"
+        },
+        {
+          "te": "చిత్తరంజన్ దాస్",
+          "en": "Chittaranjan Das"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "1928లో లాహోర్ నిరసనలో లాఠీ దెబ్బలకు గురైన లాలా లజపతి రాయ్ తర్వాత మరణించారు.",
+        "en": "Lala Lajpat Rai was injured in the 1928 Lahore protest and later died."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q16",
+      "section": "history",
+      "question": {
+        "te": "పూర్ణ స్వరాజ్ తీర్మానాన్ని కాంగ్రెస్ ఏ సమావేశంలో ఆమోదించింది?",
+        "en": "At which Congress session was the Purna Swaraj resolution adopted?"
+      },
+      "options": [
+        {
+          "te": "కరాచీ 1931",
+          "en": "Karachi 1931"
+        },
+        {
+          "te": "లాహోర్ 1929",
+          "en": "Lahore 1929"
+        },
+        {
+          "te": "లక్నో 1916",
+          "en": "Lucknow 1916"
+        },
+        {
+          "te": "సూరత్ 1907",
+          "en": "Surat 1907"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "1929 లాహోర్ సమావేశంలో పూర్ణ స్వరాజ్ లక్ష్యాన్ని ప్రకటించారు.",
+        "en": "The Purna Swaraj goal was declared at the Lahore session of 1929."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q17",
+      "section": "history",
+      "question": {
+        "te": "భారత రాజ్యాంగ సభకు తాత్కాలిక అధ్యక్షుడిగా ఎవరు వ్యవహరించారు?",
+        "en": "Who served as the temporary Chairman of the Constituent Assembly?"
+      },
+      "options": [
+        {
+          "te": "డా. రాజేంద్ర ప్రసాద్",
+          "en": "Dr Rajendra Prasad"
+        },
+        {
+          "te": "సచ్చిదానంద సిన్హా",
+          "en": "Sachchidananda Sinha"
+        },
+        {
+          "te": "బి.ఆర్. అంబేద్కర్",
+          "en": "B. R. Ambedkar"
+        },
+        {
+          "te": "జవహర్‌లాల్ నెహ్రూ",
+          "en": "Jawaharlal Nehru"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "రాజ్యాంగ సభ తొలి సమావేశంలో సచ్చిదానంద సిన్హా తాత్కాలిక అధ్యక్షుడిగా వ్యవహరించారు.",
+        "en": "Sachchidananda Sinha served as the temporary Chairman at the first meeting of the Constituent Assembly."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q18",
+      "section": "history",
+      "question": {
+        "te": "అలహాబాద్ స్తంభ శాసనం ప్రధానంగా ఎవరి విజయాలను వివరిస్తుంది?",
+        "en": "The Allahabad Pillar inscription mainly describes whose achievements?"
+      },
+      "options": [
+        {
+          "te": "అశోకుడు",
+          "en": "Ashoka"
+        },
+        {
+          "te": "సముద్రగుప్తుడు",
+          "en": "Samudragupta"
+        },
+        {
+          "te": "చంద్రగుప్త మౌర్యుడు",
+          "en": "Chandragupta Maurya"
+        },
+        {
+          "te": "హర్షవర్ధనుడు",
+          "en": "Harshavardhana"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "హరిసేనుడు రచించిన అలహాబాద్ స్తంభ ప్రశస్తి సముద్రగుప్తుని విజయాలను వివరిస్తుంది.",
+        "en": "The Allahabad Pillar Prashasti, composed by Harisena, describes Samudragupta's achievements."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q19",
+      "section": "history",
+      "question": {
+        "te": "అజంతా గుహలు ప్రధానంగా ఏ మత కళతో సంబంధం కలిగి ఉన్నాయి?",
+        "en": "The Ajanta caves are primarily associated with the art of which religion?"
+      },
+      "options": [
+        {
+          "te": "జైనం",
+          "en": "Jainism"
+        },
+        {
+          "te": "బౌద్ధం",
+          "en": "Buddhism"
+        },
+        {
+          "te": "శైవం",
+          "en": "Shaivism"
+        },
+        {
+          "te": "ఇస్లాం",
+          "en": "Islam"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "అజంతా గుహల్లో బౌద్ధ విహారాలు, చైత్యాలు, చిత్రకళ ఉన్నాయి.",
+        "en": "Ajanta contains Buddhist monasteries, prayer halls and murals."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q20",
+      "section": "history",
+      "question": {
+        "te": "విజయనగర సామ్రాజ్య స్థాపకులుగా ఎవరిని గుర్తిస్తారు?",
+        "en": "Who are recognised as the founders of the Vijayanagara Empire?"
+      },
+      "options": [
+        {
+          "te": "హరిహర, బుక్క",
+          "en": "Harihara and Bukka"
+        },
+        {
+          "te": "కృష్ణదేవరాయలు, అచ్యుతరాయలు",
+          "en": "Krishnadevaraya and Achyuta Raya"
+        },
+        {
+          "te": "రాజరాజ, రాజేంద్ర",
+          "en": "Rajaraja and Rajendra"
+        },
+        {
+          "te": "పులకేశి, విక్రమాదిత్య",
+          "en": "Pulakeshin and Vikramaditya"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "హరిహరుడు, బుక్కరాయలు 1336లో విజయనగర సామ్రాజ్యాన్ని స్థాపించినట్లు సాధారణంగా భావిస్తారు.",
+        "en": "Harihara and Bukka are generally credited with founding the Vijayanagara Empire in 1336."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q21",
+      "section": "geography",
+      "question": {
+        "te": "భారతదేశంలో అత్యధిక పొడవు కలిగిన నది ఏది?",
+        "en": "Which is the longest river flowing within India?"
+      },
+      "options": [
+        {
+          "te": "గోదావరి",
+          "en": "Godavari"
+        },
+        {
+          "te": "గంగా",
+          "en": "Ganga"
+        },
+        {
+          "te": "నర్మదా",
+          "en": "Narmada"
+        },
+        {
+          "te": "కృష్ణా",
+          "en": "Krishna"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "గంగా భారతదేశంలో అత్యంత పొడవైన నది వ్యవస్థగా గుర్తించబడుతుంది.",
+        "en": "The Ganga is generally recognised as India's longest river system."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q22",
+      "section": "geography",
+      "question": {
+        "te": "గోదావరి నదిని దక్షిణ గంగ అని ఎందుకు పిలుస్తారు?",
+        "en": "Why is the Godavari often called the Dakshina Ganga?"
+      },
+      "options": [
+        {
+          "te": "అది హిమాలయాల్లో పుడుతుంది",
+          "en": "It rises in the Himalayas"
+        },
+        {
+          "te": "దక్షిణ భారతదేశంలో పొడవైన నదీ వ్యవస్థ కావడం వల్ల",
+          "en": "It is a major long river system of peninsular India"
+        },
+        {
+          "te": "అది పశ్చిమానికి మాత్రమే ప్రవహించడం వల్ల",
+          "en": "It flows only westward"
+        },
+        {
+          "te": "అది గంగలో కలవడం వల్ల",
+          "en": "It joins the Ganga"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "గోదావరి ద్వీపకల్ప భారతదేశంలో విస్తారమైన నదీ వ్యవస్థ కావడంతో దక్షిణ గంగగా ప్రసిద్ధి చెందింది.",
+        "en": "The Godavari is called the Dakshina Ganga because it is a major extensive river system of peninsular India."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q23",
+      "section": "geography",
+      "question": {
+        "te": "భారతదేశంలో చలికాల వర్షాలకు ప్రధాన కారణమైన పశ్చిమ విక్షోభాలు ఎక్కడి నుంచి వస్తాయి?",
+        "en": "Western Disturbances that bring winter rain to parts of India originate mainly from which region?"
+      },
+      "options": [
+        {
+          "te": "దక్షిణ చైనా సముద్రం",
+          "en": "South China Sea"
+        },
+        {
+          "te": "మధ్యధరా ప్రాంతం",
+          "en": "Mediterranean region"
+        },
+        {
+          "te": "బంగాళాఖాతం",
+          "en": "Bay of Bengal"
+        },
+        {
+          "te": "అరేబియా సముద్రం మాత్రమే",
+          "en": "Arabian Sea only"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "పశ్చిమ విక్షోభాలు మధ్యధరా, పశ్చిమ ఆసియా ప్రాంతాల నుంచి తూర్పు దిశగా కదిలే వాతావరణ వ్యవస్థలు.",
+        "en": "Western Disturbances are weather systems moving eastward from the Mediterranean and West Asian region."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q24",
+      "section": "geography",
+      "question": {
+        "te": "లేటరైట్ నేల ఏర్పడటానికి ప్రధాన ప్రక్రియ ఏది?",
+        "en": "Which process is mainly responsible for the formation of laterite soil?"
+      },
+      "options": [
+        {
+          "te": "హిమనద నిక్షేపణ",
+          "en": "Glacial deposition"
+        },
+        {
+          "te": "తీవ్ర లీచింగ్",
+          "en": "Intense leaching"
+        },
+        {
+          "te": "గాలి నిక్షేపణ",
+          "en": "Wind deposition"
+        },
+        {
+          "te": "అగ్నిపర్వత విస్ఫోటనం",
+          "en": "Volcanic eruption"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "అధిక ఉష్ణోగ్రత, భారీ వర్షపాతం పరిస్థితుల్లో కరిగే పదార్థాలు కొట్టుకుపోవడం వల్ల లేటరైట్ నేల ఏర్పడుతుంది.",
+        "en": "Laterite soil forms through intense leaching under high temperature and heavy rainfall."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q25",
+      "section": "geography",
+      "question": {
+        "te": "కోరల్ రీఫ్‌ల అభివృద్ధికి సాధారణంగా ఏ పరిస్థితి అనుకూలం?",
+        "en": "Which conditions generally favour coral reef growth?"
+      },
+      "options": [
+        {
+          "te": "చల్లని లోతైన నీరు",
+          "en": "Cold deep water"
+        },
+        {
+          "te": "వెచ్చని, స్వచ్ఛమైన, తక్కువ లోతు సముద్ర జలం",
+          "en": "Warm, clear, shallow marine water"
+        },
+        {
+          "te": "మంచు కప్పిన సముద్రం",
+          "en": "Ice-covered seas"
+        },
+        {
+          "te": "తాజా నీటి నదులు",
+          "en": "Freshwater rivers"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "పగడాలు సాధారణంగా వెచ్చని, స్వచ్ఛమైన, సూర్యకాంతి చేరే తక్కువ లోతు సముద్ర జలాల్లో బాగా పెరుగుతాయి.",
+        "en": "Corals generally thrive in warm, clear, shallow marine waters with sunlight."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q26",
+      "section": "geography",
+      "question": {
+        "te": "భారతదేశంలోని లక్షద్వీప్ దీవులు ప్రధానంగా ఏ రకమైన దీవులు?",
+        "en": "The Lakshadweep Islands are primarily what type of islands?"
+      },
+      "options": [
+        {
+          "te": "అగ్నిపర్వత దీవులు",
+          "en": "Volcanic islands"
+        },
+        {
+          "te": "పగడపు దీవులు",
+          "en": "Coral islands"
+        },
+        {
+          "te": "నదీ దీవులు",
+          "en": "River islands"
+        },
+        {
+          "te": "ఖండాంతర మంచు దీవులు",
+          "en": "Continental ice islands"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "లక్షద్వీప్ దీవులు పగడపు నిర్మాణాలతో ఏర్పడిన అటోల్ దీవులు.",
+        "en": "Lakshadweep consists mainly of coral atoll islands."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q27",
+      "section": "geography",
+      "question": {
+        "te": "భారతదేశంలో అత్యధికంగా విస్తరించిన భౌతిక విభాగం ఏది?",
+        "en": "Which physiographic division occupies the largest area in India?"
+      },
+      "options": [
+        {
+          "te": "ఉత్తర పర్వతాలు",
+          "en": "Northern Mountains"
+        },
+        {
+          "te": "ఉత్తర మైదానాలు",
+          "en": "Northern Plains"
+        },
+        {
+          "te": "ద్వీపకల్ప పీఠభూమి",
+          "en": "Peninsular Plateau"
+        },
+        {
+          "te": "తీర మైదానాలు",
+          "en": "Coastal Plains"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "ద్వీపకల్ప పీఠభూమి భారతదేశంలోని విస్తారమైన, ప్రాచీన భౌతిక విభాగం.",
+        "en": "The Peninsular Plateau is India's extensive and ancient physiographic division."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q28",
+      "section": "geography",
+      "question": {
+        "te": "మాన్సూన్ అనే పదం మూలం ఏ భాషలోని పదం నుంచి వచ్చింది?",
+        "en": "The word 'monsoon' is derived from a word in which language?"
+      },
+      "options": [
+        {
+          "te": "లాటిన్",
+          "en": "Latin"
+        },
+        {
+          "te": "అరబిక్",
+          "en": "Arabic"
+        },
+        {
+          "te": "గ్రీకు",
+          "en": "Greek"
+        },
+        {
+          "te": "సంస్కృతం",
+          "en": "Sanskrit"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "మాన్సూన్ అనే పదం అరబిక్ 'మౌసిమ్' అనే ఋతువు అర్థం గల పదం నుంచి వచ్చింది.",
+        "en": "The word monsoon derives from the Arabic word 'mausim', meaning season."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q29",
+      "section": "economy",
+      "question": {
+        "te": "ప్రాధమిక రంగంలో ప్రధానంగా ఏ కార్యకలాపాలు ఉంటాయి?",
+        "en": "Which activities are mainly included in the primary sector?"
+      },
+      "options": [
+        {
+          "te": "బ్యాంకింగ్",
+          "en": "Banking"
+        },
+        {
+          "te": "వ్యవసాయం, మత్స్యకార్యం, గనులు",
+          "en": "Agriculture, fishing and mining"
+        },
+        {
+          "te": "సాఫ్ట్‌వేర్ సేవలు",
+          "en": "Software services"
+        },
+        {
+          "te": "రవాణా సేవలు",
+          "en": "Transport services"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ప్రకృతి నుంచి నేరుగా వనరులు సేకరించే వ్యవసాయం, మత్స్యకార్యం, గనులు ప్రాధమిక రంగంలో ఉంటాయి.",
+        "en": "The primary sector includes activities such as farming, fishing and mining that directly use natural resources."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q30",
+      "section": "economy",
+      "question": {
+        "te": "నామమాత్ర GDP (Nominal GDP) ఏ ధరల ఆధారంగా లెక్కిస్తారు?",
+        "en": "Nominal GDP is measured using which prices?"
+      },
+      "options": [
+        {
+          "te": "స్థిర ధరలు",
+          "en": "Constant prices"
+        },
+        {
+          "te": "ప్రస్తుత మార్కెట్ ధరలు",
+          "en": "Current market prices"
+        },
+        {
+          "te": "అంతర్జాతీయ ధరలు మాత్రమే",
+          "en": "Only international prices"
+        },
+        {
+          "te": "వ్యవసాయ ధరలు మాత్రమే",
+          "en": "Only agricultural prices"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "నామమాత్ర GDP ప్రస్తుత సంవత్సరపు మార్కెట్ ధరలతో లెక్కించబడుతుంది.",
+        "en": "Nominal GDP is calculated at current market prices."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q31",
+      "section": "economy",
+      "question": {
+        "te": "వాస్తవ GDP (Real GDP)లో ద్రవ్యోల్బణ ప్రభావాన్ని ఎలా పరిగణిస్తారు?",
+        "en": "How is inflation treated in Real GDP?"
+      },
+      "options": [
+        {
+          "te": "పూర్తిగా చేర్చుతారు",
+          "en": "పూర్తిగా చేర్చుతారు"
+        },
+        {
+          "te": "ధరల మార్పు ప్రభావాన్ని తొలగిస్తారు",
+          "en": "ధరల మార్పు ప్రభావాన్ని తొలగిస్తారు"
+        },
+        {
+          "te": "పన్నులుగా మారుస్తారు",
+          "en": "పన్నులుగా మారుస్తారు"
+        },
+        {
+          "te": "ఎగుమతులకే వర్తింపజేస్తారు",
+          "en": "ఎగుమతులకే వర్తింపజేస్తారు"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "వాస్తవ GDP స్థిర ధరలతో లెక్కించి ధరల మార్పు ప్రభావాన్ని తొలగిస్తుంది.",
+        "en": "Real GDP uses constant prices to remove the effect of price changes."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q32",
+      "section": "economy",
+      "question": {
+        "te": "బ్యాంకు రేటు (Bank Rate)ను ఎవరు నిర్ణయిస్తారు?",
+        "en": "Who determines the Bank Rate in India?"
+      },
+      "options": [
+        {
+          "te": "SEBI",
+          "en": "SEBI"
+        },
+        {
+          "te": "RBI",
+          "en": "RBI"
+        },
+        {
+          "te": "NABARD",
+          "en": "NABARD"
+        },
+        {
+          "te": "वित्त आयोग",
+          "en": "वित्त आयोग"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "భారతీయ రిజర్వ్ బ్యాంక్ తన ద్రవ్య విధాన సాధనాల్లో భాగంగా బ్యాంకు రేటును నిర్ణయిస్తుంది.",
+        "en": "The Reserve Bank of India determines the Bank Rate as part of its monetary policy tools."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q33",
+      "section": "economy",
+      "question": {
+        "te": "ప్రాధమిక లోటు (Primary Deficit) ఎలా లెక్కిస్తారు?",
+        "en": "How is the primary deficit calculated?"
+      },
+      "options": [
+        {
+          "te": "ఆర్థిక లోటు − వడ్డీ చెల్లింపులు",
+          "en": "Fiscal deficit minus interest payments"
+        },
+        {
+          "te": "రెవెన్యూ లోటు + ఎగుమతులు",
+          "en": "Revenue deficit plus exports"
+        },
+        {
+          "te": "మొత్తం అప్పులు − పన్నులు",
+          "en": "Total debt minus taxes"
+        },
+        {
+          "te": "వడ్డీ చెల్లింపులు − ఆర్థిక లోటు",
+          "en": "Interest payments minus fiscal deficit"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "ప్రాధమిక లోటు = ఆర్థిక లోటు − గత అప్పులపై వడ్డీ చెల్లింపులు.",
+        "en": "Primary deficit equals fiscal deficit minus interest payments on past debt."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q34",
+      "section": "economy",
+      "question": {
+        "te": "వినియోగదారుల ధరల సూచీ (CPI) ప్రధానంగా దేనిని కొలుస్తుంది?",
+        "en": "What does the Consumer Price Index primarily measure?"
+      },
+      "options": [
+        {
+          "te": "హోల్‌సేల్ ఉత్పత్తి",
+          "en": "Wholesale output"
+        },
+        {
+          "te": "వినియోగదారులు కొనుగోలు చేసే వస్తువులు, సేవల ధరల మార్పు",
+          "en": "Price changes in goods and services purchased by consumers"
+        },
+        {
+          "te": "షేర్ మార్కెట్ లాభాలు",
+          "en": "Stock market gains"
+        },
+        {
+          "te": "ఎగుమతి పరిమాణం",
+          "en": "Export volume"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "CPI వినియోగదారుల బాస్కెట్‌లోని వస్తువులు, సేవల ధరల మార్పును కొలుస్తుంది.",
+        "en": "CPI measures price changes in a basket of goods and services consumed by households."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q35",
+      "section": "economy",
+      "question": {
+        "te": "మిశ్రమ ఆర్థిక వ్యవస్థలో ఏ రెండు రంగాలు సహజీవనం చేస్తాయి?",
+        "en": "Which two sectors coexist in a mixed economy?"
+      },
+      "options": [
+        {
+          "te": "వ్యవసాయం, పరిశ్రమ మాత్రమే",
+          "en": "Only agriculture and industry"
+        },
+        {
+          "te": "ప్రభుత్వ రంగం, ప్రైవేట్ రంగం",
+          "en": "Public sector and private sector"
+        },
+        {
+          "te": "దేశీయ, విదేశీ రంగాలు మాత్రమే",
+          "en": "Only domestic and foreign sectors"
+        },
+        {
+          "te": "సేవలు, వాణిజ్యం మాత్రమే",
+          "en": "Only services and trade"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "మిశ్రమ ఆర్థిక వ్యవస్థలో ప్రభుత్వ, ప్రైవేట్ రంగాలు రెండూ ఆర్థిక కార్యకలాపాల్లో పాల్గొంటాయి.",
+        "en": "In a mixed economy, both public and private sectors participate in economic activity."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q36",
+      "section": "environment",
+      "question": {
+        "te": "జీవావరణ వ్యవస్థలో శక్తి ప్రవాహం సాధారణంగా ఎలా ఉంటుంది?",
+        "en": "How does energy flow generally occur in an ecosystem?"
+      },
+      "options": [
+        {
+          "te": "చక్రీయంగా మాత్రమే",
+          "en": "చక్రీయంగా మాత్రమే"
+        },
+        {
+          "te": "ఏకదిశగా",
+          "en": "ఏకదిశగా"
+        },
+        {
+          "te": "ఎటువంటి క్రమం లేకుండా",
+          "en": "ఎటువంటి క్రమం లేకుండా"
+        },
+        {
+          "te": "వినియోగదారుల నుంచి సూర్యునికి",
+          "en": "వినియోగదారుల నుంచి సూర్యునికి"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "శక్తి సాధారణంగా సూర్యుని నుంచి ఉత్పత్తిదారులకు, ఆపై వినియోగదారులకు ఏకదిశగా ప్రవహిస్తుంది.",
+        "en": "Energy generally flows in one direction from the Sun to producers and then consumers."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q37",
+      "section": "environment",
+      "question": {
+        "te": "CITES ఒప్పందం ప్రధానంగా దేనిని నియంత్రిస్తుంది?",
+        "en": "What does the CITES convention primarily regulate?"
+      },
+      "options": [
+        {
+          "te": "అంతర్జాతీయ వన్యప్రాణి, వృక్ష జాతుల వాణిజ్యం",
+          "en": "International trade in wild animals and plants"
+        },
+        {
+          "te": "గ్రీన్‌హౌస్ వాయువులు",
+          "en": "Greenhouse gases"
+        },
+        {
+          "te": "సముద్ర నౌకాయానం",
+          "en": "Marine navigation"
+        },
+        {
+          "te": "అణు వ్యర్థాలు",
+          "en": "Nuclear waste"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "అంతరించిపోయే ప్రమాదంలో ఉన్న జంతు, వృక్ష జాతుల అంతర్జాతీయ వాణిజ్యం వాటి మనుగడకు ముప్పు కలిగించకుండా CITES నియంత్రిస్తుంది.",
+        "en": "CITES regulates international trade in wild animals and plants to ensure it does not threaten their survival."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q38",
+      "section": "environment",
+      "question": {
+        "te": "రెడ్ డేటా బుక్ అనే పదం సాధారణంగా దేనితో సంబంధం కలిగి ఉంది?",
+        "en": "The term Red Data Book is generally associated with what?"
+      },
+      "options": [
+        {
+          "te": "అంతరించిపోయే ప్రమాదంలో ఉన్న జాతుల సమాచారం",
+          "en": "Information on threatened species"
+        },
+        {
+          "te": "భూకంప రికార్డులు",
+          "en": "Earthquake records"
+        },
+        {
+          "te": "వాతావరణ రోజువారీ నివేదిక",
+          "en": "Daily weather reports"
+        },
+        {
+          "te": "నదుల నీటి మట్టాలు",
+          "en": "River water levels"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "రెడ్ డేటా బుక్‌లో అరుదైన, ప్రమాదంలో ఉన్న జాతుల సంరక్షణ స్థితి వివరాలు ఉంటాయి.",
+        "en": "A Red Data Book records the conservation status of rare and threatened species."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q39",
+      "section": "environment",
+      "question": {
+        "te": "జాతీయ ఉద్యానవనం మరియు వన్యప్రాణి అభయారణ్యం మధ్య ప్రధాన తేడా ఏమిటి?",
+        "en": "What is a key distinction between a national park and a wildlife sanctuary in India?"
+      },
+      "options": [
+        {
+          "te": "రెండింటికీ ఎటువంటి చట్టపరమైన రక్షణ లేదు",
+          "en": "Neither has legal protection"
+        },
+        {
+          "te": "జాతీయ ఉద్యానవనంలో మానవ కార్యకలాపాలపై సాధారణంగా మరింత కఠిన పరిమితులు ఉంటాయి",
+          "en": "National parks generally have stricter restrictions on human activities"
+        },
+        {
+          "te": "అభయారణ్యంలో జంతువులు ఉండవు",
+          "en": "Sanctuaries have no animals"
+        },
+        {
+          "te": "జాతీయ ఉద్యానవనం నగరాల్లో మాత్రమే ఉంటుంది",
+          "en": "National parks exist only in cities"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "జాతీయ ఉద్యానవనాల్లో వనరుల వినియోగం, మానవ కార్యకలాపాలపై సాధారణంగా మరింత కఠిన నియంత్రణలు ఉంటాయి; ఖచ్చితమైన నిబంధనలు చట్టంపై ఆధారపడతాయి.",
+        "en": "National parks generally impose stricter controls on resource use and human activities; exact rules depend on law."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q40",
+      "section": "environment",
+      "question": {
+        "te": "పర్యావరణ ప్రభావ అంచనా (EIA) ప్రధాన ఉద్దేశ్యం ఏమిటి?",
+        "en": "What is the main purpose of Environmental Impact Assessment (EIA)?"
+      },
+      "options": [
+        {
+          "te": "ప్రాజెక్టు పర్యావరణ ప్రభావాలను ముందుగానే అంచనా వేయడం",
+          "en": "To assess a project's environmental impacts in advance"
+        },
+        {
+          "te": "ప్రాజెక్టు లాభాలను మాత్రమే లెక్కించడం",
+          "en": "To calculate only project profits"
+        },
+        {
+          "te": "పన్నులు నిర్ణయించడం",
+          "en": "To set taxes"
+        },
+        {
+          "te": "జనాభా లెక్కింపు",
+          "en": "To conduct a census"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "ప్రాజెక్టు ప్రారంభానికి ముందు దాని సంభావ్య పర్యావరణ ప్రభావాలను గుర్తించి తగ్గింపు చర్యలు సూచించడం EIA లక్ష్యం.",
+        "en": "EIA identifies likely environmental impacts before a project proceeds and recommends mitigation measures."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q41",
+      "section": "environment",
+      "question": {
+        "te": "ఆమ్ల వర్షానికి ప్రధానంగా కారణమయ్యే వాయువులు ఏవి?",
+        "en": "Which gases are major contributors to acid rain?"
+      },
+      "options": [
+        {
+          "te": "ఆక్సిజన్, హైడ్రోజన్",
+          "en": "Oxygen and hydrogen"
+        },
+        {
+          "te": "సల్ఫర్ డయాక్సైడ్, నైట్రోజన్ ఆక్సైడ్లు",
+          "en": "Sulphur dioxide and nitrogen oxides"
+        },
+        {
+          "te": "హీలియం, నియాన్",
+          "en": "Helium and neon"
+        },
+        {
+          "te": "మీథేన్ మాత్రమే",
+          "en": "Methane alone"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "SO₂, NOₓ వాతావరణంలో రసాయన చర్యల ద్వారా ఆమ్లాలను ఏర్పరచి ఆమ్ల వర్షానికి దోహదం చేస్తాయి.",
+        "en": "SO₂ and NOₓ form acids through atmospheric reactions and contribute to acid rain."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q42",
+      "section": "science",
+      "question": {
+        "te": "మానవ కణంలోని శక్తి కేంద్రం అని దేనిని అంటారు?",
+        "en": "Which cell organelle is called the powerhouse of the cell?"
+      },
+      "options": [
+        {
+          "te": "కేంద్రకం",
+          "en": "Nucleus"
+        },
+        {
+          "te": "మైటోకాండ్రియా",
+          "en": "Mitochondrion"
+        },
+        {
+          "te": "రైబోసోమ్",
+          "en": "Ribosome"
+        },
+        {
+          "te": "గోల్జీ బాడీ",
+          "en": "Golgi body"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "మైటోకాండ్రియా కణ శ్వాసక్రియ ద్వారా ATP ఉత్పత్తి చేయడంలో ప్రధాన పాత్ర పోషిస్తుంది.",
+        "en": "Mitochondria play a major role in producing ATP through cellular respiration."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q43",
+      "section": "science",
+      "question": {
+        "te": "పీరియాడిక్ పట్టికలో పరమాణు సంఖ్య 1 కలిగిన మూలకం ఏది?",
+        "en": "Which element has atomic number 1 in the periodic table?"
+      },
+      "options": [
+        {
+          "te": "హీలియం",
+          "en": "Helium"
+        },
+        {
+          "te": "హైడ్రోజన్",
+          "en": "Hydrogen"
+        },
+        {
+          "te": "లిథియం",
+          "en": "Lithium"
+        },
+        {
+          "te": "ఆక్సిజన్",
+          "en": "Oxygen"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "హైడ్రోజన్ పరమాణు సంఖ్య 1 కలిగిన అత్యంత తేలికైన మూలకం.",
+        "en": "Hydrogen is the lightest element and has atomic number 1."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q44",
+      "section": "science",
+      "question": {
+        "te": "న్యూటన్ మొదటి గమన నియమాన్ని మరో పేరుతో ఏమంటారు?",
+        "en": "Newton's First Law of Motion is also known as what?"
+      },
+      "options": [
+        {
+          "te": "త్వరణ నియమం",
+          "en": "Law of acceleration"
+        },
+        {
+          "te": "జడత్వ నియమం",
+          "en": "Law of inertia"
+        },
+        {
+          "te": "చర్యా-ప్రతిచర్య నియమం",
+          "en": "Action-reaction law"
+        },
+        {
+          "te": "గురుత్వ నియమం",
+          "en": "Law of gravitation"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "బాహ్య అసమతుల్య బలం పనిచేయనంతవరకు వస్తువు విశ్రాంతి లేదా సమవేగ సరళరేఖ గమనంలో ఉంటుంది; దీనిని జడత్వ నియమం అంటారు.",
+        "en": "An object remains at rest or in uniform straight-line motion unless acted on by an unbalanced external force; this is the law of inertia."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q45",
+      "section": "science",
+      "question": {
+        "te": "శరీరంలో ఇన్సులిన్ ప్రధానంగా ఏ పదార్థ స్థాయిని నియంత్రిస్తుంది?",
+        "en": "Insulin primarily regulates the level of which substance in the body?"
+      },
+      "options": [
+        {
+          "te": "రక్తంలో గ్లూకోజ్",
+          "en": "Blood glucose"
+        },
+        {
+          "te": "రక్తంలో కాల్షియం",
+          "en": "Blood calcium"
+        },
+        {
+          "te": "శరీర ఉష్ణోగ్రత",
+          "en": "Body temperature"
+        },
+        {
+          "te": "రక్తంలోని ఆక్సిజన్",
+          "en": "Blood oxygen"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "ఇన్సులిన్ రక్తంలోని గ్లూకోజ్‌ను కణాల్లోకి చేరేలా చేసి రక్త చక్కెర స్థాయిని తగ్గించడంలో సహాయపడుతుంది.",
+        "en": "Insulin helps glucose enter cells and lowers blood glucose levels."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q46",
+      "section": "science",
+      "question": {
+        "te": "మానవ శరీరంలో ఎర్ర రక్త కణాల ప్రధాన పని ఏమిటి?",
+        "en": "What is the primary function of red blood cells?"
+      },
+      "options": [
+        {
+          "te": "రోగకారకాలను నాశనం చేయడం",
+          "en": "Destroy pathogens"
+        },
+        {
+          "te": "ఆక్సిజన్ రవాణా",
+          "en": "Transport oxygen"
+        },
+        {
+          "te": "రక్తం గడ్డకట్టడం",
+          "en": "Clot blood"
+        },
+        {
+          "te": "హార్మోన్లు తయారు చేయడం",
+          "en": "Produce hormones"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ఎర్ర రక్త కణాల్లోని హీమోగ్లోబిన్ ఊపిరితిత్తుల నుంచి కణజాలాలకు ఆక్సిజన్‌ను మోస్తుంది.",
+        "en": "Haemoglobin in red blood cells carries oxygen from the lungs to body tissues."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q47",
+      "section": "science",
+      "question": {
+        "te": "విద్యుదయస్కాంత తరంగాలకు ప్రయాణించడానికి పదార్థ మాధ్యమం అవసరమా?",
+        "en": "Do electromagnetic waves require a material medium to travel?"
+      },
+      "options": [
+        {
+          "te": "అవును, తప్పనిసరిగా",
+          "en": "Yes, always"
+        },
+        {
+          "te": "కాదు",
+          "en": "No"
+        },
+        {
+          "te": "కేవలం నీటిలో మాత్రమే",
+          "en": "Only in water"
+        },
+        {
+          "te": "కేవలం గాలిలో మాత్రమే",
+          "en": "Only in air"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "విద్యుదయస్కాంత తరంగాలు శూన్యంలో కూడా ప్రయాణించగలవు.",
+        "en": "Electromagnetic waves can travel through a vacuum."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q48",
+      "section": "science",
+      "question": {
+        "te": "ఒక పదార్థం సాంద్రతను ఎలా లెక్కిస్తారు?",
+        "en": "How is the density of a substance calculated?"
+      },
+      "options": [
+        {
+          "te": "ద్రవ్యరాశి × ఘనపరిమాణం",
+          "en": "Mass × volume"
+        },
+        {
+          "te": "ద్రవ్యరాశి ÷ ఘనపరిమాణం",
+          "en": "Mass ÷ volume"
+        },
+        {
+          "te": "ఘనపరిమాణం ÷ ద్రవ్యరాశి",
+          "en": "Volume ÷ mass"
+        },
+        {
+          "te": "బలం ÷ విస్తీర్ణం",
+          "en": "Force ÷ area"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "సాంద్రత = ద్రవ్యరాశి / ఘనపరిమాణం.",
+        "en": "Density equals mass divided by volume."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q49",
+      "section": "science",
+      "question": {
+        "te": "సాధారణ వాతావరణ పీడనంలో నీటి గడ్డకట్టే స్థానం ఎంత?",
+        "en": "At standard atmospheric pressure, what is the freezing point of water?"
+      },
+      "options": [
+        {
+          "te": "−10°C",
+          "en": "−10°C"
+        },
+        {
+          "te": "0°C",
+          "en": "0°C"
+        },
+        {
+          "te": "4°C",
+          "en": "4°C"
+        },
+        {
+          "te": "100°C",
+          "en": "100°C"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "సాధారణ పీడనంలో స్వచ్ఛమైన నీరు 0°C వద్ద గడ్డకడుతుంది.",
+        "en": "At standard pressure, pure water freezes at 0°C."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S03-Q50",
+      "section": "science",
+      "question": {
+        "te": "ఒక వస్తువు ద్రవ్యరాశి 2 kg, త్వరణం 3 m/s² అయితే దానిపై పనిచేసే బలం ఎంత?",
+        "en": "If an object has a mass of 2 kg and acceleration of 3 m/s², what force acts on it?"
+      },
+      "options": [
+        {
+          "te": "2 N",
+          "en": "2 N"
+        },
+        {
+          "te": "5 N",
+          "en": "5 N"
+        },
+        {
+          "te": "6 N",
+          "en": "6 N"
+        },
+        {
+          "te": "9 N",
+          "en": "9 N"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "న్యూటన్ రెండవ నియమం ప్రకారం F = ma = 2 × 3 = 6 N.",
+        "en": "By Newton's second law, F = ma = 2 × 3 = 6 N."
+      },
+      "difficulty": "medium"
+    }
+  ]
+}
