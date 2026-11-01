@@ -324,6 +324,29 @@ footer{
       src="" allowfullscreen></iframe>
     <p class="small">మీ వీడియో YouTube IDలను జోడించండి.</p>
   </div>
+  <section id="bhakthi" class="page">
+  <h2 class="section-title">🙏 Bhakthi Videos – భక్తి వీడియోలు</h2>
+  <p>భక్తి, ఆధ్యాత్మికత, భారతీయ సంస్కృతి పరిచయం.</p>
+
+  <select id="bhakthiCategory" onchange="loadBhakthiVideos()">
+    <option value="ganesh">గణేశ భక్తి</option>
+    <option value="shiva">శివ భక్తి</option>
+    <option value="vishnu">విష్ణు భక్తి</option>
+    <option value="hanuman">హనుమాన్ భక్తి</option>
+    <option value="amma">అమ్మవారి భక్తి</option>
+    <option value="songs">భక్తి గీతాలు</option>
+    <option value="stories">పురాణ కథలు</option>
+    <option value="telangana">తెలంగాణ భక్తి సంప్రదాయాలు</option>
+  </select>
+
+  <div id="bhakthiVideoList" class="grid"></div>
+
+  <div class="card">
+    <h3 id="bhakthiTitle">Select a Bhakthi Video</h3>
+    <iframe id="bhakthiPlayer" class="video-frame"
+      src="" allowfullscreen></iframe>
+  </div>
+  </section>
 </section>
 </section>
 
