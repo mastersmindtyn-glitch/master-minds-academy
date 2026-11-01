@@ -346,7 +346,45 @@ navodaya:[
 };
 let qi=0,score=0,answered=false;
 function loadQuestion(){qi=0;score=0;showQuestion();}
-function showQuestion(){
+
+async function loadQuestion(){
+  qi = 0;
+  score = 0;
+  answered = false;
+
+  const exam = document.getElementById('exam').value;
+
+  if(exam === 'navodaya'){
+    try {
+      const response = await fetch(
+        './navodaya_jnvst_set1_50_bilingual.json'
+      );
+
+      if(!response.ok){
+        throw new Error('Question Bank not found');
+      }
+
+      const data = await response.json();
+
+      bank.navodaya = data.questions.map(item => ({
+        q: item.question.te + '\n' + item.question.en,
+        o: item.options.map(
+          option => option.te + ' / ' + option.en
+        ),
+        a: item.correctIndex,
+        e: item.explanation.te + '\n' +
+           item.explanation.en
+      }));
+
+    } catch(error) {
+      alert('Navodaya Question Bank loading failed. Please try again.');
+      return;
+    }
+  }
+
+  showQuestion();
+}
+
 let list=bank[document.getElementById('exam').value];
 let q=list[qi%list.length];
 answered=false;
