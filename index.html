@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#123b75">
+<title>MASTER MINDS ACADEMY</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f2f5fb;color:#17233b}
+header{background:linear-gradient(135deg,#102d59,#1769aa);color:white;padding:25px 18px;border-radius:0 0 25px 25px}
+.logo{font-size:38px;text-align:center}
+header h1{text-align:center;font-size:25px;margin:8px 0}
+header p{text-align:center;font-size:13px}
+nav{display:flex;justify-content:space-around;gap:5px;padding:12px;background:white;position:sticky;top:0}
+nav button{border:0;background:#edf3ff;padding:10px;border-radius:10px;color:#174477;font-weight:bold}
+.container{padding:16px;max-width:650px;margin:auto}
+h2{color:#123b75}
+.card{background:white;border-radius:16px;padding:17px;margin:13px 0;box-shadow:0 3px 12px #00000010}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.classbox{background:#edf4ff;padding:17px 5px;border-radius:13px;text-align:center;font-weight:bold;color:#174477;cursor:pointer}
+button{cursor:pointer}
+.mainbtn{background:#1457a0;color:white;border:0;padding:13px 18px;border-radius:10px;font-weight:bold;margin:5px}
+input,select{width:100%;padding:13px;margin:7px 0;border:1px solid #ccd5e3;border-radius:9px;font-size:15px}
+.section{display:none}
+.section.active{display:block}
+.question{font-size:18px;font-weight:bold;line-height:1.5}
+.option{display:block;background:#edf3fc;margin:9px 0;padding:13px;border-radius:9px}
+footer{text-align:center;background:#12345f;color:white;padding:20px;margin-top:25px}
+.small{font-size:12px;color:#65738a}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">🎓</div>
+<h1>MASTER MINDS ACADEMY</h1>
+<p>TIRYANI | KUMRAM BHEEM ASIFABAD</p>
+<p>Learn Today • Lead Tomorrow</p>
+</header>
+
+<nav>
+<button onclick="show('home')">Home</button>
+<button onclick="show('classes')">Classes</button>
+<button onclick="show('login')">Login</button>
+<button onclick="show('tests')">Tests</button>
+</nav>
+
+<main class="container">
+
+<section id="home" class="section active">
+<div class="card">
+<h2>Welcome to MASTER MINDS!</h2>
+<p>మన లక్ష్యం అడ్మిషన్లు కాదు… ప్రతి విద్యార్థిలోని ప్రతిభను వెలికితీయడం.</p>
+<p>Quality Education in Telugu & English.</p>
+<button class="mainbtn" onclick="show('classes')">Explore Classes</button>
+<button class="mainbtn" onclick="show('login')">Student Login</button>
+</div>
+<h2>Our Learning Programs</h2>
+<div class="grid">
+<div class="classbox" onclick="show('classes')">📚 School Classes</div>
+<div class="classbox" onclick="show('classes')">🏆 Navodaya</div>
+<div class="classbox" onclick="show('tests')">✍️ Online Tests</div>
+<div class="classbox" onclick="show('login')">👨‍🎓 Student Login</div>
+</div>
+<div class="card">
+<h3>Our Vision</h3>
+<p>Building knowledge, confidence and bright futures for every student.</p>
+</div>
+</section>
+
+<section id="classes" class="section">
+<h2>Our Classes | మా తరగతులు</h2>
+<div class="grid">
+<div class="classbox">LKG</div>
+<div class="classbox">UKG</div>
+<div class="classbox">Class 1</div>
+<div class="classbox">Class 2</div>
+<div class="classbox">Class 3</div>
+<div class="classbox">Class 4</div>
+<div class="classbox">Class 5</div>
+<div class="classbox">Class 6</div>
+<div class="classbox">Class 7</div>
+<div class="classbox">Class 8</div>
+<div class="classbox">Class 9</div>
+<div class="classbox">Class 10</div>
+<div class="classbox">🏆 Navodaya</div>
+</div>
+</section>
+
+<section id="login" class="section">
+<h2>Student Login | విద్యార్థి లాగిన్</h2>
+<div class="card">
+<select id="method" onchange="changeLogin()">
+<option value="password">Username + Password</option>
+<option value="mobile">Mobile Number + OTP</option>
+</select>
+<div id="passwordLogin">
+<input id="username" placeholder="Student Username">
+<input id="password" type="password" placeholder="Password">
+</div>
+<div id="mobileLogin" style="display:none">
+<input id="mobile" type="tel" placeholder="Mobile Number">
+<p class="small">OTP login will be activated after connecting an authentication service.</p>
+</div>
+<button class="mainbtn" onclick="loginStudent()">Login</button>
+<p id="loginMsg"></p>
+</div>
+</section>
+
+<section id="tests" class="section">
+<h2>Online Test | ఆన్‌లైన్ పరీక్ష</h2>
+<div class="card">
+<p><b>Demo Test – General Knowledge</b></p>
+<p class="question">1. What is the capital of India?</p>
+<label class="option"><input type="radio" name="answer" value="A" style="width:auto"> A. Mumbai</label>
+<label class="option"><input type="radio" name="answer" value="B" style="width:auto"> B. New Delhi</label>
+<label class="option"><input type="radio" name="answer" value="C" style="width:auto"> C. Chennai</label>
+<label class="option"><input type="radio" name="answer" value="D" style="width:auto"> D. Hyderabad</label>
+<button class="mainbtn" onclick="checkAnswer()">Submit Answer</button>
+<p id="result"></p>
+</div>
+</section>
+
+</main>
+<footer>
+<h3>MASTER MINDS ACADEMY</h3>
+<p>TIRYANI – TELANGANA</p>
+<p>Our Goal is to Bring Out Every Student's Talent.</p>
+<p class="small">© 2026 MASTER MINDS ACADEMY. All Rights Reserved.</p>
+</footer>
+
+<script>
+function show(id){
+document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+document.getElementById(id).classList.add('active');
+window.scrollTo(0,0);
+}
+function changeLogin(){
+let m=document.getElementById('method').value;
+document.getElementById('passwordLogin').style.display=m==='password'?'block':'none';
+document.getElementById('mobileLogin').style.display=m==='mobile'?'block':'none';
+}
+function loginStudent(){
+let m=document.getElementById('method').value;
+if(m==='password'){
+let u=document.getElementById('username').value;
+let p=document.getElementById('password').value;
+document.getElementById('loginMsg').innerText=
+u&&p?'Demo only: Student authentication will be connected in the next stage.':'Please enter username and password.';
+}else{
+let n=document.getElementById('mobile').value;
+document.getElementById('loginMsg').innerText=
+n?'OTP service needs to be connected before real login.':'Please enter mobile number.';
+}
+}
+function checkAnswer(){
+let a=document.querySelector('input[name="answer"]:checked');
+document.getElementById('result').innerText=
+!a?'Please select an answer.':
+a.value==='B'?'Correct! New Delhi is the capital of India.':'Incorrect. Correct answer: B. New Delhi.';
+}
+</script>
+</body>
+</html>
