@@ -137,6 +137,111 @@ footer{text-align:center;background:#12345f;color:white;padding:23px;margin-top:
 </div>
 </section>
 
+<section id="videos" class="section">
+<h2>🎬 Video Lessons | వీడియో పాఠాలు</h2>
+
+<div class="card">
+<h3>📚 Select Your Course</h3>
+
+<select id="videoCourse" onchange="loadVideos()">
+<option value="upsc">UPSC</option>
+<option value="tgpsc">TGPSC</option>
+<option value="police">Police SI & Constable</option>
+<option value="school">School Education</option>
+<option value="navodaya">Navodaya</option>
+</select>
+</div>
+
+<div id="videoList"></div>
+
+<div class="card">
+<h3 id="videoTitle">Select a Video Lesson</h3>
+<div class="video-container">
+<iframe id="youtubePlayer"
+src=""
+title="MASTER MINDS ACADEMY Video Lesson"
+width="100%" height="230"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen>
+</iframe>
+</div>
+</div>
+</section>
+
+<style>
+.video-container {
+width:100%;
+position:relative;
+overflow:hidden;
+border-radius:12px;
+background:#000;
+}
+.video-container iframe {
+width:100%;
+border:0;
+}
+#videoList .lesson {
+background:#eaf1ff;
+padding:14px;
+margin:9px 0;
+border-radius:10px;
+cursor:pointer;
+font-weight:bold;
+color:#174477;
+}
+#videoList .lesson:active {
+background:#cddfff;
+}
+</style>
+
+<script>
+const academyVideos = {
+upsc: [{title:"MASTER MINDS ACADEMY - Video Lesson 01",
+id:"ZVh34-phurY"},
+tgpsc: [
+{title:"Telangana History",id:"YOUR_VIDEO_ID_3"},
+{title:"Telangana Movement",id:"YOUR_VIDEO_ID_4"}
+],
+police: [
+{title:"Arithmetic",id:"YOUR_VIDEO_ID_5"},
+{title:"Reasoning",id:"YOUR_VIDEO_ID_6"}
+],
+school: [
+{title:"Mathematics",id:"YOUR_VIDEO_ID_7"},
+{title:"Science",id:"YOUR_VIDEO_ID_8"}
+],
+navodaya: [
+{title:"Mental Ability",id:"YOUR_VIDEO_ID_9"},
+{title:"Arithmetic Practice",id:"YOUR_VIDEO_ID_10"}
+]
+};
+
+function loadVideos(){
+const course=document.getElementById("videoCourse").value;
+const list=document.getElementById("videoList");
+const videos=academyVideos[course];
+
+list.innerHTML="";
+document.getElementById("youtubePlayer").src="";
+document.getElementById("videoTitle").innerText="Select a Video Lesson";
+
+videos.forEach((video,index)=>{
+const item=document.createElement("div");
+item.className="lesson";
+item.textContent="▶ "+(index+1)+". "+video.title;
+item.onclick=()=>playAcademyVideo(video);
+list.appendChild(item);
+});
+}
+
+function playAcademyVideo(video){
+document.getElementById("videoTitle").innerText=video.title;
+document.getElementById("youtubePlayer").src=
+"https://www.youtube-nocookie.com/embed/"+video.id;
+}
+
+loadVideos();
+</script>
 <section id="tests" class="section">
 <h2>✍️ Online Practice Test</h2>
 <div class="card">
