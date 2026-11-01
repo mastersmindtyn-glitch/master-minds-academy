@@ -1,0 +1,1695 @@
+{
+  "academy": "MASTER MINDS ACADEMY - TIRYANI",
+  "exam": "UPSC Civil Services Prelims - General Studies",
+  "language": [
+    "te",
+    "en"
+  ],
+  "set": 1,
+  "totalQuestions": 50,
+  "targetQuestionBank": 1000,
+  "sections": [
+    {
+      "id": "polity",
+      "title_te": "భారత రాజ్యాంగం & పాలన",
+      "title_en": "Indian Polity & Governance"
+    },
+    {
+      "id": "history",
+      "title_te": "భారత చరిత్ర",
+      "title_en": "Indian History"
+    },
+    {
+      "id": "geography",
+      "title_te": "భూగోళ శాస్త్రం",
+      "title_en": "Geography"
+    },
+    {
+      "id": "economy",
+      "title_te": "భారత ఆర్థిక వ్యవస్థ",
+      "title_en": "Indian Economy"
+    },
+    {
+      "id": "environment",
+      "title_te": "పర్యావరణం & జీవ వైవిధ్యం",
+      "title_en": "Environment & Biodiversity"
+    },
+    {
+      "id": "science",
+      "title_te": "సైన్స్ & టెక్నాలజీ",
+      "title_en": "Science & Technology"
+    }
+  ],
+  "questions": [
+    {
+      "id": "UPSC-S01-Q01",
+      "section": "polity",
+      "question": {
+        "te": "భారత రాజ్యాంగాన్ని రాజ్యాంగ సభ ఎప్పుడు ఆమోదించింది?",
+        "en": "When was the Constitution of India adopted?"
+      },
+      "options": [
+        {
+          "te": "26 జనవరి 1950",
+          "en": "26 January 1950"
+        },
+        {
+          "te": "26 నవంబర్ 1949",
+          "en": "26 November 1949"
+        },
+        {
+          "te": "15 ఆగస్టు 1947",
+          "en": "15 August 1947"
+        },
+        {
+          "te": "2 అక్టోబర్ 1949",
+          "en": "2 October 1949"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "రాజ్యాంగ సభ 26 నవంబర్ 1949న రాజ్యాంగాన్ని ఆమోదించింది.",
+        "en": "The Constituent Assembly adopted the Constitution on 26 November 1949."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q02",
+      "section": "polity",
+      "question": {
+        "te": "ప్రాథమిక హక్కులు రాజ్యాంగంలోని ఏ భాగంలో ఉన్నాయి?",
+        "en": "Fundamental Rights are in which Part of the Constitution?"
+      },
+      "options": [
+        {
+          "te": "భాగం II",
+          "en": "Part II"
+        },
+        {
+          "te": "భాగం III",
+          "en": "Part III"
+        },
+        {
+          "te": "భాగం IV",
+          "en": "Part IV"
+        },
+        {
+          "te": "భాగం IVA",
+          "en": "Part IVA"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ప్రాథమిక హక్కులు భాగం IIIలోని ఆర్టికల్స్ 12–35లో ఉన్నాయి.",
+        "en": "Fundamental Rights are in Part III, Articles 12–35."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q03",
+      "section": "polity",
+      "question": {
+        "te": "ఆర్టికల్ 21 దేనిని రక్షిస్తుంది?",
+        "en": "What does Article 21 protect?"
+      },
+      "options": [
+        {
+          "te": "సమానత్వ హక్కు",
+          "en": "Right to equality"
+        },
+        {
+          "te": "మత స్వేచ్ఛ",
+          "en": "Freedom of religion"
+        },
+        {
+          "te": "జీవన మరియు వ్యక్తిగత స్వేచ్ఛ",
+          "en": "Right to life and personal liberty"
+        },
+        {
+          "te": "ఆస్తి హక్కు",
+          "en": "Right to property"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "ఆర్టికల్ 21 జీవన హక్కు, వ్యక్తిగత స్వేచ్ఛను రక్షిస్తుంది.",
+        "en": "Article 21 protects life and personal liberty."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q04",
+      "section": "polity",
+      "question": {
+        "te": "భారత రాష్ట్రపతిని ఎవరు ఎన్నుకుంటారు?",
+        "en": "Who elects the President of India?"
+      },
+      "options": [
+        {
+          "te": "ప్రజలు నేరుగా",
+          "en": "Directly by the people"
+        },
+        {
+          "te": "ఎన్నికల కళాశాల",
+          "en": "Electoral college"
+        },
+        {
+          "te": "లోక్‌సభ మాత్రమే",
+          "en": "Lok Sabha alone"
+        },
+        {
+          "te": "రాజ్యసభ మాత్రమే",
+          "en": "Rajya Sabha alone"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ఎన్నికైన ఎంపీలు, సంబంధిత శాసనసభల ఎన్నికైన సభ్యులతో కూడిన ఎన్నికల కళాశాల రాష్ట్రపతిని ఎన్నుకుంటుంది.",
+        "en": "An electoral college of elected MPs and elected members of the relevant legislatures elects the President."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q05",
+      "section": "polity",
+      "question": {
+        "te": "ధన బిల్లును మొదట ఏ సభలో ప్రవేశపెట్టాలి?",
+        "en": "A Money Bill can be introduced first in which House?"
+      },
+      "options": [
+        {
+          "te": "రాజ్యసభ",
+          "en": "Rajya Sabha"
+        },
+        {
+          "te": "లోక్‌సభ",
+          "en": "Lok Sabha"
+        },
+        {
+          "te": "ఏ సభలోనైనా",
+          "en": "Either House"
+        },
+        {
+          "te": "రాష్ట్ర శాసన మండలి",
+          "en": "State Legislative Council"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ధన బిల్లును రాష్ట్రపతి సిఫారసుతో లోక్‌సభలోనే ప్రవేశపెట్టాలి.",
+        "en": "A Money Bill can be introduced only in the Lok Sabha on the President's recommendation."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q06",
+      "section": "polity",
+      "question": {
+        "te": "రాజ్యాంగ సవరణ ప్రక్రియను ఏ ఆర్టికల్ వివరిస్తుంది?",
+        "en": "Which Article provides the procedure for constitutional amendment?"
+      },
+      "options": [
+        {
+          "te": "32",
+          "en": "32"
+        },
+        {
+          "te": "226",
+          "en": "226"
+        },
+        {
+          "te": "368",
+          "en": "368"
+        },
+        {
+          "te": "356",
+          "en": "356"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "ఆర్టికల్ 368 రాజ్యాంగ సవరణ ప్రక్రియను నిర్దేశిస్తుంది.",
+        "en": "Article 368 lays down the constitutional amendment procedure."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q07",
+      "section": "polity",
+      "question": {
+        "te": "ఎన్నికల సంఘానికి సంబంధించిన ఆర్టికల్ ఏది?",
+        "en": "Which Article deals with the Election Commission?"
+      },
+      "options": [
+        {
+          "te": "280",
+          "en": "280"
+        },
+        {
+          "te": "324",
+          "en": "324"
+        },
+        {
+          "te": "148",
+          "en": "148"
+        },
+        {
+          "te": "315",
+          "en": "315"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ఆర్టికల్ 324 ఎన్నికల పర్యవేక్షణ, దిశానిర్దేశం, నియంత్రణను ఎన్నికల సంఘానికి అప్పగిస్తుంది.",
+        "en": "Article 324 vests superintendence, direction and control of elections in the Election Commission."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q08",
+      "section": "polity",
+      "question": {
+        "te": "రాష్ట్ర విధాన ఆదేశిక సూత్రాలు ఏ దేశం నుంచి ప్రేరణ పొందాయి?",
+        "en": "Directive Principles of State Policy were inspired by which country?"
+      },
+      "options": [
+        {
+          "te": "అమెరికా",
+          "en": "USA"
+        },
+        {
+          "te": "ఐర్లాండ్",
+          "en": "Ireland"
+        },
+        {
+          "te": "కెనడా",
+          "en": "Canada"
+        },
+        {
+          "te": "ఆస్ట్రేలియా",
+          "en": "Australia"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "రాష్ట్ర విధాన ఆదేశిక సూత్రాలు ఐర్లాండ్ రాజ్యాంగం నుంచి ప్రేరణ పొందాయి.",
+        "en": "The Directive Principles were inspired by the Irish Constitution."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q09",
+      "section": "polity",
+      "question": {
+        "te": "భారత పార్లమెంట్‌లో ఎవరు భాగం?",
+        "en": "Who forms part of the Parliament of India?"
+      },
+      "options": [
+        {
+          "te": "లోక్‌సభ మాత్రమే",
+          "en": "Lok Sabha only"
+        },
+        {
+          "te": "రాజ్యసభ మాత్రమే",
+          "en": "Rajya Sabha only"
+        },
+        {
+          "te": "రాష్ట్రపతి మరియు రెండు సభలు",
+          "en": "President and both Houses"
+        },
+        {
+          "te": "ప్రధానమంత్రి మాత్రమే",
+          "en": "Prime Minister only"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "రాష్ట్రపతి, లోక్‌సభ, రాజ్యసభ కలిసి పార్లమెంట్‌ను ఏర్పరుస్తాయి.",
+        "en": "The President, Lok Sabha and Rajya Sabha together constitute Parliament."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q10",
+      "section": "polity",
+      "question": {
+        "te": "పంచాయతీరాజ్ సంస్థలకు రాజ్యాంగ హోదా కల్పించిన సవరణ ఏది?",
+        "en": "Which amendment gave constitutional status to Panchayati Raj?"
+      },
+      "options": [
+        {
+          "te": "42వ",
+          "en": "42nd"
+        },
+        {
+          "te": "44వ",
+          "en": "44th"
+        },
+        {
+          "te": "73వ",
+          "en": "73rd"
+        },
+        {
+          "te": "74వ",
+          "en": "74th"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "73వ రాజ్యాంగ సవరణ పంచాయతీరాజ్ సంస్థలకు రాజ్యాంగ హోదా కల్పించింది.",
+        "en": "The 73rd Amendment gave constitutional status to Panchayati Raj institutions."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q11",
+      "section": "history",
+      "question": {
+        "te": "1857 తిరుగుబాటుకు తక్షణ కారణంగా ఏది నిలిచింది?",
+        "en": "What was the immediate trigger of the Revolt of 1857?"
+      },
+      "options": [
+        {
+          "te": "శాశ్వత బందోబస్తు",
+          "en": "Permanent Settlement"
+        },
+        {
+          "te": "కొవ్వు పూసిన తూటాల వివాదం",
+          "en": "Greased cartridge controversy"
+        },
+        {
+          "te": "బంగాళ విభజన",
+          "en": "Partition of Bengal"
+        },
+        {
+          "te": "రోలట్ చట్టం",
+          "en": "Rowlatt Act"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ఎన్‌ఫీల్డ్ తూటాలపై ఆవు, పంది కొవ్వు ఉందనే వార్త సిపాయిల ఆగ్రహానికి తక్షణ కారణమైంది.",
+        "en": "The greased cartridge controversy was the immediate trigger for sepoy anger."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q12",
+      "section": "history",
+      "question": {
+        "te": "భారత జాతీయ కాంగ్రెస్ ఏ సంవత్సరంలో స్థాపించబడింది?",
+        "en": "In which year was the Indian National Congress founded?"
+      },
+      "options": [
+        {
+          "te": "1885",
+          "en": "1885"
+        },
+        {
+          "te": "1887",
+          "en": "1887"
+        },
+        {
+          "te": "1905",
+          "en": "1905"
+        },
+        {
+          "te": "1919",
+          "en": "1919"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "భారత జాతీయ కాంగ్రెస్ 1885లో స్థాపించబడింది.",
+        "en": "The Indian National Congress was founded in 1885."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q13",
+      "section": "history",
+      "question": {
+        "te": "దండి యాత్ర ఏ సంవత్సరంలో జరిగింది?",
+        "en": "In which year did the Dandi March take place?"
+      },
+      "options": [
+        {
+          "te": "1920",
+          "en": "1920"
+        },
+        {
+          "te": "1927",
+          "en": "1927"
+        },
+        {
+          "te": "1930",
+          "en": "1930"
+        },
+        {
+          "te": "1942",
+          "en": "1942"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "ఉప్పు చట్టాన్ని ఉల్లంఘించేందుకు గాంధీజీ 1930లో దండి యాత్ర చేపట్టారు.",
+        "en": "Gandhi led the Dandi March in 1930 to break the salt law."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q14",
+      "section": "history",
+      "question": {
+        "te": "క్విట్ ఇండియా ఉద్యమం ఎప్పుడు ప్రారంభమైంది?",
+        "en": "When was the Quit India Movement launched?"
+      },
+      "options": [
+        {
+          "te": "1930",
+          "en": "1930"
+        },
+        {
+          "te": "1935",
+          "en": "1935"
+        },
+        {
+          "te": "1942",
+          "en": "1942"
+        },
+        {
+          "te": "1946",
+          "en": "1946"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "క్విట్ ఇండియా తీర్మానం 8 ఆగస్టు 1942న ఆమోదించబడింది.",
+        "en": "The Quit India resolution was adopted on 8 August 1942."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q15",
+      "section": "history",
+      "question": {
+        "te": "సింధు నాగరికతలో ప్రసిద్ధ రేవు పట్టణం ఏది?",
+        "en": "Which was a notable port town of the Indus Valley Civilization?"
+      },
+      "options": [
+        {
+          "te": "హరప్పా",
+          "en": "Harappa"
+        },
+        {
+          "te": "మొహెంజోదారో",
+          "en": "Mohenjo-daro"
+        },
+        {
+          "te": "లోథల్",
+          "en": "Lothal"
+        },
+        {
+          "te": "కాలిబంగన్",
+          "en": "Kalibangan"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "గుజరాత్‌లోని లోథల్ ప్రాచీన రేవు, సముద్ర వాణిజ్య కేంద్రంగా ప్రసిద్ధి.",
+        "en": "Lothal in Gujarat is known for its ancient dockyard and maritime trade."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q16",
+      "section": "history",
+      "question": {
+        "te": "అశోకుని శాసనాల్లో ప్రధానంగా ఉపయోగించిన భాష ఏది?",
+        "en": "Which language was mainly used in Ashoka's inscriptions?"
+      },
+      "options": [
+        {
+          "te": "సంస్కృతం",
+          "en": "Sanskrit"
+        },
+        {
+          "te": "ప్రాకృతం",
+          "en": "Prakrit"
+        },
+        {
+          "te": "తమిళం",
+          "en": "Tamil"
+        },
+        {
+          "te": "పర్షియన్",
+          "en": "Persian"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "అశోకుని చాలా శాసనాలు ప్రాకృత భాషలో ఉన్నాయి; లిపి ప్రాంతానుసారం మారింది.",
+        "en": "Most of Ashoka's inscriptions were in Prakrit, with scripts varying by region."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q17",
+      "section": "history",
+      "question": {
+        "te": "మొఘల్ సామ్రాజ్య స్థాపకుడు ఎవరు?",
+        "en": "Who founded the Mughal Empire in India?"
+      },
+      "options": [
+        {
+          "te": "అక్బర్",
+          "en": "Akbar"
+        },
+        {
+          "te": "బాబర్",
+          "en": "Babur"
+        },
+        {
+          "te": "హుమాయూన్",
+          "en": "Humayun"
+        },
+        {
+          "te": "షాజహాన్",
+          "en": "Shah Jahan"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "1526 మొదటి పానిపట్ యుద్ధం తర్వాత బాబర్ మొఘల్ పాలనకు పునాది వేశాడు.",
+        "en": "Babur established Mughal rule after the First Battle of Panipat in 1526."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q18",
+      "section": "history",
+      "question": {
+        "te": "బ్రహ్మ సమాజాన్ని స్థాపించినవారు ఎవరు?",
+        "en": "Who founded the Brahmo Samaj?"
+      },
+      "options": [
+        {
+          "te": "దయానంద సరస్వతి",
+          "en": "Dayananda Saraswati"
+        },
+        {
+          "te": "రాజా రామ్మోహన్ రాయ్",
+          "en": "Raja Ram Mohan Roy"
+        },
+        {
+          "te": "వివేకానంద",
+          "en": "Vivekananda"
+        },
+        {
+          "te": "విద్యాసాగర్",
+          "en": "Vidyasagar"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "రాజా రామ్మోహన్ రాయ్ 1828లో బ్రహ్మ సమాజాన్ని స్థాపించారు.",
+        "en": "Raja Ram Mohan Roy founded the Brahmo Samaj in 1828."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q19",
+      "section": "history",
+      "question": {
+        "te": "స్వదేశీ ఉద్యమానికి ప్రధాన ప్రేరణ ఏ సంఘటన?",
+        "en": "Which event triggered the Swadeshi Movement?"
+      },
+      "options": [
+        {
+          "te": "బంగాళ విభజన",
+          "en": "Partition of Bengal"
+        },
+        {
+          "te": "జలియన్‌వాలాబాగ్",
+          "en": "Jallianwala Bagh massacre"
+        },
+        {
+          "te": "సైమన్ కమిషన్",
+          "en": "Simon Commission"
+        },
+        {
+          "te": "క్రిప్స్ మిషన్",
+          "en": "Cripps Mission"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "1905 బంగాళ విభజనకు వ్యతిరేకంగా స్వదేశీ ఉద్యమం బలపడింది.",
+        "en": "The 1905 Partition of Bengal triggered the Swadeshi Movement."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q20",
+      "section": "history",
+      "question": {
+        "te": "సైమన్ కమిషన్ భారతదేశానికి వచ్చిన సంవత్సరం ఏది?",
+        "en": "In which year did the Simon Commission arrive in India?"
+      },
+      "options": [
+        {
+          "te": "1919",
+          "en": "1919"
+        },
+        {
+          "te": "1927",
+          "en": "1927"
+        },
+        {
+          "te": "1928",
+          "en": "1928"
+        },
+        {
+          "te": "1935",
+          "en": "1935"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "సైమన్ కమిషన్ 1928లో వచ్చింది; అందులో భారతీయ సభ్యులు లేకపోవడంతో నిరసనలు జరిగాయి.",
+        "en": "The Simon Commission arrived in 1928 and faced protests because it had no Indian members."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q21",
+      "section": "geography",
+      "question": {
+        "te": "విస్తీర్ణ పరంగా భారతదేశంలో అతిపెద్ద రాష్ట్రం ఏది?",
+        "en": "Which is India's largest state by area?"
+      },
+      "options": [
+        {
+          "te": "మధ్యప్రదేశ్",
+          "en": "Madhya Pradesh"
+        },
+        {
+          "te": "మహారాష్ట్ర",
+          "en": "Maharashtra"
+        },
+        {
+          "te": "రాజస్థాన్",
+          "en": "Rajasthan"
+        },
+        {
+          "te": "ఉత్తరప్రదేశ్",
+          "en": "Uttar Pradesh"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "రాజస్థాన్ విస్తీర్ణ పరంగా అతిపెద్ద రాష్ట్రం.",
+        "en": "Rajasthan is India's largest state by area."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q22",
+      "section": "geography",
+      "question": {
+        "te": "భారత ప్రామాణిక రేఖాంశం ఏది?",
+        "en": "What is India's Standard Meridian?"
+      },
+      "options": [
+        {
+          "te": "68°7′ E",
+          "en": "68°7′ E"
+        },
+        {
+          "te": "82°30′ E",
+          "en": "82°30′ E"
+        },
+        {
+          "te": "90° E",
+          "en": "90° E"
+        },
+        {
+          "te": "97°25′ E",
+          "en": "97°25′ E"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "82°30′ తూర్పు రేఖాంశం భారత ప్రామాణిక కాలానికి ఆధారం.",
+        "en": "82°30′ East is the basis of Indian Standard Time."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q23",
+      "section": "geography",
+      "question": {
+        "te": "భాగీరథి నది ఎక్కడ ఉద్భవిస్తుంది?",
+        "en": "Where does the Bhagirathi originate?"
+      },
+      "options": [
+        {
+          "te": "యమునోత్రి",
+          "en": "Yamunotri"
+        },
+        {
+          "te": "గౌముఖ్, గంగోత్రి హిమనదం",
+          "en": "Gaumukh, Gangotri Glacier"
+        },
+        {
+          "te": "సియాచిన్",
+          "en": "Siachen"
+        },
+        {
+          "te": "అమర్‌కంటక్",
+          "en": "Amarkantak"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "భాగీరథి ఉత్తరాఖండ్‌లోని గంగోత్రి హిమనదం చివర గౌముఖ్ వద్ద ఉద్భవిస్తుంది.",
+        "en": "The Bhagirathi originates at Gaumukh, the snout of the Gangotri Glacier."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q24",
+      "section": "geography",
+      "question": {
+        "te": "నల్లరేగడి నేల ఏ పంటకు ప్రత్యేకంగా అనుకూలం?",
+        "en": "Black soil is particularly suitable for which crop?"
+      },
+      "options": [
+        {
+          "te": "టీ",
+          "en": "Tea"
+        },
+        {
+          "te": "పత్తి",
+          "en": "Cotton"
+        },
+        {
+          "te": "జనపనార",
+          "en": "Jute"
+        },
+        {
+          "te": "కాఫీ",
+          "en": "Coffee"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "నల్లరేగడి నేల తేమను నిల్వచేస్తుంది కాబట్టి పత్తికి అనుకూలం.",
+        "en": "Black soil retains moisture and is suitable for cotton."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q25",
+      "section": "geography",
+      "question": {
+        "te": "పశ్చిమ, తూర్పు కనుమలు ఎక్కడ కలుస్తాయి?",
+        "en": "Where do the Western and Eastern Ghats meet?"
+      },
+      "options": [
+        {
+          "te": "నీలగిరి",
+          "en": "Nilgiris"
+        },
+        {
+          "te": "అరవళ్లు",
+          "en": "Aravallis"
+        },
+        {
+          "te": "వింధ్యాలు",
+          "en": "Vindhyas"
+        },
+        {
+          "te": "సాత్పురాలు",
+          "en": "Satpuras"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "దక్షిణ భారతదేశంలోని నీలగిరి ప్రాంతంలో రెండు కనుమలు కలుస్తాయి.",
+        "en": "The two ranges meet in the Nilgiri region of southern India."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q26",
+      "section": "geography",
+      "question": {
+        "te": "మాసిన్‌రామ్ ఏ రాష్ట్రంలో ఉంది?",
+        "en": "Mawsynram is located in which state?"
+      },
+      "options": [
+        {
+          "te": "అస్సాం",
+          "en": "Assam"
+        },
+        {
+          "te": "మేఘాలయ",
+          "en": "Meghalaya"
+        },
+        {
+          "te": "సిక్కిం",
+          "en": "Sikkim"
+        },
+        {
+          "te": "మణిపూర్",
+          "en": "Manipur"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "మాసిన్‌రామ్ మేఘాలయలోని ఖాసీ కొండల ప్రాంతంలో ఉంది.",
+        "en": "Mawsynram is in the Khasi Hills of Meghalaya."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q27",
+      "section": "geography",
+      "question": {
+        "te": "కోరియాలిస్ ప్రభావానికి ప్రధాన కారణం ఏమిటి?",
+        "en": "What is the primary cause of the Coriolis effect?"
+      },
+      "options": [
+        {
+          "te": "భూమి పరిభ్రమణం",
+          "en": "Earth's revolution"
+        },
+        {
+          "te": "భూమి భ్రమణం",
+          "en": "Earth's rotation"
+        },
+        {
+          "te": "చంద్రుని గురుత్వం",
+          "en": "Moon's gravity"
+        },
+        {
+          "te": "సౌర వికిరణం",
+          "en": "Solar radiation"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "భూమి అక్షంపై భ్రమణం వల్ల కదిలే గాలి, సముద్ర ప్రవాహాల దిశ వంగినట్లు కనిపిస్తుంది.",
+        "en": "Earth's rotation deflects the apparent paths of moving air and ocean currents."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q28",
+      "section": "geography",
+      "question": {
+        "te": "సుందర్‌బన్స్ ఏ అరణ్యాలకు ప్రసిద్ధి?",
+        "en": "The Sundarbans are famous for which forests?"
+      },
+      "options": [
+        {
+          "te": "శంఖాకార",
+          "en": "Coniferous"
+        },
+        {
+          "te": "మడ అడవులు",
+          "en": "Mangrove"
+        },
+        {
+          "te": "ఆల్పైన్",
+          "en": "Alpine"
+        },
+        {
+          "te": "ముళ్ల పొదలు",
+          "en": "Thorn scrub"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "గంగా–బ్రహ్మపుత్ర డెల్టాలోని సుందర్‌బన్స్ మడ అడవులకు ప్రసిద్ధి.",
+        "en": "The Sundarbans in the Ganga–Brahmaputra delta are famous for mangroves."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q29",
+      "section": "economy",
+      "question": {
+        "te": "భారతదేశ కేంద్ర బ్యాంకు ఏది?",
+        "en": "What is India's central bank?"
+      },
+      "options": [
+        {
+          "te": "SBI",
+          "en": "SBI"
+        },
+        {
+          "te": "RBI",
+          "en": "RBI"
+        },
+        {
+          "te": "NABARD",
+          "en": "NABARD"
+        },
+        {
+          "te": "SEBI",
+          "en": "SEBI"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "రిజర్వ్ బ్యాంక్ ఆఫ్ ఇండియా దేశ కేంద్ర బ్యాంకు.",
+        "en": "The Reserve Bank of India is India's central bank."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q30",
+      "section": "economy",
+      "question": {
+        "te": "ద్రవ్యోల్బణం అంటే ఏమిటి?",
+        "en": "What is inflation?"
+      },
+      "options": [
+        {
+          "te": "సాధారణ ధరల స్థాయి పెరుగుదల",
+          "en": "A rise in the general price level"
+        },
+        {
+          "te": "ఉత్పత్తి తగ్గుదల మాత్రమే",
+          "en": "Only a fall in output"
+        },
+        {
+          "te": "పన్నుల తగ్గుదల",
+          "en": "A reduction in taxes"
+        },
+        {
+          "te": "ఎగుమతుల పెరుగుదల",
+          "en": "A rise in exports"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "వస్తువులు, సేవల సాధారణ ధరల స్థాయి నిరంతరంగా పెరగడాన్ని ద్రవ్యోల్బణం అంటారు.",
+        "en": "Inflation is a sustained increase in the general price level of goods and services."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q31",
+      "section": "economy",
+      "question": {
+        "te": "GDP పూర్తి రూపం ఏమిటి?",
+        "en": "What is the full form of GDP?"
+      },
+      "options": [
+        {
+          "te": "Gross Domestic Product",
+          "en": "Gross Domestic Product"
+        },
+        {
+          "te": "General Domestic Price",
+          "en": "General Domestic Price"
+        },
+        {
+          "te": "Gross Development Plan",
+          "en": "Gross Development Plan"
+        },
+        {
+          "te": "Global Domestic Production",
+          "en": "Global Domestic Production"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "GDP అనేది దేశ సరిహద్దుల్లో నిర్దిష్ట కాలంలో ఉత్పత్తి అయిన తుది వస్తువులు, సేవల విలువ.",
+        "en": "GDP is the value of final goods and services produced within a country's borders during a period."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q32",
+      "section": "economy",
+      "question": {
+        "te": "భారతదేశంలో GST ఎప్పుడు అమల్లోకి వచ్చింది?",
+        "en": "When did GST come into effect in India?"
+      },
+      "options": [
+        {
+          "te": "1 ఏప్రిల్ 2016",
+          "en": "1 April 2016"
+        },
+        {
+          "te": "1 జూలై 2017",
+          "en": "1 July 2017"
+        },
+        {
+          "te": "1 జనవరి 2018",
+          "en": "1 January 2018"
+        },
+        {
+          "te": "1 ఏప్రిల్ 2019",
+          "en": "1 April 2019"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "భారతదేశంలో GST 1 జూలై 2017 నుంచి అమల్లోకి వచ్చింది.",
+        "en": "GST came into effect in India on 1 July 2017."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q33",
+      "section": "economy",
+      "question": {
+        "te": "రెపో రేటు అంటే ఏమిటి?",
+        "en": "What is the repo rate?"
+      },
+      "options": [
+        {
+          "te": "గృహ రుణ వడ్డీ",
+          "en": "Home-loan interest rate"
+        },
+        {
+          "te": "RBI బ్యాంకులకు రుణమిచ్చే విధాన రేటు",
+          "en": "Policy rate at which RBI lends to banks"
+        },
+        {
+          "te": "పొదుపు ఖాతా వడ్డీ",
+          "en": "Savings-account interest"
+        },
+        {
+          "te": "బాండ్ల పన్ను",
+          "en": "Tax on bonds"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "రెపో రేటు అనేది RBI అర్హతగల సెక్యూరిటీలకు బదులుగా బ్యాంకులకు నిధులు అందించే రేటు.",
+        "en": "The repo rate is the rate at which the RBI lends funds to banks against eligible securities."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q34",
+      "section": "economy",
+      "question": {
+        "te": "ఆర్థిక లోటు సాధారణంగా ఎలా లెక్కిస్తారు?",
+        "en": "How is fiscal deficit generally calculated?"
+      },
+      "options": [
+        {
+          "te": "మొత్తం వ్యయం − అప్పులు మినహా మొత్తం రాబడులు",
+          "en": "Total expenditure minus total receipts excluding borrowings"
+        },
+        {
+          "te": "ఎగుమతులు − దిగుమతులు",
+          "en": "Exports minus imports"
+        },
+        {
+          "te": "పన్ను ఆదాయం మాత్రమే",
+          "en": "Tax revenue alone"
+        },
+        {
+          "te": "ఆస్తులు − అప్పులు",
+          "en": "Assets minus liabilities"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "మొత్తం ప్రభుత్వ వ్యయం నుంచి అప్పులు మినహా మొత్తం రాబడులను తీసివేస్తే ఆర్థిక లోటు వస్తుంది.",
+        "en": "Fiscal deficit is total government expenditure minus total receipts excluding borrowings."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q35",
+      "section": "economy",
+      "question": {
+        "te": "NABARD ప్రధానంగా ఏ రంగానికి మద్దతు ఇస్తుంది?",
+        "en": "NABARD primarily supports which sector?"
+      },
+      "options": [
+        {
+          "te": "అంతరిక్షం",
+          "en": "Space"
+        },
+        {
+          "te": "వ్యవసాయం, గ్రామీణాభివృద్ధి",
+          "en": "Agriculture and rural development"
+        },
+        {
+          "te": "విదేశాంగం",
+          "en": "Foreign affairs"
+        },
+        {
+          "te": "బీమా నియంత్రణ",
+          "en": "Insurance regulation"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "NABARD వ్యవసాయం, గ్రామీణాభివృద్ధి మరియు గ్రామీణ ఆర్థిక సంస్థలకు మద్దతు ఇస్తుంది.",
+        "en": "NABARD supports agriculture, rural development and rural financial institutions."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q36",
+      "section": "environment",
+      "question": {
+        "te": "ఓజోన్ పొర ప్రధానంగా ఏ వాతావరణ పొరలో ఉంటుంది?",
+        "en": "The ozone layer is mainly found in which atmospheric layer?"
+      },
+      "options": [
+        {
+          "te": "ట్రోపోస్ఫియర్",
+          "en": "Troposphere"
+        },
+        {
+          "te": "స్ట్రాటోస్ఫియర్",
+          "en": "Stratosphere"
+        },
+        {
+          "te": "మీసోస్ఫియర్",
+          "en": "Mesosphere"
+        },
+        {
+          "te": "థర్మోస్ఫియర్",
+          "en": "Thermosphere"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ఓజోన్ అధిక సాంద్రత గల ప్రాంతం స్ట్రాటోస్ఫియర్‌లో ఉండి UV కిరణాలను గ్రహిస్తుంది.",
+        "en": "The ozone-rich region is in the stratosphere and absorbs ultraviolet radiation."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q37",
+      "section": "environment",
+      "question": {
+        "te": "జీవ వైవిధ్యం అంటే ఏమిటి?",
+        "en": "What does biodiversity mean?"
+      },
+      "options": [
+        {
+          "te": "ఒకే జాతి సంఖ్య",
+          "en": "Number of one species"
+        },
+        {
+          "te": "జన్యు, జాతి, పర్యావరణ వ్యవస్థల వైవిధ్యం",
+          "en": "Diversity of genes, species and ecosystems"
+        },
+        {
+          "te": "వాతావరణ మార్పు",
+          "en": "Climate change"
+        },
+        {
+          "te": "అడవుల విస్తీర్ణం మాత్రమే",
+          "en": "Forest area alone"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "జన్యు, జాతి, పర్యావరణ వ్యవస్థ స్థాయిల్లోని వైవిధ్యాన్ని జీవ వైవిధ్యం అంటారు.",
+        "en": "Biodiversity is variation at genetic, species and ecosystem levels."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q38",
+      "section": "environment",
+      "question": {
+        "te": "ప్రాజెక్ట్ టైగర్ ఎప్పుడు ప్రారంభమైంది?",
+        "en": "When was Project Tiger launched?"
+      },
+      "options": [
+        {
+          "te": "1969",
+          "en": "1969"
+        },
+        {
+          "te": "1973",
+          "en": "1973"
+        },
+        {
+          "te": "1980",
+          "en": "1980"
+        },
+        {
+          "te": "1986",
+          "en": "1986"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "పులుల సంరక్షణ కోసం ప్రాజెక్ట్ టైగర్ 1973లో ప్రారంభమైంది.",
+        "en": "Project Tiger was launched in 1973 for tiger conservation."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q39",
+      "section": "environment",
+      "question": {
+        "te": "రామ్‌సర్ ఒప్పందం దేనికి సంబంధించినది?",
+        "en": "The Ramsar Convention concerns the conservation of what?"
+      },
+      "options": [
+        {
+          "te": "ఎడారులు",
+          "en": "Deserts"
+        },
+        {
+          "te": "చిత్తడి నేలలు",
+          "en": "Wetlands"
+        },
+        {
+          "te": "పర్వతాలు",
+          "en": "Mountains"
+        },
+        {
+          "te": "గడ్డి భూములు మాత్రమే",
+          "en": "Grasslands only"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "రామ్‌సర్ ఒప్పందం అంతర్జాతీయ ప్రాముఖ్యత కలిగిన చిత్తడి నేలల సంరక్షణ, సముచిత వినియోగానికి సంబంధించినది.",
+        "en": "The Ramsar Convention promotes conservation and wise use of wetlands."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q40",
+      "section": "environment",
+      "question": {
+        "te": "పునరుత్పాదక శక్తి వనరు ఏది?",
+        "en": "Which is a renewable energy source?"
+      },
+      "options": [
+        {
+          "te": "బొగ్గు",
+          "en": "Coal"
+        },
+        {
+          "te": "పెట్రోలియం",
+          "en": "Petroleum"
+        },
+        {
+          "te": "సౌరశక్తి",
+          "en": "Solar energy"
+        },
+        {
+          "te": "సహజ వాయువు",
+          "en": "Natural gas"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "సూర్యకాంతి సహజంగా పునరుద్ధరించబడుతుంది కాబట్టి సౌరశక్తి పునరుత్పాదక వనరు.",
+        "en": "Sunlight is naturally replenished, so solar energy is renewable."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q41",
+      "section": "environment",
+      "question": {
+        "te": "ఆహార గొలుసులో ఉత్పత్తిదారులు సాధారణంగా ఎవరు?",
+        "en": "Who are generally the producers in a food chain?"
+      },
+      "options": [
+        {
+          "te": "శాకాహారులు",
+          "en": "Herbivores"
+        },
+        {
+          "te": "మాంసాహారులు",
+          "en": "Carnivores"
+        },
+        {
+          "te": "ఆకుపచ్చ మొక్కలు",
+          "en": "Green plants"
+        },
+        {
+          "te": "పరాన్నజీవులు",
+          "en": "Parasites"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "ఆకుపచ్చ మొక్కలు కిరణజన్య సంయోగక్రియ ద్వారా ఆహారం తయారు చేస్తాయి.",
+        "en": "Green plants make food through photosynthesis."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q42",
+      "section": "science",
+      "question": {
+        "te": "బలానికి SI ప్రమాణం ఏది?",
+        "en": "What is the SI unit of force?"
+      },
+      "options": [
+        {
+          "te": "జౌల్",
+          "en": "Joule"
+        },
+        {
+          "te": "వాట్",
+          "en": "Watt"
+        },
+        {
+          "te": "న్యూటన్",
+          "en": "Newton"
+        },
+        {
+          "te": "పాస్కల్",
+          "en": "Pascal"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "బలానికి SI ప్రమాణం న్యూటన్.",
+        "en": "The SI unit of force is the newton."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q43",
+      "section": "science",
+      "question": {
+        "te": "కిరణజన్య సంయోగక్రియలో మొక్కలు ఏ వాయువును గ్రహిస్తాయి?",
+        "en": "Which gas do plants absorb during photosynthesis?"
+      },
+      "options": [
+        {
+          "te": "ఆక్సిజన్",
+          "en": "Oxygen"
+        },
+        {
+          "te": "కార్బన్ డయాక్సైడ్",
+          "en": "Carbon dioxide"
+        },
+        {
+          "te": "నైట్రోజన్",
+          "en": "Nitrogen"
+        },
+        {
+          "te": "హైడ్రోజన్",
+          "en": "Hydrogen"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "మొక్కలు కార్బన్ డయాక్సైడ్, నీటిని ఉపయోగించి కాంతి శక్తితో ఆహారం తయారు చేస్తాయి.",
+        "en": "Plants use carbon dioxide and water to make food using light energy."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q44",
+      "section": "science",
+      "question": {
+        "te": "రక్తంలో ఆక్సిజన్‌ను ప్రధానంగా మోసుకెళ్లేది ఏది?",
+        "en": "What mainly carries oxygen in blood?"
+      },
+      "options": [
+        {
+          "te": "ప్లాస్మా",
+          "en": "Plasma"
+        },
+        {
+          "te": "హీమోగ్లోబిన్",
+          "en": "Haemoglobin"
+        },
+        {
+          "te": "ప్లేట్‌లెట్లు",
+          "en": "Platelets"
+        },
+        {
+          "te": "తెల్ల రక్త కణాలు",
+          "en": "White blood cells"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ఎర్ర రక్త కణాల్లోని హీమోగ్లోబిన్ ఆక్సిజన్‌ను కణజాలాలకు చేరుస్తుంది.",
+        "en": "Haemoglobin in red blood cells transports oxygen to tissues."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q45",
+      "section": "science",
+      "question": {
+        "te": "విద్యుత్ ప్రవాహానికి SI ప్రమాణం ఏది?",
+        "en": "What is the SI unit of electric current?"
+      },
+      "options": [
+        {
+          "te": "వోల్ట్",
+          "en": "Volt"
+        },
+        {
+          "te": "ఓమ్",
+          "en": "Ohm"
+        },
+        {
+          "te": "అంపియర్",
+          "en": "Ampere"
+        },
+        {
+          "te": "కూలాంబ్",
+          "en": "Coulomb"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "విద్యుత్ ప్రవాహానికి SI ప్రమాణం అంపియర్.",
+        "en": "The SI unit of electric current is the ampere."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q46",
+      "section": "science",
+      "question": {
+        "te": "నీటి రసాయన సూత్రం ఏమిటి?",
+        "en": "What is the chemical formula of water?"
+      },
+      "options": [
+        {
+          "te": "CO₂",
+          "en": "CO₂"
+        },
+        {
+          "te": "H₂O",
+          "en": "H₂O"
+        },
+        {
+          "te": "O₂",
+          "en": "O₂"
+        },
+        {
+          "te": "NaCl",
+          "en": "NaCl"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ఒక నీటి అణువులో రెండు హైడ్రోజన్, ఒక ఆక్సిజన్ అణువు ఉంటాయి.",
+        "en": "A water molecule contains two hydrogen atoms and one oxygen atom."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q47",
+      "section": "science",
+      "question": {
+        "te": "మానవ శరీరంలో అతిపెద్ద అవయవం ఏది?",
+        "en": "What is the largest organ of the human body?"
+      },
+      "options": [
+        {
+          "te": "కాలేయం",
+          "en": "Liver"
+        },
+        {
+          "te": "చర్మం",
+          "en": "Skin"
+        },
+        {
+          "te": "గుండె",
+          "en": "Heart"
+        },
+        {
+          "te": "ఊపిరితిత్తులు",
+          "en": "Lungs"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "చర్మం మానవ శరీరంలోని అతిపెద్ద అవయవం.",
+        "en": "The skin is the largest organ of the human body."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q48",
+      "section": "science",
+      "question": {
+        "te": "ధ్వని శూన్యంలో ప్రయాణించగలదా?",
+        "en": "Can sound travel through a vacuum?"
+      },
+      "options": [
+        {
+          "te": "అవును",
+          "en": "Yes"
+        },
+        {
+          "te": "కాదు, మాధ్యమం అవసరం",
+          "en": "No, it needs a medium"
+        },
+        {
+          "te": "కేవలం రాత్రిపూట",
+          "en": "Only at night"
+        },
+        {
+          "te": "కేవలం వేడిలో",
+          "en": "Only in heat"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ధ్వని యాంత్రిక తరంగం; ప్రయాణించడానికి పదార్థ మాధ్యమం అవసరం.",
+        "en": "Sound is a mechanical wave and requires a material medium."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q49",
+      "section": "science",
+      "question": {
+        "te": "విటమిన్ C లోపం వల్ల ఏ వ్యాధి వస్తుంది?",
+        "en": "Which disease is caused by vitamin C deficiency?"
+      },
+      "options": [
+        {
+          "te": "రికెట్స్",
+          "en": "Rickets"
+        },
+        {
+          "te": "స్కర్వీ",
+          "en": "Scurvy"
+        },
+        {
+          "te": "బెరిబెరి",
+          "en": "Beriberi"
+        },
+        {
+          "te": "రాత్రి అంధత్వం",
+          "en": "Night blindness"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "విటమిన్ C లోపం వల్ల స్కర్వీ వస్తుంది.",
+        "en": "Vitamin C deficiency causes scurvy."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S01-Q50",
+      "section": "science",
+      "question": {
+        "te": "సముద్ర మట్టం వద్ద నీటి మరిగే స్థానం ఎంత?",
+        "en": "What is the boiling point of water at sea level?"
+      },
+      "options": [
+        {
+          "te": "0°C",
+          "en": "0°C"
+        },
+        {
+          "te": "50°C",
+          "en": "50°C"
+        },
+        {
+          "te": "100°C",
+          "en": "100°C"
+        },
+        {
+          "te": "150°C",
+          "en": "150°C"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "సాధారణ వాతావరణ పీడనంలో నీరు 100°C వద్ద మరిగుతుంది.",
+        "en": "At standard atmospheric pressure, water boils at 100°C."
+      },
+      "difficulty": "medium"
+    }
+  ]
+}
