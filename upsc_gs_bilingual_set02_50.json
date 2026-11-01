@@ -1,0 +1,1695 @@
+{
+  "academy": "MASTER MINDS ACADEMY - TIRYANI",
+  "exam": "UPSC Civil Services Prelims - General Studies",
+  "language": [
+    "te",
+    "en"
+  ],
+  "set": 2,
+  "totalQuestions": 50,
+  "targetQuestionBank": 1000,
+  "sections": [
+    {
+      "id": "polity",
+      "title_te": "భారత రాజ్యాంగం & పాలన",
+      "title_en": "Indian Polity & Governance"
+    },
+    {
+      "id": "history",
+      "title_te": "భారత చరిత్ర",
+      "title_en": "Indian History"
+    },
+    {
+      "id": "geography",
+      "title_te": "భూగోళ శాస్త్రం",
+      "title_en": "Geography"
+    },
+    {
+      "id": "economy",
+      "title_te": "భారత ఆర్థిక వ్యవస్థ",
+      "title_en": "Indian Economy"
+    },
+    {
+      "id": "environment",
+      "title_te": "పర్యావరణం & జీవ వైవిధ్యం",
+      "title_en": "Environment & Biodiversity"
+    },
+    {
+      "id": "science",
+      "title_te": "సైన్స్ & టెక్నాలజీ",
+      "title_en": "Science & Technology"
+    }
+  ],
+  "questions": [
+    {
+      "id": "UPSC-S02-Q01",
+      "section": "polity",
+      "question": {
+        "te": "భారత రాజ్యాంగ పీఠికలో 'సామ్యవాద' మరియు 'లౌకిక' పదాలను ఏ సవరణ చేర్చింది?",
+        "en": "Which amendment added the words 'Socialist' and 'Secular' to the Preamble?"
+      },
+      "options": [
+        {
+          "te": "24వ సవరణ",
+          "en": "24th Amendment"
+        },
+        {
+          "te": "42వ సవరణ",
+          "en": "42nd Amendment"
+        },
+        {
+          "te": "44వ సవరణ",
+          "en": "44th Amendment"
+        },
+        {
+          "te": "52వ సవరణ",
+          "en": "52nd Amendment"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "42వ రాజ్యాంగ సవరణ చట్టం, 1976 ద్వారా ఈ పదాలను పీఠికలో చేర్చారు.",
+        "en": "The 42nd Constitutional Amendment Act, 1976 added these words to the Preamble."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q02",
+      "section": "polity",
+      "question": {
+        "te": "రాజ్యసభ సభ్యుని సాధారణ పదవీకాలం ఎంత?",
+        "en": "What is the normal term of a Rajya Sabha member?"
+      },
+      "options": [
+        {
+          "te": "4 సంవత్సరాలు",
+          "en": "4 years"
+        },
+        {
+          "te": "5 సంవత్సరాలు",
+          "en": "5 years"
+        },
+        {
+          "te": "6 సంవత్సరాలు",
+          "en": "6 years"
+        },
+        {
+          "te": "7 సంవత్సరాలు",
+          "en": "7 years"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "రాజ్యసభ శాశ్వత సభ. ప్రతి సభ్యుని పదవీకాలం 6 సంవత్సరాలు; ప్రతి రెండేళ్లకు మూడో వంతు సభ్యులు పదవీ విరమణ చేస్తారు.",
+        "en": "The Rajya Sabha is a permanent House. Each member serves six years, with about one-third retiring every two years."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q03",
+      "section": "polity",
+      "question": {
+        "te": "లోక్‌సభ సమావేశానికి అధ్యక్షత వహించేది ఎవరు?",
+        "en": "Who presides over a sitting of the Lok Sabha?"
+      },
+      "options": [
+        {
+          "te": "రాష్ట్రపతి",
+          "en": "President"
+        },
+        {
+          "te": "ఉపరాష్ట్రపతి",
+          "en": "Vice-President"
+        },
+        {
+          "te": "స్పీకర్",
+          "en": "Speaker"
+        },
+        {
+          "te": "ప్రధానమంత్రి",
+          "en": "Prime Minister"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "లోక్‌సభ స్పీకర్ సభా సమావేశాలకు అధ్యక్షత వహిస్తారు.",
+        "en": "The Speaker presides over sittings of the Lok Sabha."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q04",
+      "section": "polity",
+      "question": {
+        "te": "భారత అటార్నీ జనరల్‌ను ఎవరు నియమిస్తారు?",
+        "en": "Who appoints the Attorney General of India?"
+      },
+      "options": [
+        {
+          "te": "ప్రధానమంత్రి",
+          "en": "Prime Minister"
+        },
+        {
+          "te": "రాష్ట్రపతి",
+          "en": "President"
+        },
+        {
+          "te": "సుప్రీంకోర్టు ప్రధాన న్యాయమూర్తి",
+          "en": "Chief Justice of India"
+        },
+        {
+          "te": "లోక్‌సభ స్పీకర్",
+          "en": "Lok Sabha Speaker"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ఆర్టికల్ 76 ప్రకారం రాష్ట్రపతి అటార్నీ జనరల్‌ను నియమిస్తారు.",
+        "en": "Under Article 76, the President appoints the Attorney General of India."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q05",
+      "section": "polity",
+      "question": {
+        "te": "రాష్ట్ర గవర్నర్‌ను ఎవరు నియమిస్తారు?",
+        "en": "Who appoints the Governor of a State?"
+      },
+      "options": [
+        {
+          "te": "ముఖ్యమంత్రి",
+          "en": "Chief Minister"
+        },
+        {
+          "te": "రాష్ట్ర శాసనసభ",
+          "en": "State Legislature"
+        },
+        {
+          "te": "రాష్ట్రపతి",
+          "en": "President"
+        },
+        {
+          "te": "ప్రధాన న్యాయమూర్తి",
+          "en": "Chief Justice"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "ఆర్టికల్ 155 ప్రకారం రాష్ట్ర గవర్నర్‌ను రాష్ట్రపతి నియమిస్తారు.",
+        "en": "Under Article 155, the Governor is appointed by the President."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q06",
+      "section": "polity",
+      "question": {
+        "te": "భారత కంప్ట్రోలర్ అండ్ ఆడిటర్ జనరల్‌కు సంబంధించిన ఆర్టికల్ ఏది?",
+        "en": "Which Article deals with the Comptroller and Auditor General of India?"
+      },
+      "options": [
+        {
+          "te": "124",
+          "en": "124"
+        },
+        {
+          "te": "148",
+          "en": "148"
+        },
+        {
+          "te": "280",
+          "en": "280"
+        },
+        {
+          "te": "324",
+          "en": "324"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ఆర్టికల్ 148 కాగ్ పదవిని, దాని రాజ్యాంగ స్థితిని నిర్దేశిస్తుంది.",
+        "en": "Article 148 provides for the office and constitutional status of the CAG."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q07",
+      "section": "polity",
+      "question": {
+        "te": "ఆర్థిక సంఘాన్ని సాధారణంగా ఎన్ని సంవత్సరాలకు ఒకసారి ఏర్పాటు చేస్తారు?",
+        "en": "The Finance Commission is generally constituted every how many years?"
+      },
+      "options": [
+        {
+          "te": "2",
+          "en": "2"
+        },
+        {
+          "te": "3",
+          "en": "3"
+        },
+        {
+          "te": "5",
+          "en": "5"
+        },
+        {
+          "te": "10",
+          "en": "10"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "ఆర్టికల్ 280 ప్రకారం రాష్ట్రపతి ప్రతి ఐదేళ్లకు లేదా అవసరమైతే అంతకుముందే ఆర్థిక సంఘాన్ని ఏర్పాటు చేస్తారు.",
+        "en": "Under Article 280, the President constitutes a Finance Commission every five years or earlier if necessary."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q08",
+      "section": "polity",
+      "question": {
+        "te": "రాజ్యాంగంలోని ప్రాథమిక విధులు ఏ భాగంలో ఉన్నాయి?",
+        "en": "Fundamental Duties are contained in which Part of the Constitution?"
+      },
+      "options": [
+        {
+          "te": "భాగం III",
+          "en": "Part III"
+        },
+        {
+          "te": "భాగం IV",
+          "en": "Part IV"
+        },
+        {
+          "te": "భాగం IVA",
+          "en": "Part IVA"
+        },
+        {
+          "te": "భాగం V",
+          "en": "Part V"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "ప్రాథమిక విధులు భాగం IVAలోని ఆర్టికల్ 51Aలో ఉన్నాయి.",
+        "en": "Fundamental Duties are listed in Part IVA, Article 51A."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q09",
+      "section": "polity",
+      "question": {
+        "te": "జాతీయ అత్యవసర పరిస్థితిని ప్రకటించే అధికారం ఎవరికి ఉంది?",
+        "en": "Who has the power to proclaim a National Emergency?"
+      },
+      "options": [
+        {
+          "te": "ప్రధానమంత్రి వ్యక్తిగతంగా",
+          "en": "Prime Minister personally"
+        },
+        {
+          "te": "రాష్ట్రపతి",
+          "en": "President"
+        },
+        {
+          "te": "లోక్‌సభ స్పీకర్",
+          "en": "Lok Sabha Speaker"
+        },
+        {
+          "te": "సుప్రీంకోర్టు",
+          "en": "Supreme Court"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ఆర్టికల్ 352 ప్రకారం కేంద్ర మంత్రివర్గం లిఖిత సలహా ఆధారంగా రాష్ట్రపతి జాతీయ అత్యవసర పరిస్థితిని ప్రకటించవచ్చు.",
+        "en": "Under Article 352, the President may proclaim a National Emergency on the written advice of the Union Cabinet."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q10",
+      "section": "polity",
+      "question": {
+        "te": "భారత సుప్రీంకోర్టు న్యాయమూర్తుల పదవీ విరమణ వయస్సు ఎంత?",
+        "en": "At what age do Supreme Court judges in India retire?"
+      },
+      "options": [
+        {
+          "te": "60",
+          "en": "60"
+        },
+        {
+          "te": "62",
+          "en": "62"
+        },
+        {
+          "te": "65",
+          "en": "65"
+        },
+        {
+          "te": "68",
+          "en": "68"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "సుప్రీంకోర్టు న్యాయమూర్తులు 65 సంవత్సరాల వయస్సులో పదవీ విరమణ చేస్తారు.",
+        "en": "Supreme Court judges retire at the age of 65."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q11",
+      "section": "history",
+      "question": {
+        "te": "ప్లాసీ యుద్ధం ఏ సంవత్సరంలో జరిగింది?",
+        "en": "In which year was the Battle of Plassey fought?"
+      },
+      "options": [
+        {
+          "te": "1757",
+          "en": "1757"
+        },
+        {
+          "te": "1764",
+          "en": "1764"
+        },
+        {
+          "te": "1773",
+          "en": "1773"
+        },
+        {
+          "te": "1784",
+          "en": "1784"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "1757లో జరిగిన ప్లాసీ యుద్ధంలో రాబర్ట్ క్లైవ్ సిరాజుద్దౌలాను ఓడించాడు.",
+        "en": "In the 1757 Battle of Plassey, Robert Clive defeated Siraj ud-Daulah."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q12",
+      "section": "history",
+      "question": {
+        "te": "బక్సర్ యుద్ధం ఏ సంవత్సరంలో జరిగింది?",
+        "en": "In which year was the Battle of Buxar fought?"
+      },
+      "options": [
+        {
+          "te": "1757",
+          "en": "1757"
+        },
+        {
+          "te": "1761",
+          "en": "1761"
+        },
+        {
+          "te": "1764",
+          "en": "1764"
+        },
+        {
+          "te": "1772",
+          "en": "1772"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "1764 బక్సర్ యుద్ధంలో కంపెనీ విజయం బెంగాల్‌పై బ్రిటిష్ రాజకీయ ఆధిపత్యాన్ని బలపరిచింది.",
+        "en": "The Company's victory at Buxar in 1764 strengthened British political control in Bengal."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q13",
+      "section": "history",
+      "question": {
+        "te": "శాశ్వత బందోబస్తును ప్రవేశపెట్టిన గవర్నర్ జనరల్ ఎవరు?",
+        "en": "Which Governor-General introduced the Permanent Settlement?"
+      },
+      "options": [
+        {
+          "te": "వారెన్ హేస్టింగ్స్",
+          "en": "Warren Hastings"
+        },
+        {
+          "te": "లార్డ్ కార్న్‌వాలిస్",
+          "en": "Lord Cornwallis"
+        },
+        {
+          "te": "లార్డ్ వెల్లెస్లీ",
+          "en": "Lord Wellesley"
+        },
+        {
+          "te": "లార్డ్ డల్హౌసీ",
+          "en": "Lord Dalhousie"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "లార్డ్ కార్న్‌వాలిస్ 1793లో బెంగాల్‌లో శాశ్వత బందోబస్తును అమలు చేశాడు.",
+        "en": "Lord Cornwallis introduced the Permanent Settlement in Bengal in 1793."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q14",
+      "section": "history",
+      "question": {
+        "te": "సహాయ నిరాకరణ ఉద్యమాన్ని గాంధీజీ ఏ సంవత్సరంలో ప్రారంభించారు?",
+        "en": "In which year did Gandhi launch the Non-Cooperation Movement?"
+      },
+      "options": [
+        {
+          "te": "1917",
+          "en": "1917"
+        },
+        {
+          "te": "1919",
+          "en": "1919"
+        },
+        {
+          "te": "1920",
+          "en": "1920"
+        },
+        {
+          "te": "1930",
+          "en": "1930"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "1920లో సహాయ నిరాకరణ ఉద్యమం ప్రారంభమైంది; చౌరీచౌరా ఘటన తర్వాత 1922లో ఉపసంహరించారు.",
+        "en": "The Non-Cooperation Movement began in 1920 and was withdrawn in 1922 after the Chauri Chaura incident."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q15",
+      "section": "history",
+      "question": {
+        "te": "జలియన్‌వాలాబాగ్ మారణకాండ ఎప్పుడు జరిగింది?",
+        "en": "When did the Jallianwala Bagh massacre take place?"
+      },
+      "options": [
+        {
+          "te": "13 ఏప్రిల్ 1919",
+          "en": "13 April 1919"
+        },
+        {
+          "te": "15 ఆగస్టు 1919",
+          "en": "15 August 1919"
+        },
+        {
+          "te": "26 జనవరి 1920",
+          "en": "26 January 1920"
+        },
+        {
+          "te": "5 ఫిబ్రవరి 1922",
+          "en": "5 February 1922"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "1919 ఏప్రిల్ 13న అమృత్‌సర్‌లో జనరల్ డయ్యర్ సైనికులు నిరాయుధ జనసమూహంపై కాల్పులు జరిపారు.",
+        "en": "On 13 April 1919, troops under General Dyer fired on an unarmed gathering in Amritsar."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q16",
+      "section": "history",
+      "question": {
+        "te": "ఆజాద్ హింద్ ఫౌజ్‌తో ప్రముఖంగా అనుబంధం కలిగిన నాయకుడు ఎవరు?",
+        "en": "Which leader is prominently associated with the Indian National Army?"
+      },
+      "options": [
+        {
+          "te": "బాల గంగాధర్ తిలక్",
+          "en": "Bal Gangadhar Tilak"
+        },
+        {
+          "te": "సుభాష్ చంద్రబోస్",
+          "en": "Subhas Chandra Bose"
+        },
+        {
+          "te": "గోపాలకృష్ణ గోఖలే",
+          "en": "Gopal Krishna Gokhale"
+        },
+        {
+          "te": "దాదాభాయ్ నౌరోజీ",
+          "en": "Dadabhai Naoroji"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "సుభాష్ చంద్రబోస్ ఆజాద్ హింద్ ఫౌజ్‌కు నాయకత్వం వహించి దాని కార్యకలాపాలను విస్తరించారు.",
+        "en": "Subhas Chandra Bose led the Indian National Army and expanded its activities."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q17",
+      "section": "history",
+      "question": {
+        "te": "భారత ప్రభుత్వ చట్టం 1935లో ప్రావిన్షియల్ స్వయంపాలనకు సంబంధించిన ముఖ్యాంశం ఏది?",
+        "en": "Which was a key feature of the Government of India Act, 1935?"
+      },
+      "options": [
+        {
+          "te": "కేంద్రంలో తక్షణ గణతంత్రం",
+          "en": "Immediate republic at the Centre"
+        },
+        {
+          "te": "ప్రావిన్షియల్ స్వయంపాలన",
+          "en": "Provincial autonomy"
+        },
+        {
+          "te": "సార్వత్రిక వయోజన ఓటుహక్కు",
+          "en": "Universal adult franchise"
+        },
+        {
+          "te": "రాజ్యాంగ సభ ఏర్పాటు",
+          "en": "Constituent Assembly"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "1935 చట్టం ప్రావిన్సుల్లో ద్వంద్వ పాలనను రద్దు చేసి ప్రావిన్షియల్ స్వయంపాలనను ప్రవేశపెట్టింది.",
+        "en": "The 1935 Act abolished dyarchy in the provinces and introduced provincial autonomy."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q18",
+      "section": "history",
+      "question": {
+        "te": "వేదాల్లో అత్యంత ప్రాచీనమైనది ఏది?",
+        "en": "Which is the oldest of the Vedas?"
+      },
+      "options": [
+        {
+          "te": "సామవేదం",
+          "en": "Samaveda"
+        },
+        {
+          "te": "యజుర్వేదం",
+          "en": "Yajurveda"
+        },
+        {
+          "te": "ఋగ్వేదం",
+          "en": "Rigveda"
+        },
+        {
+          "te": "అథర్వవేదం",
+          "en": "Atharvaveda"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "ఋగ్వేదం నాలుగు వేదాల్లో అత్యంత ప్రాచీనమైనదిగా పరిగణించబడుతుంది.",
+        "en": "The Rigveda is regarded as the oldest of the four Vedas."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q19",
+      "section": "history",
+      "question": {
+        "te": "బౌద్ధమత స్థాపకుడిగా ఎవరిని పరిగణిస్తారు?",
+        "en": "Who is regarded as the founder of Buddhism?"
+      },
+      "options": [
+        {
+          "te": "మహావీరుడు",
+          "en": "Mahavira"
+        },
+        {
+          "te": "గౌతమ బుద్ధుడు",
+          "en": "Gautama Buddha"
+        },
+        {
+          "te": "అశోకుడు",
+          "en": "Ashoka"
+        },
+        {
+          "te": "నాగార్జునుడు",
+          "en": "Nagarjuna"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "గౌతమ బుద్ధుడు బౌద్ధమత బోధనలకు పునాది వేశారు.",
+        "en": "Gautama Buddha established the teachings that formed the basis of Buddhism."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q20",
+      "section": "history",
+      "question": {
+        "te": "జైనమతంలోని 24వ తీర్థంకరుడు ఎవరు?",
+        "en": "Who was the 24th Tirthankara of Jainism?"
+      },
+      "options": [
+        {
+          "te": "ఋషభనాథుడు",
+          "en": "Rishabhanatha"
+        },
+        {
+          "te": "పార్శ్వనాథుడు",
+          "en": "Parshvanatha"
+        },
+        {
+          "te": "మహావీరుడు",
+          "en": "Mahavira"
+        },
+        {
+          "te": "నేమినాథుడు",
+          "en": "Neminatha"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "వర్ధమాన మహావీరుడు జైన సంప్రదాయంలో 24వ తీర్థంకరుడు.",
+        "en": "Vardhamana Mahavira is the 24th Tirthankara in the Jain tradition."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q21",
+      "section": "geography",
+      "question": {
+        "te": "కర్కాటక రేఖ భారతదేశంలోని ఎన్ని రాష్ట్రాల గుండా వెళుతుంది?",
+        "en": "Through how many Indian states does the Tropic of Cancer pass?"
+      },
+      "options": [
+        {
+          "te": "6",
+          "en": "6"
+        },
+        {
+          "te": "7",
+          "en": "7"
+        },
+        {
+          "te": "8",
+          "en": "8"
+        },
+        {
+          "te": "9",
+          "en": "9"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "కర్కాటక రేఖ భారతదేశంలోని 8 రాష్ట్రాల గుండా వెళుతుంది.",
+        "en": "The Tropic of Cancer passes through eight Indian states."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q22",
+      "section": "geography",
+      "question": {
+        "te": "భారతదేశంలో పొడవైన తీరరేఖ కలిగిన రాష్ట్రం ఏది?",
+        "en": "Which Indian state has the longest coastline?"
+      },
+      "options": [
+        {
+          "te": "తమిళనాడు",
+          "en": "Tamil Nadu"
+        },
+        {
+          "te": "గుజరాత్",
+          "en": "Gujarat"
+        },
+        {
+          "te": "ఆంధ్రప్రదేశ్",
+          "en": "Andhra Pradesh"
+        },
+        {
+          "te": "మహారాష్ట్ర",
+          "en": "Maharashtra"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "గుజరాత్‌కు భారత రాష్ట్రాల్లో అత్యంత పొడవైన తీరరేఖ ఉంది.",
+        "en": "Gujarat has the longest coastline among Indian states."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q23",
+      "section": "geography",
+      "question": {
+        "te": "నర్మదా నది ప్రధానంగా ఏ దిశగా ప్రవహిస్తుంది?",
+        "en": "In which direction does the Narmada River mainly flow?"
+      },
+      "options": [
+        {
+          "te": "తూర్పు",
+          "en": "East"
+        },
+        {
+          "te": "పడమర",
+          "en": "West"
+        },
+        {
+          "te": "ఉత్తరం",
+          "en": "North"
+        },
+        {
+          "te": "దక్షిణం",
+          "en": "South"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "నర్మదా మధ్య భారతదేశం నుంచి పడమర దిశగా ప్రవహించి అరేబియా సముద్రంలో కలుస్తుంది.",
+        "en": "The Narmada flows westward across central India and drains into the Arabian Sea."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q24",
+      "section": "geography",
+      "question": {
+        "te": "హిమాలయాలు ఏ రకమైన పర్వతాలు?",
+        "en": "The Himalayas are what type of mountains?"
+      },
+      "options": [
+        {
+          "te": "అగ్నిపర్వత పర్వతాలు",
+          "en": "Volcanic mountains"
+        },
+        {
+          "te": "మడత పర్వతాలు",
+          "en": "Fold mountains"
+        },
+        {
+          "te": "అవశిష్ట పర్వతాలు",
+          "en": "Residual mountains"
+        },
+        {
+          "te": "బ్లాక్ పర్వతాలు",
+          "en": "Block mountains"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "భారత, యూరేషియా పలకల ఢీకొనడం వల్ల ఏర్పడిన యువ మడత పర్వతాలు హిమాలయాలు.",
+        "en": "The Himalayas are young fold mountains formed by the collision of the Indian and Eurasian plates."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q25",
+      "section": "geography",
+      "question": {
+        "te": "భారతదేశంలో అత్యంత విస్తృతంగా కనిపించే నేల రకం ఏది?",
+        "en": "Which soil type is most widespread in India?"
+      },
+      "options": [
+        {
+          "te": "ఎర్ర నేల",
+          "en": "Red soil"
+        },
+        {
+          "te": "ఒండ్రు నేల",
+          "en": "Alluvial soil"
+        },
+        {
+          "te": "నల్ల నేల",
+          "en": "Black soil"
+        },
+        {
+          "te": "లేటరైట్ నేల",
+          "en": "Laterite soil"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ఉత్తర భారత మైదానాలు మరియు అనేక నదీ లోయల్లో ఒండ్రు నేల విస్తృతంగా ఉంది.",
+        "en": "Alluvial soil is widespread across the northern plains and many river valleys."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q26",
+      "section": "geography",
+      "question": {
+        "te": "ఎల్ నినో సంఘటన ఏ మహాసముద్రంలోని ఉపరితల జలాల వేడెక్కుదలతో సంబంధం కలిగి ఉంటుంది?",
+        "en": "El Niño is associated with warming of surface waters in which ocean?"
+      },
+      "options": [
+        {
+          "te": "అట్లాంటిక్",
+          "en": "Atlantic"
+        },
+        {
+          "te": "భారత",
+          "en": "Indian"
+        },
+        {
+          "te": "మధ్య మరియు తూర్పు ఉష్ణమండల పసిఫిక్",
+          "en": "Central and eastern tropical Pacific"
+        },
+        {
+          "te": "ఆర్కిటిక్",
+          "en": "Arctic"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "ఎల్ నినో మధ్య, తూర్పు ఉష్ణమండల పసిఫిక్ సముద్ర ఉపరితల జలాల అసాధారణ వేడెక్కుదల.",
+        "en": "El Niño is the abnormal warming of surface waters in the central and eastern tropical Pacific."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q27",
+      "section": "geography",
+      "question": {
+        "te": "భూకంప తీవ్రతను కొలవడానికి సాధారణంగా ఉపయోగించే ఆధునిక పరిమాణం ఏది?",
+        "en": "Which modern magnitude measure is commonly used for earthquakes?"
+      },
+      "options": [
+        {
+          "te": "మోహ్స్ స్కేలు",
+          "en": "Mohs scale"
+        },
+        {
+          "te": "మొమెంట్ మాగ్నిట్యూడ్",
+          "en": "Moment magnitude"
+        },
+        {
+          "te": "బ్యూఫోర్ట్ స్కేలు",
+          "en": "Beaufort scale"
+        },
+        {
+          "te": "సెల్సియస్",
+          "en": "Celsius"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "మొమెంట్ మాగ్నిట్యూడ్ (Mw) భూకంప పరిమాణాన్ని అంచనా వేయడానికి విస్తృతంగా ఉపయోగిస్తారు.",
+        "en": "Moment magnitude (Mw) is widely used to quantify earthquake size."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q28",
+      "section": "geography",
+      "question": {
+        "te": "డెల్టా సాధారణంగా నది ఏ ప్రాంతంలో ఏర్పడుతుంది?",
+        "en": "A delta generally forms where a river enters which area?"
+      },
+      "options": [
+        {
+          "te": "పర్వత శిఖరం",
+          "en": "Mountain summit"
+        },
+        {
+          "te": "సముద్రం లేదా సరస్సు",
+          "en": "Sea or lake"
+        },
+        {
+          "te": "ఎడారి మధ్య",
+          "en": "Middle of a desert"
+        },
+        {
+          "te": "నదీ మూలం",
+          "en": "River source"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "నది సముద్రం లేదా సరస్సులో కలిసే ముందు అవక్షేపాలను పేరుకుపోయేలా చేస్తే డెల్టా ఏర్పడుతుంది.",
+        "en": "A delta forms when a river deposits sediment as it enters a sea or lake."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q29",
+      "section": "economy",
+      "question": {
+        "te": "భారతదేశంలో ద్రవ్య విధాన కమిటీ (MPC)లో మొత్తం ఎన్ని సభ్యులు ఉంటారు?",
+        "en": "How many members are there in India's Monetary Policy Committee (MPC)?"
+      },
+      "options": [
+        {
+          "te": "4",
+          "en": "4"
+        },
+        {
+          "te": "5",
+          "en": "5"
+        },
+        {
+          "te": "6",
+          "en": "6"
+        },
+        {
+          "te": "7",
+          "en": "7"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "ద్రవ్య విధాన కమిటీలో ఆరుగురు సభ్యులు ఉంటారు; వీరిలో ముగ్గురిని RBI నుంచి, ముగ్గురిని కేంద్ర ప్రభుత్వం నియమిస్తుంది.",
+        "en": "The MPC has six members: three from the RBI and three appointed by the Central Government."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q30",
+      "section": "economy",
+      "question": {
+        "te": "ప్రత్యక్ష పన్నుకు ఉదాహరణ ఏది?",
+        "en": "Which is an example of a direct tax?"
+      },
+      "options": [
+        {
+          "te": "GST",
+          "en": "GST"
+        },
+        {
+          "te": "కస్టమ్స్ సుంకం",
+          "en": "Customs duty"
+        },
+        {
+          "te": "వ్యక్తిగత ఆదాయపు పన్ను",
+          "en": "Personal income tax"
+        },
+        {
+          "te": "ఎక్సైజ్ సుంకం",
+          "en": "Excise duty"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "వ్యక్తి ఆదాయంపై నేరుగా విధించే ఆదాయపు పన్ను ప్రత్యక్ష పన్ను.",
+        "en": "Income tax is a direct tax levied directly on a person's income."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q31",
+      "section": "economy",
+      "question": {
+        "te": "భారతదేశంలో జాతీయ ఆదాయ అంచనాలను ప్రస్తుతం ఏ సంస్థ విడుదల చేస్తుంది?",
+        "en": "Which institution currently releases India's national income estimates?"
+      },
+      "options": [
+        {
+          "te": "RBI",
+          "en": "RBI"
+        },
+        {
+          "te": "NSO",
+          "en": "NSO"
+        },
+        {
+          "te": "SEBI",
+          "en": "SEBI"
+        },
+        {
+          "te": "NITI Aayog",
+          "en": "NITI Aayog"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "జాతీయ గణాంక కార్యాలయం (NSO), గణాంకాలు మరియు కార్యక్రమ అమలు మంత్రిత్వ శాఖ పరిధిలో జాతీయ ఆదాయ అంచనాలను విడుదల చేస్తుంది.",
+        "en": "The National Statistical Office (NSO), under MoSPI, releases national income estimates."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q32",
+      "section": "economy",
+      "question": {
+        "te": "చెల్లింపుల సమతుల్యత (Balance of Payments)లో ఏవి నమోదవుతాయి?",
+        "en": "What does the Balance of Payments record?"
+      },
+      "options": [
+        {
+          "te": "దేశీయ పన్నులు మాత్రమే",
+          "en": "Domestic taxes only"
+        },
+        {
+          "te": "దేశం మరియు మిగతా ప్రపంచం మధ్య ఆర్థిక లావాదేవీలు",
+          "en": "Economic transactions between a country and the rest of the world"
+        },
+        {
+          "te": "ప్రభుత్వ ఉద్యోగుల జీతాలు",
+          "en": "Government salaries"
+        },
+        {
+          "te": "వ్యవసాయ ఉత్పత్తి మాత్రమే",
+          "en": "Agricultural output only"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ఒక దేశ నివాసులు, విదేశీ నివాసుల మధ్య జరిగిన ఆర్థిక లావాదేవీలను చెల్లింపుల సమతుల్యత నమోదు చేస్తుంది.",
+        "en": "The Balance of Payments records economic transactions between residents of a country and the rest of the world."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q33",
+      "section": "economy",
+      "question": {
+        "te": "ద్రవ్య విధానంలో CRR అంటే ఏమిటి?",
+        "en": "What does CRR mean in monetary policy?"
+      },
+      "options": [
+        {
+          "te": "బ్యాంకులు RBI వద్ద నగదు నిల్వగా ఉంచాల్సిన నిష్పత్తి",
+          "en": "Share of deposits banks must keep as cash with RBI"
+        },
+        {
+          "te": "ప్రభుత్వ పన్ను రేటు",
+          "en": "Government tax rate"
+        },
+        {
+          "te": "విదేశీ మారకపు రేటు",
+          "en": "Foreign exchange rate"
+        },
+        {
+          "te": "బ్యాంకు లాభాల నిష్పత్తి",
+          "en": "Bank profit ratio"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "నగదు నిల్వ నిష్పత్తి ప్రకారం బ్యాంకులు తమ నికర డిమాండ్, కాలబద్ధ బాధ్యతలలో నిర్దిష్ట భాగాన్ని RBI వద్ద నగదుగా ఉంచాలి.",
+        "en": "Under CRR, banks must keep a prescribed share of their net demand and time liabilities as cash with the RBI."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q34",
+      "section": "economy",
+      "question": {
+        "te": "భారతదేశంలో పేదరిక అంచనాలకు సంబంధించిన నిపుణుల కమిటీతో అనుబంధం కలిగిన పేరు ఏది?",
+        "en": "Which name is associated with an expert committee on poverty estimation in India?"
+      },
+      "options": [
+        {
+          "te": "తెండుల్కర్ కమిటీ",
+          "en": "Tendulkar Committee"
+        },
+        {
+          "te": "సర్కారియా కమిటీ",
+          "en": "Sarkaria Commission"
+        },
+        {
+          "te": "పుంచి కమిషన్",
+          "en": "Punchhi Commission"
+        },
+        {
+          "te": "బల్వంత్ రాయ్ మెహతా కమిటీ",
+          "en": "Balwant Rai Mehta Committee"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "సురేష్ తెండుల్కర్ కమిటీ భారతదేశ పేదరిక అంచనా పద్ధతులపై ముఖ్యమైన సిఫారసులు చేసింది.",
+        "en": "The Suresh Tendulkar Committee made influential recommendations on poverty estimation in India."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q35",
+      "section": "economy",
+      "question": {
+        "te": "మానవ అభివృద్ధి సూచిక (HDI)లో సాధారణంగా ఏ అంశాలు ఉంటాయి?",
+        "en": "Which dimensions are included in the Human Development Index (HDI)?"
+      },
+      "options": [
+        {
+          "te": "ఆరోగ్యం, విద్య, జీవన ప్రమాణం",
+          "en": "Health, education and standard of living"
+        },
+        {
+          "te": "ఎగుమతులు, దిగుమతులు, పన్నులు",
+          "en": "Exports, imports and taxes"
+        },
+        {
+          "te": "జనాభా, విస్తీర్ణం, వర్షపాతం",
+          "en": "Population, area and rainfall"
+        },
+        {
+          "te": "సైనిక వ్యయం, అప్పులు, ద్రవ్యోల్బణం",
+          "en": "Defence spending, debt and inflation"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "HDI ఆరోగ్యం, విద్య, తలసరి స్థూల జాతీయ ఆదాయం ఆధారంగా జీవన ప్రమాణాన్ని కొలుస్తుంది.",
+        "en": "HDI measures human development through health, education and gross national income per capita."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q36",
+      "section": "environment",
+      "question": {
+        "te": "మాంట్రియల్ ప్రోటోకాల్ ప్రధానంగా ఏ పదార్థాల నియంత్రణకు సంబంధించినది?",
+        "en": "The Montreal Protocol primarily controls which substances?"
+      },
+      "options": [
+        {
+          "te": "గ్రీన్‌హౌస్ వాయువులన్నీ",
+          "en": "All greenhouse gases"
+        },
+        {
+          "te": "ఓజోన్ పొరను క్షీణింపజేసే పదార్థాలు",
+          "en": "Ozone-depleting substances"
+        },
+        {
+          "te": "సముద్ర ప్లాస్టిక్",
+          "en": "Marine plastics"
+        },
+        {
+          "te": "పాదరసం ఉద్గారాలు",
+          "en": "Mercury emissions"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ఓజోన్ పొరను క్షీణింపజేసే పదార్థాల ఉత్పత్తి, వినియోగాన్ని తగ్గించేందుకు మాంట్రియల్ ప్రోటోకాల్ రూపొందించబడింది.",
+        "en": "The Montreal Protocol phases down the production and consumption of ozone-depleting substances."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q37",
+      "section": "environment",
+      "question": {
+        "te": "పారిస్ ఒప్పందం ఏ సంవత్సరంలో ఆమోదించబడింది?",
+        "en": "In which year was the Paris Agreement adopted?"
+      },
+      "options": [
+        {
+          "te": "2009",
+          "en": "2009"
+        },
+        {
+          "te": "2012",
+          "en": "2012"
+        },
+        {
+          "te": "2015",
+          "en": "2015"
+        },
+        {
+          "te": "2020",
+          "en": "2020"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "UNFCCC COP21లో 2015 డిసెంబర్‌లో పారిస్ ఒప్పందం ఆమోదించబడింది.",
+        "en": "The Paris Agreement was adopted in December 2015 at UNFCCC COP21."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q38",
+      "section": "environment",
+      "question": {
+        "te": "IUCN రెడ్ లిస్ట్ ప్రధానంగా దేనిని అంచనా వేస్తుంది?",
+        "en": "What does the IUCN Red List primarily assess?"
+      },
+      "options": [
+        {
+          "te": "దేశాల ఆర్థిక వృద్ధి",
+          "en": "Economic growth of countries"
+        },
+        {
+          "te": "జాతుల అంతరించిపోయే ప్రమాద స్థితి",
+          "en": "Extinction risk of species"
+        },
+        {
+          "te": "నదుల నీటి నాణ్యత",
+          "en": "River water quality"
+        },
+        {
+          "te": "అడవుల వాణిజ్య విలువ",
+          "en": "Commercial value of forests"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "IUCN రెడ్ లిస్ట్ జాతుల ప్రపంచవ్యాప్త సంరక్షణ స్థితి, అంతరించిపోయే ప్రమాదాన్ని అంచనా వేస్తుంది.",
+        "en": "The IUCN Red List assesses the global conservation status and extinction risk of species."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q39",
+      "section": "environment",
+      "question": {
+        "te": "బయోమాగ్నిఫికేషన్ అంటే ఏమిటి?",
+        "en": "What is biomagnification?"
+      },
+      "options": [
+        {
+          "te": "ఆహార గొలుసులో పైస్థాయిలకు వెళ్లేకొద్దీ కొన్ని విషపదార్థాల సాంద్రత పెరగడం",
+          "en": "Increase in concentration of certain pollutants at higher trophic levels"
+        },
+        {
+          "te": "మొక్కల వేగవంతమైన పెరుగుదల",
+          "en": "Rapid plant growth"
+        },
+        {
+          "te": "మట్టిలో నీటి నిల్వ",
+          "en": "Water storage in soil"
+        },
+        {
+          "te": "జాతుల సంఖ్య తగ్గడం మాత్రమే",
+          "en": "Only a decline in species numbers"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "ఆహార గొలుసులో పై ట్రోఫిక్ స్థాయిలకు చేరేకొద్దీ కొన్ని స్థిరమైన కాలుష్యకారకాల సాంద్రత పెరుగుతుంది.",
+        "en": "Some persistent pollutants become more concentrated at higher trophic levels in a food chain."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q40",
+      "section": "environment",
+      "question": {
+        "te": "భారతదేశ జీవ వైవిధ్య చట్టం ఏ సంవత్సరంలో ఆమోదించబడింది?",
+        "en": "In which year was India's Biological Diversity Act enacted?"
+      },
+      "options": [
+        {
+          "te": "1992",
+          "en": "1992"
+        },
+        {
+          "te": "2000",
+          "en": "2000"
+        },
+        {
+          "te": "2002",
+          "en": "2002"
+        },
+        {
+          "te": "2006",
+          "en": "2006"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "భారత జీవ వైవిధ్య చట్టం 2002లో ఆమోదించబడింది.",
+        "en": "India's Biological Diversity Act was enacted in 2002."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q41",
+      "section": "environment",
+      "question": {
+        "te": "కార్బన్ సింక్‌కు ఉదాహరణ ఏది?",
+        "en": "Which is an example of a carbon sink?"
+      },
+      "options": [
+        {
+          "te": "అడవి",
+          "en": "Forest"
+        },
+        {
+          "te": "బొగ్గు దహనం",
+          "en": "Coal combustion"
+        },
+        {
+          "te": "సిమెంట్ కర్మాగార ఉద్గారం",
+          "en": "Cement plant emissions"
+        },
+        {
+          "te": "వాహన ఎగ్జాస్ట్",
+          "en": "Vehicle exhaust"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "అడవులు కిరణజన్య సంయోగక్రియ ద్వారా వాతావరణం నుంచి కార్బన్ డయాక్సైడ్‌ను గ్రహించి కార్బన్ నిల్వ చేస్తాయి.",
+        "en": "Forests absorb carbon dioxide through photosynthesis and store carbon."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q42",
+      "section": "science",
+      "question": {
+        "te": "DNA ద్విసర్పిల నమూనాను ప్రతిపాదించిన శాస్త్రవేత్తలు ఎవరు?",
+        "en": "Which scientists proposed the double-helix model of DNA?"
+      },
+      "options": [
+        {
+          "te": "డార్విన్, వాలెస్",
+          "en": "Darwin and Wallace"
+        },
+        {
+          "te": "వాట్సన్, క్రిక్",
+          "en": "Watson and Crick"
+        },
+        {
+          "te": "న్యూటన్, గెలీలియో",
+          "en": "Newton and Galileo"
+        },
+        {
+          "te": "మెండల్, పాశ్చర్",
+          "en": "Mendel and Pasteur"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "జేమ్స్ వాట్సన్, ఫ్రాన్సిస్ క్రిక్ 1953లో DNA ద్విసర్పిల నమూనాను ప్రతిపాదించారు; రోసలిండ్ ఫ్రాంక్లిన్, మారిస్ విల్కిన్స్ కృషి కీలకం.",
+        "en": "James Watson and Francis Crick proposed the DNA double-helix model in 1953; Rosalind Franklin and Maurice Wilkins made crucial contributions."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q43",
+      "section": "science",
+      "question": {
+        "te": "pH విలువ 7 కంటే తక్కువగా ఉంటే ద్రావణం సాధారణంగా ఎలా ఉంటుంది?",
+        "en": "A solution with a pH below 7 is generally what?"
+      },
+      "options": [
+        {
+          "te": "క్షార ధర్మం",
+          "en": "Basic"
+        },
+        {
+          "te": "ఆమ్ల ధర్మం",
+          "en": "Acidic"
+        },
+        {
+          "te": "తటస్థం",
+          "en": "Neutral"
+        },
+        {
+          "te": "లోహ ధర్మం",
+          "en": "Metallic"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "25°C వద్ద pH 7 కంటే తక్కువగా ఉంటే ద్రావణం ఆమ్ల ధర్మాన్ని చూపుతుంది.",
+        "en": "At 25°C, a pH below 7 indicates an acidic solution."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q44",
+      "section": "science",
+      "question": {
+        "te": "ఇన్సులిన్‌ను ఉత్పత్తి చేసే అవయవం ఏది?",
+        "en": "Which organ produces insulin?"
+      },
+      "options": [
+        {
+          "te": "కాలేయం",
+          "en": "Liver"
+        },
+        {
+          "te": "క్లోమం",
+          "en": "Pancreas"
+        },
+        {
+          "te": "మూత్రపిండం",
+          "en": "Kidney"
+        },
+        {
+          "te": "థైరాయిడ్",
+          "en": "Thyroid"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "క్లోమంలోని లాంగర్‌హాన్స్ దీవుల్లోని బీటా కణాలు ఇన్సులిన్‌ను ఉత్పత్తి చేస్తాయి.",
+        "en": "Beta cells in the pancreatic islets of Langerhans produce insulin."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q45",
+      "section": "science",
+      "question": {
+        "te": "ప్రకాశ సంయోగక్రియలో విడుదలయ్యే ఆక్సిజన్ ప్రధానంగా ఏ పదార్థం నుంచి వస్తుంది?",
+        "en": "In photosynthesis, the released oxygen comes primarily from which substance?"
+      },
+      "options": [
+        {
+          "te": "కార్బన్ డయాక్సైడ్",
+          "en": "Carbon dioxide"
+        },
+        {
+          "te": "నీరు",
+          "en": "Water"
+        },
+        {
+          "te": "గ్లూకోజ్",
+          "en": "Glucose"
+        },
+        {
+          "te": "క్లోరోఫిల్",
+          "en": "Chlorophyll"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ప్రకాశ దశలో నీటి విచ్ఛేదనం వల్ల ఆక్సిజన్ విడుదలవుతుంది.",
+        "en": "Oxygen is released by the splitting of water during the light reactions."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q46",
+      "section": "science",
+      "question": {
+        "te": "విద్యుత్ నిరోధానికి SI ప్రమాణం ఏది?",
+        "en": "What is the SI unit of electrical resistance?"
+      },
+      "options": [
+        {
+          "te": "అంపియర్",
+          "en": "Ampere"
+        },
+        {
+          "te": "వోల్ట్",
+          "en": "Volt"
+        },
+        {
+          "te": "ఓమ్",
+          "en": "Ohm"
+        },
+        {
+          "te": "వాట్",
+          "en": "Watt"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "విద్యుత్ నిరోధానికి SI ప్రమాణం ఓమ్ (Ω).",
+        "en": "The SI unit of electrical resistance is the ohm (Ω)."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q47",
+      "section": "science",
+      "question": {
+        "te": "టీకాలు సాధారణంగా ఏ విధంగా రోగనిరోధక శక్తిని కల్పిస్తాయి?",
+        "en": "How do vaccines generally provide immunity?"
+      },
+      "options": [
+        {
+          "te": "ఎర్ర రక్త కణాలను నాశనం చేయడం ద్వారా",
+          "en": "By destroying red blood cells"
+        },
+        {
+          "te": "రోగనిరోధక వ్యవస్థను నిర్దిష్ట యాంటిజెన్‌ను గుర్తించేలా శిక్షణ ఇవ్వడం ద్వారా",
+          "en": "By training the immune system to recognize a specific antigen"
+        },
+        {
+          "te": "శరీర ఉష్ణోగ్రతను పెంచడం ద్వారా",
+          "en": "By raising body temperature"
+        },
+        {
+          "te": "జీర్ణక్రియను ఆపడం ద్వారా",
+          "en": "By stopping digestion"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "టీకాలు యాంటిజెన్‌ను పరిచయం చేసి రోగనిరోధక ప్రతిస్పందన, జ్ఞాపక కణాల ఏర్పాటుకు దోహదం చేస్తాయి.",
+        "en": "Vaccines expose the immune system to an antigen and help generate an immune response and memory cells."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q48",
+      "section": "science",
+      "question": {
+        "te": "కాంతి వేగం శూన్యంలో సుమారు ఎంత?",
+        "en": "What is the approximate speed of light in vacuum?"
+      },
+      "options": [
+        {
+          "te": "3 × 10⁶ m/s",
+          "en": "3 × 10⁶ m/s"
+        },
+        {
+          "te": "3 × 10⁸ m/s",
+          "en": "3 × 10⁸ m/s"
+        },
+        {
+          "te": "3 × 10¹⁰ m/s",
+          "en": "3 × 10¹⁰ m/s"
+        },
+        {
+          "te": "3 × 10⁴ m/s",
+          "en": "3 × 10⁴ m/s"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "శూన్యంలో కాంతి వేగం సుమారు 3 × 10⁸ మీటర్లు/సెకను.",
+        "en": "The speed of light in vacuum is approximately 3 × 10⁸ metres per second."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q49",
+      "section": "science",
+      "question": {
+        "te": "మానవ శరీరంలో రక్తాన్ని వడపోసి మూత్రం తయారు చేసే ప్రధాన అవయవాలు ఏవి?",
+        "en": "Which organs primarily filter blood and produce urine?"
+      },
+      "options": [
+        {
+          "te": "ఊపిరితిత్తులు",
+          "en": "Lungs"
+        },
+        {
+          "te": "మూత్రపిండాలు",
+          "en": "Kidneys"
+        },
+        {
+          "te": "గుండె",
+          "en": "Heart"
+        },
+        {
+          "te": "ప్లీహం",
+          "en": "Spleen"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "మూత్రపిండాల్లోని నెఫ్రాన్లు రక్తాన్ని వడపోసి మూత్రం ఏర్పడటంలో కీలక పాత్ర పోషిస్తాయి.",
+        "en": "Nephrons in the kidneys filter blood and play the key role in urine formation."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "UPSC-S02-Q50",
+      "section": "science",
+      "question": {
+        "te": "ఒక వస్తువు వేగం మారకపోయినా దిశ మారితే దానికి త్వరణం ఉంటుందా?",
+        "en": "Does an object accelerate if its direction changes even when its speed stays constant?"
+      },
+      "options": [
+        {
+          "te": "లేదు",
+          "en": "No"
+        },
+        {
+          "te": "అవును",
+          "en": "Yes"
+        },
+        {
+          "te": "కేవలం నిలిచినప్పుడు",
+          "en": "Only when at rest"
+        },
+        {
+          "te": "ద్రవ్యరాశి సున్నా అయితే మాత్రమే",
+          "en": "Only if mass is zero"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "త్వరణం వేగవేగం (velocity) మార్పు రేటు. దిశ మారినా velocity మారుతుంది; కాబట్టి త్వరణం ఉంటుంది.",
+        "en": "Acceleration is the rate of change of velocity. A change in direction changes velocity, so acceleration exists."
+      },
+      "difficulty": "medium"
+    }
+  ]
+}
