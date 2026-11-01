@@ -214,12 +214,39 @@ function openCourseVideos(c){document.getElementById('videoCourse').value=c;load
 function openCourseBooks(c){document.getElementById('bookCourse').value=c;loadBooks();show('books');}
 
 /* Add real YouTube video IDs here */
-const academyVideos={
-upsc:[{title:'UPSC - Indian Polity | Lesson 01',id:'ZVh34-phurY'}],
-tgpsc:[],
-police:[],
-school:[],
-navodaya:[]
+
+const academyVideos = {
+  government: [
+    { title: "Government Employees - Lesson 01", id: "BbFzv49GnQ0" },
+    { title: "Government Employees - Lesson 02", id: "62sgp1T4UCs" },
+    { title: "Government Employees - Lesson 03", id: "JufnPLd3Giw" },
+    { title: "Government Employees - Lesson 04", id: "zwhLSy5kBb0" },
+    { title: "Government Employees - Lesson 05", id: "4hJh0jrM_h8" },
+    { title: "Government Employees - Lesson 06", id: "pWqlQ0nwDSY" },
+    { title: "Government Employees - Lesson 07", id: "JKwRiKHZPlY" },
+    { title: "Government Employees - Lesson 08", id: "7aqT4iVQplk" },
+    { title: "Government Employees - Lesson 09", id: "bmQS34uYMIM" },
+    { title: "Government Employees - Lesson 10", id: "6JNV8lAshNg" },
+    { title: "Government Employees - Lesson 11", id: "FYWjY7aqC_k" },
+    { title: "Government Employees - Lesson 12", id: "Lgb-_cyjRX8" }
+  ],
+
+  upsc: [
+    { title: "UPSC - Lesson 01", id: "rNa8pRqHeiI" },
+    { title: "UPSC - Lesson 02", id: "oq3NHQltTic" },
+    { title: "UPSC - Lesson 03", id: "UXgZBVFo5mk" },
+    { title: "Indian Polity - Lesson 04", id: "ZVh34-phurY" },
+    { title: "Indian History - Lesson 05", id: "0jnP7E4RnFY" }
+  ],
+
+  tgpsc: [
+    { title: "TGPSC - Lesson 01", id: "3k5a-c4-RuE" },
+    { title: "TGPSC - Lesson 02", id: "qH_vWB_hNiI" }
+  ],
+
+  police: [],
+  school: [],
+  navodaya: []
 };
 let selectedVideo=null;
 function loadVideos(){
