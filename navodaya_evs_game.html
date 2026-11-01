@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#123b78">
+<title>MASTER MINDS ACADEMY | Navodaya EVS Game</title>
+<style>
+:root{--navy:#123568;--blue:#1769d2;--cyan:#13aebe;--ink:#193451;--muted:#657994;--bg:#f1f7ff;--line:#dce8f5;--green:#16834a;--red:#c0392b}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,"Noto Sans Telugu",sans-serif;background:linear-gradient(135deg,#edf5ff,#f9fcff);color:var(--ink)}
+header{background:linear-gradient(120deg,#102953,#1769b5,#12a6b8);color:white;padding:25px 15px;text-align:center}
+header h1{font-size:clamp(23px,5vw,35px);margin:0 0 8px}header p{margin:5px 0;color:#e5f6ff}
+main{max-width:1000px;margin:20px auto;padding:0 14px 28px}
+.panel{background:white;border:1px solid var(--line);border-radius:20px;padding:19px;margin:14px 0;box-shadow:0 10px 28px #123b7810}
+h2{color:var(--navy);margin:5px 0 10px}.muted{color:var(--muted);line-height:1.55}
+.categories{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-top:16px}
+.category{border:2px solid var(--line);background:#f8fbff;border-radius:16px;padding:17px;text-align:left;font-size:16px;font-weight:bold;color:var(--navy);cursor:pointer}
+.category:hover{border-color:var(--cyan);background:#effcff}.emoji{font-size:31px;display:block;margin-bottom:8px}
+.game{display:none}.top{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.pill{background:#edf4ff;padding:8px 12px;border-radius:30px;font-weight:bold;font-size:13px}
+.progress{height:10px;background:#e6edf6;border-radius:20px;overflow:hidden;margin:15px 0}.bar{height:100%;width:0;background:linear-gradient(90deg,var(--blue),var(--cyan))}
+.question{font-size:clamp(20px,4vw,27px);font-weight:bold;text-align:center;line-height:1.5;color:var(--navy);margin:22px 0 16px}
+.passage{background:#f1f7ff;border-left:4px solid var(--cyan);padding:14px;border-radius:10px;line-height:1.7;margin:14px 0}
+.options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.option{border:2px solid var(--line);background:#fff;border-radius:13px;padding:14px;text-align:left;font-size:16px;font-weight:bold;color:var(--ink);cursor:pointer;min-height:58px}
+.option:hover:not(:disabled){border-color:var(--blue);background:#f3f8ff}.option:disabled{cursor:default}.option.correct{background:#e7f8ed;border-color:#24a45a}.option.wrong{background:#fff0ee;border-color:#dc665b}
+.feedback{text-align:center;min-height:56px;padding:14px 4px;font-weight:bold;line-height:1.5}
+.actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+.btn{border:0;border-radius:30px;padding:12px 20px;background:var(--blue);color:white;font-size:15px;font-weight:bold;cursor:pointer}.btn.secondary{background:#eaf1fb;color:var(--navy)}.btn:disabled{opacity:.45}
+.result{text-align:center;display:none}.result .big{font-size:60px}
+footer{text-align:center;color:var(--muted);padding:18px;font-size:13px}
+@media(max-width:560px){.options{grid-template-columns:1fr}.panel{padding:15px}.category{padding:14px}}
+</style>
+</head>
+<body>
+<header>
+<h1>🎓 MASTER MINDS ACADEMY</h1>
+<h2 style="color:white;margin:0">NAVODAYA CLASS 6 – EVS GAME</h2>
+<p>TIRYANI • KUMRAM BHEEM ASIFABAD • TELANGANA</p>
+<p>ఆడుతూ నేర్చుకుందాం! Learn • Play • Achieve</p>
+</header>
+<main>
+<section class="panel" id="home">
+<h2>🌿 EVS Learning Adventure</h2>
+<p class="muted">ఒక గేమ్ ఎంచుకోండి. ప్రశ్న చదివి సరైన సమాధానాన్ని ఎంచుకోండి. ప్రతి సరైన సమాధానానికి 1 పాయింట్.</p>
+<div class="categories" id="categories"></div>
+</section>
+<section class="panel game" id="game">
+<div class="top"><span class="pill" id="gameName">EVS Game</span><span class="pill" id="score">⭐ Score: 0</span><span class="pill" id="counter">1 / 5</span></div>
+<div class="progress"><div class="bar" id="bar"></div></div>
+<div id="passage"></div>
+<div class="question" id="question"></div>
+<div class="options" id="options"></div>
+<div class="feedback" id="feedback" aria-live="polite"></div>
+<div class="actions"><button class="btn secondary" onclick="goHome()">← All Games</button><button class="btn" id="next" onclick="nextQuestion()" disabled>Next ➜</button></div>
+</section>
+<section class="panel result" id="result"></section>
+</main>
+<footer>మా లక్ష్యం అడ్మిషన్లు కాదు… ప్రతి విద్యార్థిలోని ప్రతిభను వెలికితీయడం.</footer>
+<script>
+const games=[
+{id:"nature",name:"Natural World",tel:"ప్రకృతి ప్రపంచం",emoji:"🌳",qs:[
+["Which part of a plant absorbs water from the soil?","Leaf","Flower","Root","Fruit",2,"Roots absorb water and minerals from the soil."],
+["Which of these is a water animal?","Camel","Fish","Cow","Goat",1,"Fish live in water."],
+["What is the process by which water changes into vapour called?","Freezing","Melting","Evaporation","Condensation",2,"Evaporation changes liquid water into water vapour."],
+["Which natural resource do we get from forests?","Plastic","Timber","Petrol","Glass",1,"Forests provide timber and many other useful resources."],
+["Which action helps conserve water?","Keep taps running","Repair leaking taps","Throw waste in rivers","Wash roads daily",1,"Repairing leaking taps prevents water wastage."]
+]},
+{id:"body",name:"Human Body & Health",tel:"మానవ శరీరం, ఆరోగ్యం",emoji:"🧍",qs:[
+["Which organ helps us breathe?","Heart","Lungs","Stomach","Kidney",1,"The lungs help us breathe."],
+["Which sense organ helps us see?","Ears","Nose","Eyes","Tongue",2,"Our eyes help us see."],
+["Which food group helps build and repair the body?","Proteins","Only sweets","Soft drinks","Salt",0,"Proteins help growth and repair of body tissues."],
+["How many teeth does a typical adult usually have?","20","24","32","40",2,"A typical adult has 32 permanent teeth, including wisdom teeth."],
+["Which habit helps prevent the spread of germs?","Never wash hands","Wash hands with soap","Share used tissues","Drink unsafe water",1,"Handwashing with soap helps remove germs."]
+]},
+{id:"science",name:"Science in Daily Life",tel:"దైనందిన జీవితంలో విజ్ఞానం",emoji:"🔬",qs:[
+["Which gas do humans need for respiration?","Oxygen","Carbon dioxide","Helium","Hydrogen",0,"Humans use oxygen during cellular respiration."],
+["Which is a renewable source of energy?","Coal","Petrol","Solar energy","Diesel",2,"Solar energy is renewable because sunlight is naturally replenished."],
+["Which material is attracted by a magnet?","Wood","Iron","Plastic","Paper",1,"Iron is a magnetic material."],
+["What should we do with biodegradable kitchen waste?","Burn it","Throw it in a river","Compost it","Mix it with plastic",2,"Kitchen waste can be composted to make manure."],
+["Which of these causes air pollution?","Planting trees","Vehicle smoke","Rainwater harvesting","Cycling",1,"Smoke from vehicles releases pollutants into the air."]
+]},
+{id:"society",name:"India & Society",tel:"భారతదేశం, సమాజం",emoji:"🇮🇳",qs:[
+["What is the capital of India?","Mumbai","New Delhi","Chennai","Kolkata",1,"New Delhi is the capital of India."],
+["Which is the national animal of India?","Asiatic Lion","Bengal Tiger","Elephant","Leopard",1,"The Bengal tiger is India's national animal."],
+["Which crop is commonly grown in standing water fields?","Rice","Cotton","Groundnut","Millet",0,"Rice is commonly cultivated in waterlogged or flooded fields."],
+["Which means of transport travels on railway tracks?","Aeroplane","Ship","Train","Bus",2,"Trains travel on railway tracks."],
+["Who helps treat sick people in a hospital?","Doctor","Carpenter","Tailor","Farmer",0,"Doctors diagnose and treat illnesses."]
+]},
+{id:"passage",name:"EVS Passage Challenge",tel:"పఠన అవగాహన",emoji:"📖",qs:[
+["What do trees absorb from the air?","Oxygen only","Carbon dioxide","Smoke only","Dust only",1,"Trees use carbon dioxide during photosynthesis."],
+["What do trees release during photosynthesis?","Oxygen","Plastic","Petrol","Salt",0,"During photosynthesis, plants release oxygen."],
+["Which part of a tree usually holds it firmly in the soil?","Flower","Fruit","Roots","Leaves",2,"Roots anchor the tree in the soil."],
+["What can people do to protect forests?","Cut all trees","Plant and protect trees","Set fire to forests","Waste paper",1,"Planting and protecting trees helps conserve forests."],
+["What is one benefit of trees in cities?","More air pollution","Shade and cleaner air","Less rainfall everywhere","More plastic waste",1,"Trees provide shade and help improve urban environments."]
+],passage:"Trees are important for life on Earth. They absorb carbon dioxide and release oxygen during photosynthesis. Their roots hold soil and help reduce erosion. Trees provide shade, fruits and shelter for birds and other animals. We should protect forests and plant more trees."}
+];
+let active=null,index=0,score=0,answered=false;
+const $=id=>document.getElementById(id);
+function renderCategories(){$("categories").innerHTML=games.map(g=>`<button class="category" onclick="startGame('${g.id}')"><span class="emoji">${g.emoji}</span>${g.name}<br><small>${g.tel} • ${g.qs.length} Questions</small></button>`).join("")}
+function startGame(id){active=games.find(g=>g.id===id);index=0;score=0;$("home").style.display="none";$("result").style.display="none";$("game").style.display="block";showQuestion();window.scrollTo({top:0,behavior:"smooth"})}
+function showQuestion(){answered=false;let q=active.qs[index];$("gameName").textContent=active.emoji+" "+active.name;$("score").textContent="⭐ Score: "+score;$("counter").textContent=(index+1)+" / "+active.qs.length;$("bar").style.width=(index/active.qs.length*100)+"%";$("question").textContent=q[0];$("passage").innerHTML=active.passage?`<div class="passage"><b>Read the passage carefully:</b><br>${active.passage}</div>`:"";$("feedback").textContent="మీ సమాధానాన్ని ఎంచుకోండి."; $("next").disabled=true;$("next").textContent=index===active.qs.length-1?"See Result 🏆":"Next ➜";$("options").innerHTML=q.slice(1,5).map((v,i)=>`<button class="option" onclick="chooseAnswer(${i},this)">${String.fromCharCode(65+i)}. ${v}</button>`).join("")}
+function chooseAnswer(choice,btn){if(answered)return;answered=true;let q=active.qs[index],correct=q[5];[...$("options").children].forEach((b,i)=>{b.disabled=true;if(i===correct)b.classList.add("correct")});if(choice===correct){score++;$("feedback").textContent="🎉 Correct! చాలా బాగుంది! "+q[6];$("feedback").style.color="green"}else{btn.classList.add("wrong");$("feedback").textContent="😊 మంచి ప్రయత్నం! సరైన సమాధానం: "+q[correct+1]+". "+q[6];$("feedback").style.color="#b83227"}$("score").textContent="⭐ Score: "+score;$("next").disabled=false;$("bar").style.width=((index+1)/active.qs.length*100)+"%"}
+function nextQuestion(){if(!answered)return;if(index<active.qs.length-1){index++;showQuestion()}else showResult()}
+function showResult(){ $("game").style.display="none";$("result").style.display="block";let pct=Math.round(score/active.qs.length*100);$("result").innerHTML=`<div class="big">${pct>=80?"🏆":"🌟"}</div><h2>${pct===100?"అద్భుతం! Perfect Score!":pct>=60?"చాలా బాగా చేశారు!":"మంచి ప్రయత్నం! మళ్లీ సాధన చేయండి."}</h2><p style="font-size:23px;font-weight:bold">Score: ${score} / ${active.qs.length}</p><p>${pct}% Correct Answers</p><div class="actions"><button class="btn" onclick="startGame('${active.id}')">Play Again 🔁</button><button class="btn secondary" onclick="goHome()">Choose Another Game</button></div>`;window.scrollTo({top:0,behavior:"smooth"})}
+function goHome(){$("game").style.display="none";$("result").style.display="none";$("home").style.display="block";window.scrollTo({top:0,behavior:"smooth"})}
+renderCategories();
+</script>
+</body>
+</html>
