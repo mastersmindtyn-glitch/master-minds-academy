@@ -1,0 +1,1682 @@
+{
+  "academy": "MASTER MINDS ACADEMY - TIRYANI",
+  "exam": "Navodaya JNVST Class 6 Practice",
+  "language": [
+    "te",
+    "en"
+  ],
+  "set": 1,
+  "totalQuestions": 50,
+  "sections": [
+    {
+      "id": "mental_ability",
+      "title_te": "మానసిక సామర్థ్యం",
+      "title_en": "Mental Ability",
+      "count": 25
+    },
+    {
+      "id": "arithmetic",
+      "title_te": "అంకగణితం",
+      "title_en": "Arithmetic",
+      "count": 15
+    },
+    {
+      "id": "language",
+      "title_te": "భాషా పరీక్ష",
+      "title_en": "Language Test",
+      "count": 10
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q01",
+      "section": "mental_ability",
+      "question": {
+        "te": "ఆకారాల శ్రేణిని పూర్తి చేయండి: ○, △, ○, △, __",
+        "en": "Complete the shape series: ○, △, ○, △, __"
+      },
+      "options": [
+        {
+          "te": "○",
+          "en": "○"
+        },
+        {
+          "te": "△",
+          "en": "△"
+        },
+        {
+          "te": "□",
+          "en": "□"
+        },
+        {
+          "te": "☆",
+          "en": "☆"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "వృత్తం, త్రిభుజం ఇలా మారుతూ వస్తున్నాయి. కాబట్టి తదుపరి ఆకారం వృత్తం.",
+        "en": "The shapes alternate between a circle and a triangle, so the next shape is a circle."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q02",
+      "section": "mental_ability",
+      "question": {
+        "te": "2, 4, 6, 8, __ తరువాతి సంఖ్య ఏది?",
+        "en": "What is the next number: 2, 4, 6, 8, __?"
+      },
+      "options": [
+        {
+          "te": "9",
+          "en": "9"
+        },
+        {
+          "te": "10",
+          "en": "10"
+        },
+        {
+          "te": "11",
+          "en": "11"
+        },
+        {
+          "te": "12",
+          "en": "12"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ప్రతి దశలో 2 చొప్పున పెరుగుతోంది. 8 + 2 = 10.",
+        "en": "The sequence increases by 2 each time. 8 + 2 = 10."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q03",
+      "section": "mental_ability",
+      "question": {
+        "te": "క్రింది వాటిలో భిన్నమైనది ఏది?",
+        "en": "Which one is different?"
+      },
+      "options": [
+        {
+          "te": "మామిడి",
+          "en": "Mango"
+        },
+        {
+          "te": "అరటి",
+          "en": "Banana"
+        },
+        {
+          "te": "క్యారెట్",
+          "en": "Carrot"
+        },
+        {
+          "te": "ద్రాక్ష",
+          "en": "Grapes"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "క్యారెట్ కూరగాయ; మిగిలినవి పండ్లు.",
+        "en": "Carrot is a vegetable; the others are fruits."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q04",
+      "section": "mental_ability",
+      "question": {
+        "te": "ఒక పిల్లవాడు తూర్పు వైపు చూస్తున్నాడు. కుడివైపు తిరిగితే ఏ దిశలో చూస్తాడు?",
+        "en": "A child is facing east. If he turns right, which direction will he face?"
+      },
+      "options": [
+        {
+          "te": "ఉత్తరం",
+          "en": "North"
+        },
+        {
+          "te": "దక్షిణం",
+          "en": "South"
+        },
+        {
+          "te": "పడమర",
+          "en": "West"
+        },
+        {
+          "te": "తూర్పు",
+          "en": "East"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "తూర్పు వైపు చూస్తున్నప్పుడు కుడివైపు తిరిగితే దక్షిణం అవుతుంది.",
+        "en": "When facing east, a right turn points south."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q05",
+      "section": "mental_ability",
+      "question": {
+        "te": "పుస్తకం : చదవడం :: పెన్ : __",
+        "en": "Book : Reading :: Pen : __"
+      },
+      "options": [
+        {
+          "te": "వినడం",
+          "en": "Listening"
+        },
+        {
+          "te": "రాయడం",
+          "en": "Writing"
+        },
+        {
+          "te": "తినడం",
+          "en": "Eating"
+        },
+        {
+          "te": "పరుగెత్తడం",
+          "en": "Running"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "పుస్తకంతో చదువుతాం; పెన్‌తో రాస్తాం.",
+        "en": "We read with a book and write with a pen."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q06",
+      "section": "mental_ability",
+      "question": {
+        "te": "A, C, E, G, __ అక్షర శ్రేణిలో తరువాతిది ఏది?",
+        "en": "What is the next letter: A, C, E, G, __?"
+      },
+      "options": [
+        {
+          "te": "H",
+          "en": "H"
+        },
+        {
+          "te": "I",
+          "en": "I"
+        },
+        {
+          "te": "J",
+          "en": "J"
+        },
+        {
+          "te": "K",
+          "en": "K"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "ప్రతి సారి ఒక అక్షరాన్ని వదిలి తదుపరి అక్షరం తీసుకుంటున్నారు. G తర్వాత I.",
+        "en": "One letter is skipped each time. The next letter after G is I."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q07",
+      "section": "mental_ability",
+      "question": {
+        "te": "రవి, సీత కంటే పొడవు. సీత, లత కంటే పొడవు. అతి పొట్టివారు ఎవరు?",
+        "en": "Ravi is taller than Sita. Sita is taller than Latha. Who is the shortest?"
+      },
+      "options": [
+        {
+          "te": "రవి",
+          "en": "Ravi"
+        },
+        {
+          "te": "సీత",
+          "en": "Sita"
+        },
+        {
+          "te": "లత",
+          "en": "Latha"
+        },
+        {
+          "te": "చెప్పలేము",
+          "en": "Cannot say"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "ఎత్తుల క్రమం రవి > సీత > లత. కాబట్టి లత అతి పొట్టివారు.",
+        "en": "The order is Ravi > Sita > Latha. Therefore, Latha is the shortest."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q08",
+      "section": "mental_ability",
+      "question": {
+        "te": "ఒక వారంలో ఎన్ని రోజులు ఉంటాయి?",
+        "en": "How many days are there in one week?"
+      },
+      "options": [
+        {
+          "te": "5",
+          "en": "5"
+        },
+        {
+          "te": "6",
+          "en": "6"
+        },
+        {
+          "te": "7",
+          "en": "7"
+        },
+        {
+          "te": "8",
+          "en": "8"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "ఒక వారంలో 7 రోజులు ఉంటాయి.",
+        "en": "There are 7 days in a week."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q09",
+      "section": "mental_ability",
+      "question": {
+        "te": "3, 6, 12, 24, __ తరువాతి సంఖ్య ఏది?",
+        "en": "Find the next number: 3, 6, 12, 24, __"
+      },
+      "options": [
+        {
+          "te": "30",
+          "en": "30"
+        },
+        {
+          "te": "36",
+          "en": "36"
+        },
+        {
+          "te": "48",
+          "en": "48"
+        },
+        {
+          "te": "42",
+          "en": "42"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "ప్రతి సంఖ్యను 2తో గుణిస్తున్నారు. 24 × 2 = 48.",
+        "en": "Each number is multiplied by 2. 24 × 2 = 48."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q10",
+      "section": "mental_ability",
+      "question": {
+        "te": "క్రింది వాటిలో జతగా ఉండనిది ఏది?",
+        "en": "Which pair does not belong?"
+      },
+      "options": [
+        {
+          "te": "పగలు–సూర్యుడు",
+          "en": "Day–Sun"
+        },
+        {
+          "te": "రాత్రి–చంద్రుడు",
+          "en": "Night–Moon"
+        },
+        {
+          "te": "వర్షం–మేఘం",
+          "en": "Rain–Cloud"
+        },
+        {
+          "te": "చేప–చెట్టు",
+          "en": "Fish–Tree"
+        }
+      ],
+      "correctIndex": 3,
+      "correctOption": "D",
+      "explanation": {
+        "te": "చేప చెట్టుపై నివసించదు; మిగిలిన జతలు సహజ సంబంధం కలిగి ఉన్నాయి.",
+        "en": "A fish does not live in a tree; the other pairs have a natural association."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q11",
+      "section": "mental_ability",
+      "question": {
+        "te": "ఒక వరుసలో మీనా ఎడమ నుంచి 4వది, కుడి నుంచి 6వది. వరుసలో మొత్తం ఎంతమంది?",
+        "en": "Meena is 4th from the left and 6th from the right. How many people are in the row?"
+      },
+      "options": [
+        {
+          "te": "8",
+          "en": "8"
+        },
+        {
+          "te": "9",
+          "en": "9"
+        },
+        {
+          "te": "10",
+          "en": "10"
+        },
+        {
+          "te": "11",
+          "en": "11"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "మొత్తం = ఎడమ స్థానం + కుడి స్థానం − 1 = 4 + 6 − 1 = 9.",
+        "en": "Total = left position + right position − 1 = 4 + 6 − 1 = 9."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q12",
+      "section": "mental_ability",
+      "question": {
+        "te": "చిన్నది నుంచి పెద్దదికి సరైన క్రమం ఏది?",
+        "en": "Which is the correct order from smallest to largest?"
+      },
+      "options": [
+        {
+          "te": "కిలో, గ్రాము, మిల్లీగ్రాము",
+          "en": "Kilogram, gram, milligram"
+        },
+        {
+          "te": "మిల్లీగ్రాము, గ్రాము, కిలోగ్రాము",
+          "en": "Milligram, gram, kilogram"
+        },
+        {
+          "te": "గ్రాము, కిలోగ్రాము, మిల్లీగ్రాము",
+          "en": "Gram, kilogram, milligram"
+        },
+        {
+          "te": "కిలోగ్రాము, మిల్లీగ్రాము, గ్రాము",
+          "en": "Kilogram, milligram, gram"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "మిల్లీగ్రాము అతి చిన్నది; గ్రాము దానికంటే పెద్దది; కిలోగ్రాము అతి పెద్దది.",
+        "en": "A milligram is smallest, then a gram, then a kilogram."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q13",
+      "section": "mental_ability",
+      "question": {
+        "te": "CAT ను DBU గా కోడ్ చేస్తే, DOG ను ఎలా కోడ్ చేస్తారు?",
+        "en": "If CAT is coded as DBU, how is DOG coded?"
+      },
+      "options": [
+        {
+          "te": "EPH",
+          "en": "EPH"
+        },
+        {
+          "te": "CNG",
+          "en": "CNG"
+        },
+        {
+          "te": "EOG",
+          "en": "EOG"
+        },
+        {
+          "te": "FPI",
+          "en": "FPI"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "ప్రతి అక్షరానికి తరువాతి అక్షరాన్ని వాడారు: D→E, O→P, G→H.",
+        "en": "Each letter is replaced by the next letter: D→E, O→P, G→H."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q14",
+      "section": "mental_ability",
+      "question": {
+        "te": "ఈ రోజు సోమవారం అయితే 3 రోజుల తరువాత ఏ రోజు?",
+        "en": "If today is Monday, what day will it be after 3 days?"
+      },
+      "options": [
+        {
+          "te": "బుధవారం",
+          "en": "Wednesday"
+        },
+        {
+          "te": "గురువారం",
+          "en": "Thursday"
+        },
+        {
+          "te": "శుక్రవారం",
+          "en": "Friday"
+        },
+        {
+          "te": "శనివారం",
+          "en": "Saturday"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "సోమవారం తర్వాత మంగళ, బుధ, గురు. కాబట్టి గురువారం.",
+        "en": "Tuesday, Wednesday, Thursday: the answer is Thursday."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q15",
+      "section": "mental_ability",
+      "question": {
+        "te": "చతురస్రానికి ఎన్ని భుజాలు ఉంటాయి?",
+        "en": "How many sides does a square have?"
+      },
+      "options": [
+        {
+          "te": "3",
+          "en": "3"
+        },
+        {
+          "te": "4",
+          "en": "4"
+        },
+        {
+          "te": "5",
+          "en": "5"
+        },
+        {
+          "te": "6",
+          "en": "6"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "చతురస్రానికి నాలుగు సమాన భుజాలు ఉంటాయి.",
+        "en": "A square has four equal sides."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q16",
+      "section": "mental_ability",
+      "question": {
+        "te": "5 మంది పిల్లలు ఒక్కొక్కరు 2 బంతులు పట్టుకుంటే మొత్తం ఎన్ని బంతులు?",
+        "en": "If 5 children hold 2 balls each, how many balls are there altogether?"
+      },
+      "options": [
+        {
+          "te": "7",
+          "en": "7"
+        },
+        {
+          "te": "8",
+          "en": "8"
+        },
+        {
+          "te": "10",
+          "en": "10"
+        },
+        {
+          "te": "12",
+          "en": "12"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "5 × 2 = 10 బంతులు.",
+        "en": "5 × 2 = 10 balls."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q17",
+      "section": "mental_ability",
+      "question": {
+        "te": "క్రింది సంఖ్యల్లో 5తో పూర్తిగా భాగించబడేది ఏది?",
+        "en": "Which number is exactly divisible by 5?"
+      },
+      "options": [
+        {
+          "te": "42",
+          "en": "42"
+        },
+        {
+          "te": "53",
+          "en": "53"
+        },
+        {
+          "te": "65",
+          "en": "65"
+        },
+        {
+          "te": "72",
+          "en": "72"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "5తో భాగించబడే సంఖ్య చివర 0 లేదా 5 ఉంటుంది. 65 సరైనది.",
+        "en": "A number divisible by 5 ends in 0 or 5. So 65 is correct."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q18",
+      "section": "mental_ability",
+      "question": {
+        "te": "ఒక గడియారంలో 3 గంటలకు గంట ముల్లు ఏ సంఖ్యపై ఉంటుంది?",
+        "en": "At 3 o'clock, where is the hour hand?"
+      },
+      "options": [
+        {
+          "te": "3",
+          "en": "3"
+        },
+        {
+          "te": "6",
+          "en": "6"
+        },
+        {
+          "te": "9",
+          "en": "9"
+        },
+        {
+          "te": "12",
+          "en": "12"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "3 గంటలకు గంట ముల్లు 3పై, నిమిషాల ముల్లు 12పై ఉంటాయి.",
+        "en": "At 3 o'clock, the hour hand points to 3 and the minute hand to 12."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q19",
+      "section": "mental_ability",
+      "question": {
+        "te": "కుక్క : కుక్కపిల్ల :: పిల్లి : __",
+        "en": "Dog : Puppy :: Cat : __"
+      },
+      "options": [
+        {
+          "te": "దూడ",
+          "en": "Calf"
+        },
+        {
+          "te": "పిల్లి పిల్ల",
+          "en": "Kitten"
+        },
+        {
+          "te": "గుర్రపు పిల్ల",
+          "en": "Foal"
+        },
+        {
+          "te": "కోడిపిల్ల",
+          "en": "Chick"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "కుక్క పిల్లను puppy అంటారు; పిల్లి పిల్లను kitten అంటారు.",
+        "en": "A baby dog is a puppy; a baby cat is a kitten."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q20",
+      "section": "mental_ability",
+      "question": {
+        "te": "10, 9, 8, 7, __ తరువాతి సంఖ్య ఏది?",
+        "en": "What is the next number: 10, 9, 8, 7, __?"
+      },
+      "options": [
+        {
+          "te": "4",
+          "en": "4"
+        },
+        {
+          "te": "5",
+          "en": "5"
+        },
+        {
+          "te": "6",
+          "en": "6"
+        },
+        {
+          "te": "8",
+          "en": "8"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "ప్రతి దశలో 1 తగ్గుతోంది. 7 − 1 = 6.",
+        "en": "The sequence decreases by 1 each time. 7 − 1 = 6."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q21",
+      "section": "mental_ability",
+      "question": {
+        "te": "ఒక పెట్టెలో ఎరుపు, నీలం, ఆకుపచ్చ బంతులు ఉన్నాయి. మొత్తం బంతుల సంఖ్య 3. కనీసం ఎన్ని రంగులు ఉన్నాయి?",
+        "en": "A box has red, blue and green balls. How many different colours are mentioned?"
+      },
+      "options": [
+        {
+          "te": "1",
+          "en": "1"
+        },
+        {
+          "te": "2",
+          "en": "2"
+        },
+        {
+          "te": "3",
+          "en": "3"
+        },
+        {
+          "te": "4",
+          "en": "4"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "ఎరుపు, నీలం, ఆకుపచ్చ — మొత్తం మూడు వేర్వేరు రంగులు.",
+        "en": "Red, blue and green are three different colours."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q22",
+      "section": "mental_ability",
+      "question": {
+        "te": "చేతికి గ్లౌజ్ ఎలా ఉపయోగపడుతుందో, కాలికి __ ఉపయోగపడుతుంది.",
+        "en": "A glove is worn on the hand; what is worn on the foot?"
+      },
+      "options": [
+        {
+          "te": "టోపీ",
+          "en": "Cap"
+        },
+        {
+          "te": "సాక్స్",
+          "en": "Socks"
+        },
+        {
+          "te": "చొక్కా",
+          "en": "Shirt"
+        },
+        {
+          "te": "బెల్ట్",
+          "en": "Belt"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "చేతికి గ్లౌజ్, కాలికి సాక్స్ ధరిస్తారు.",
+        "en": "A glove is worn on the hand and socks are worn on the feet."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q23",
+      "section": "mental_ability",
+      "question": {
+        "te": "ఒక సంఖ్యకు 4 కలిపితే 11 వస్తుంది. ఆ సంఖ్య ఏది?",
+        "en": "A number plus 4 equals 11. What is the number?"
+      },
+      "options": [
+        {
+          "te": "5",
+          "en": "5"
+        },
+        {
+          "te": "6",
+          "en": "6"
+        },
+        {
+          "te": "7",
+          "en": "7"
+        },
+        {
+          "te": "8",
+          "en": "8"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "11 − 4 = 7.",
+        "en": "11 − 4 = 7."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q24",
+      "section": "mental_ability",
+      "question": {
+        "te": "త్రిభుజంలో ఎన్ని కోణాలు ఉంటాయి?",
+        "en": "How many angles does a triangle have?"
+      },
+      "options": [
+        {
+          "te": "2",
+          "en": "2"
+        },
+        {
+          "te": "3",
+          "en": "3"
+        },
+        {
+          "te": "4",
+          "en": "4"
+        },
+        {
+          "te": "5",
+          "en": "5"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "త్రిభుజానికి మూడు భుజాలు, మూడు కోణాలు ఉంటాయి.",
+        "en": "A triangle has three sides and three angles."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q25",
+      "section": "mental_ability",
+      "question": {
+        "te": "ఉదయం సూర్యుడు సాధారణంగా ఏ దిశలో ఉదయిస్తాడు?",
+        "en": "In which direction does the Sun generally rise?"
+      },
+      "options": [
+        {
+          "te": "ఉత్తరం",
+          "en": "North"
+        },
+        {
+          "te": "దక్షిణం",
+          "en": "South"
+        },
+        {
+          "te": "తూర్పు",
+          "en": "East"
+        },
+        {
+          "te": "పడమర",
+          "en": "West"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "సూర్యుడు తూర్పున ఉదయించి పడమరలో అస్తమిస్తాడు.",
+        "en": "The Sun generally rises in the east and sets in the west."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q26",
+      "section": "arithmetic",
+      "question": {
+        "te": "245 + 138 = ఎంత?",
+        "en": "What is 245 + 138?"
+      },
+      "options": [
+        {
+          "te": "373",
+          "en": "373"
+        },
+        {
+          "te": "383",
+          "en": "383"
+        },
+        {
+          "te": "393",
+          "en": "393"
+        },
+        {
+          "te": "403",
+          "en": "403"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "245 + 138 = 383.",
+        "en": "245 + 138 = 383."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q27",
+      "section": "arithmetic",
+      "question": {
+        "te": "500 − 275 = ఎంత?",
+        "en": "What is 500 − 275?"
+      },
+      "options": [
+        {
+          "te": "215",
+          "en": "215"
+        },
+        {
+          "te": "225",
+          "en": "225"
+        },
+        {
+          "te": "235",
+          "en": "235"
+        },
+        {
+          "te": "245",
+          "en": "245"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "500 − 275 = 225.",
+        "en": "500 − 275 = 225."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q28",
+      "section": "arithmetic",
+      "question": {
+        "te": "12 × 8 = ఎంత?",
+        "en": "What is 12 × 8?"
+      },
+      "options": [
+        {
+          "te": "86",
+          "en": "86"
+        },
+        {
+          "te": "92",
+          "en": "92"
+        },
+        {
+          "te": "96",
+          "en": "96"
+        },
+        {
+          "te": "108",
+          "en": "108"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "12 × 8 = 96.",
+        "en": "12 × 8 = 96."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q29",
+      "section": "arithmetic",
+      "question": {
+        "te": "144 ÷ 12 = ఎంత?",
+        "en": "What is 144 ÷ 12?"
+      },
+      "options": [
+        {
+          "te": "10",
+          "en": "10"
+        },
+        {
+          "te": "11",
+          "en": "11"
+        },
+        {
+          "te": "12",
+          "en": "12"
+        },
+        {
+          "te": "14",
+          "en": "14"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "144 ను 12తో భాగిస్తే 12 వస్తుంది.",
+        "en": "144 divided by 12 equals 12."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q30",
+      "section": "arithmetic",
+      "question": {
+        "te": "ఒక పుస్తకం ధర ₹35. 4 పుస్తకాల ధర ఎంత?",
+        "en": "One book costs ₹35. What is the cost of 4 books?"
+      },
+      "options": [
+        {
+          "te": "₹120",
+          "en": "₹120"
+        },
+        {
+          "te": "₹130",
+          "en": "₹130"
+        },
+        {
+          "te": "₹140",
+          "en": "₹140"
+        },
+        {
+          "te": "₹150",
+          "en": "₹150"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "35 × 4 = ₹140.",
+        "en": "35 × 4 = ₹140."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q31",
+      "section": "arithmetic",
+      "question": {
+        "te": "20లో 1/2 ఎంత?",
+        "en": "What is one-half of 20?"
+      },
+      "options": [
+        {
+          "te": "5",
+          "en": "5"
+        },
+        {
+          "te": "10",
+          "en": "10"
+        },
+        {
+          "te": "15",
+          "en": "15"
+        },
+        {
+          "te": "20",
+          "en": "20"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "20 ÷ 2 = 10.",
+        "en": "20 ÷ 2 = 10."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q32",
+      "section": "arithmetic",
+      "question": {
+        "te": "3/4 కు సమానమైన భిన్నం ఏది?",
+        "en": "Which fraction is equivalent to 3/4?"
+      },
+      "options": [
+        {
+          "te": "2/3",
+          "en": "2/3"
+        },
+        {
+          "te": "6/8",
+          "en": "6/8"
+        },
+        {
+          "te": "4/6",
+          "en": "4/6"
+        },
+        {
+          "te": "3/8",
+          "en": "3/8"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "3/4 ను లవ, హారాలను 2తో గుణిస్తే 6/8 వస్తుంది.",
+        "en": "Multiplying numerator and denominator of 3/4 by 2 gives 6/8."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q33",
+      "section": "arithmetic",
+      "question": {
+        "te": "ఒక చతురస్రం భుజం 5 సెం.మీ. దాని చుట్టుకొలత ఎంత?",
+        "en": "A square has a side of 5 cm. What is its perimeter?"
+      },
+      "options": [
+        {
+          "te": "10 cm",
+          "en": "10 cm"
+        },
+        {
+          "te": "15 cm",
+          "en": "15 cm"
+        },
+        {
+          "te": "20 cm",
+          "en": "20 cm"
+        },
+        {
+          "te": "25 cm",
+          "en": "25 cm"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "చుట్టుకొలత = 4 × భుజం = 4 × 5 = 20 సెం.మీ.",
+        "en": "Perimeter = 4 × side = 4 × 5 = 20 cm."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q34",
+      "section": "arithmetic",
+      "question": {
+        "te": "ఒక దీర్ఘచతురస్రం పొడవు 8 సెం.మీ., వెడల్పు 3 సెం.మీ. వైశాల్యం ఎంత?",
+        "en": "A rectangle is 8 cm long and 3 cm wide. What is its area?"
+      },
+      "options": [
+        {
+          "te": "11 cm²",
+          "en": "11 cm²"
+        },
+        {
+          "te": "16 cm²",
+          "en": "16 cm²"
+        },
+        {
+          "te": "24 cm²",
+          "en": "24 cm²"
+        },
+        {
+          "te": "32 cm²",
+          "en": "32 cm²"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "వైశాల్యం = పొడవు × వెడల్పు = 8 × 3 = 24 చ.సెం.మీ.",
+        "en": "Area = length × width = 8 × 3 = 24 cm²."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q35",
+      "section": "arithmetic",
+      "question": {
+        "te": "2 గంటల్లో ఎన్ని నిమిషాలు?",
+        "en": "How many minutes are there in 2 hours?"
+      },
+      "options": [
+        {
+          "te": "60",
+          "en": "60"
+        },
+        {
+          "te": "90",
+          "en": "90"
+        },
+        {
+          "te": "100",
+          "en": "100"
+        },
+        {
+          "te": "120",
+          "en": "120"
+        }
+      ],
+      "correctIndex": 3,
+      "correctOption": "D",
+      "explanation": {
+        "te": "1 గంట = 60 నిమిషాలు. 2 × 60 = 120 నిమిషాలు.",
+        "en": "1 hour = 60 minutes. Therefore, 2 × 60 = 120 minutes."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q36",
+      "section": "arithmetic",
+      "question": {
+        "te": "ఒక బుట్టలో 48 మామిడిపండ్లు ఉన్నాయి. వాటిని 6 మందికి సమానంగా పంచితే ఒక్కొక్కరికి ఎన్ని?",
+        "en": "There are 48 mangoes shared equally among 6 children. How many does each get?"
+      },
+      "options": [
+        {
+          "te": "6",
+          "en": "6"
+        },
+        {
+          "te": "7",
+          "en": "7"
+        },
+        {
+          "te": "8",
+          "en": "8"
+        },
+        {
+          "te": "9",
+          "en": "9"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "48 ÷ 6 = 8.",
+        "en": "48 ÷ 6 = 8."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q37",
+      "section": "arithmetic",
+      "question": {
+        "te": "25% of 200 ఎంత?",
+        "en": "What is 25% of 200?"
+      },
+      "options": [
+        {
+          "te": "25",
+          "en": "25"
+        },
+        {
+          "te": "40",
+          "en": "40"
+        },
+        {
+          "te": "50",
+          "en": "50"
+        },
+        {
+          "te": "75",
+          "en": "75"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "25% అంటే 1/4. 200 ÷ 4 = 50.",
+        "en": "25% means one-fourth. 200 ÷ 4 = 50."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q38",
+      "section": "arithmetic",
+      "question": {
+        "te": "ఒక వస్తువు ధర ₹80. ₹100 ఇచ్చినప్పుడు తిరిగి ఎంత వస్తుంది?",
+        "en": "An item costs ₹80. If you pay ₹100, how much change do you get?"
+      },
+      "options": [
+        {
+          "te": "₹10",
+          "en": "₹10"
+        },
+        {
+          "te": "₹15",
+          "en": "₹15"
+        },
+        {
+          "te": "₹20",
+          "en": "₹20"
+        },
+        {
+          "te": "₹25",
+          "en": "₹25"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "₹100 − ₹80 = ₹20.",
+        "en": "₹100 − ₹80 = ₹20."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q39",
+      "section": "arithmetic",
+      "question": {
+        "te": "5, 10, 15, 20 సంఖ్యల సగటు ఎంత?",
+        "en": "What is the average of 5, 10, 15 and 20?"
+      },
+      "options": [
+        {
+          "te": "10",
+          "en": "10"
+        },
+        {
+          "te": "12.5",
+          "en": "12.5"
+        },
+        {
+          "te": "15",
+          "en": "15"
+        },
+        {
+          "te": "17.5",
+          "en": "17.5"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "సగటు = (5 + 10 + 15 + 20) ÷ 4 = 50 ÷ 4 = 12.5.",
+        "en": "Average = (5 + 10 + 15 + 20) ÷ 4 = 50 ÷ 4 = 12.5."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q40",
+      "section": "arithmetic",
+      "question": {
+        "te": "ఒక బస్సులో 36 మంది ఉన్నారు. 9 మంది దిగారు, 5 మంది ఎక్కారు. ఇప్పుడు ఎంతమంది?",
+        "en": "A bus has 36 passengers. 9 get off and 5 get on. How many are now on the bus?"
+      },
+      "options": [
+        {
+          "te": "30",
+          "en": "30"
+        },
+        {
+          "te": "31",
+          "en": "31"
+        },
+        {
+          "te": "32",
+          "en": "32"
+        },
+        {
+          "te": "33",
+          "en": "33"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "36 − 9 + 5 = 32 మంది.",
+        "en": "36 − 9 + 5 = 32 passengers."
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q41",
+      "section": "language",
+      "question": {
+        "te": "క్రింది వాక్యంలో నామవాచకం ఏది? “రాము పాఠశాలకు వెళ్ళాడు.”",
+        "en": "Identify the noun: “Ramu went to school.”"
+      },
+      "options": [
+        {
+          "te": "రాము",
+          "en": "Ramu"
+        },
+        {
+          "te": "వెళ్ళాడు",
+          "en": "went"
+        },
+        {
+          "te": "కు",
+          "en": "to"
+        },
+        {
+          "te": "ది",
+          "en": "the"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "రాము ఒక వ్యక్తి పేరు. వ్యక్తి పేరు నామవాచకం.",
+        "en": "Ramu is the name of a person, so it is a noun."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q42",
+      "section": "language",
+      "question": {
+        "te": "“పెద్ద” అనే పదానికి వ్యతిరేక పదం ఏది?",
+        "en": "What is the opposite of “big”?"
+      },
+      "options": [
+        {
+          "te": "చిన్న",
+          "en": "Small"
+        },
+        {
+          "te": "పొడవు",
+          "en": "Tall"
+        },
+        {
+          "te": "వేగం",
+          "en": "Fast"
+        },
+        {
+          "te": "మంచి",
+          "en": "Good"
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "పెద్ద అనే పదానికి వ్యతిరేక పదం చిన్న.",
+        "en": "The opposite of big is small."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q43",
+      "section": "language",
+      "question": {
+        "te": "Choose the correctly spelled word.",
+        "en": "సరైన అక్షరక్రమం ఉన్న పదాన్ని ఎంచుకోండి."
+      },
+      "options": [
+        {
+          "te": "Beutiful",
+          "en": "Beutiful"
+        },
+        {
+          "te": "Beautiful",
+          "en": "Beautiful"
+        },
+        {
+          "te": "Beautifull",
+          "en": "Beautifull"
+        },
+        {
+          "te": "Butiful",
+          "en": "Butiful"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "Beautiful అనేది సరైన spelling.",
+        "en": "Beautiful is the correct spelling."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q44",
+      "section": "language",
+      "question": {
+        "te": "“Child” యొక్క బహువచనం ఏది?",
+        "en": "What is the plural of “child”?"
+      },
+      "options": [
+        {
+          "te": "Childs",
+          "en": "Childs"
+        },
+        {
+          "te": "Childes",
+          "en": "Childes"
+        },
+        {
+          "te": "Children",
+          "en": "Children"
+        },
+        {
+          "te": "Childrens",
+          "en": "Childrens"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "Child యొక్క irregular plural Children.",
+        "en": "The irregular plural of child is children."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q45",
+      "section": "language",
+      "question": {
+        "te": "Fill in the blank: She ___ a student.",
+        "en": "ఖాళీని పూరించండి: She ___ a student."
+      },
+      "options": [
+        {
+          "te": "am",
+          "en": "am"
+        },
+        {
+          "te": "is",
+          "en": "is"
+        },
+        {
+          "te": "are",
+          "en": "are"
+        },
+        {
+          "te": "be",
+          "en": "be"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "She తో is ఉపయోగిస్తాం.",
+        "en": "We use “is” with the subject “She.”"
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q46",
+      "section": "language",
+      "question": {
+        "te": "“సంతోషం” అనే పదానికి సమానార్థక పదం ఏది?",
+        "en": "Which word is a synonym of “happy”?"
+      },
+      "options": [
+        {
+          "te": "దుఃఖం",
+          "en": "Sadness"
+        },
+        {
+          "te": "ఆనందం",
+          "en": "Joy"
+        },
+        {
+          "te": "కోపం",
+          "en": "Anger"
+        },
+        {
+          "te": "భయం",
+          "en": "Fear"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "సంతోషం, ఆనందం రెండూ సమానార్థక పదాలు.",
+        "en": "Happy and joy have similar meanings."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q47",
+      "section": "language",
+      "question": {
+        "te": "Choose the correct article: ___ apple a day is good.",
+        "en": "సరైన article ఎంచుకోండి: ___ apple a day is good."
+      },
+      "options": [
+        {
+          "te": "A",
+          "en": "A"
+        },
+        {
+          "te": "An",
+          "en": "An"
+        },
+        {
+          "te": "The",
+          "en": "The"
+        },
+        {
+          "te": "No article",
+          "en": "No article"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "Apple అచ్చు ధ్వనితో ప్రారంభమవుతుంది కాబట్టి An వాడాలి.",
+        "en": "“Apple” begins with a vowel sound, so use “an.”"
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q48",
+      "section": "language",
+      "question": {
+        "te": "“వారు ఆడుతున్నారు” అనే వాక్యానికి సరైన English translation ఏది?",
+        "en": "Choose the correct English translation of “వారు ఆడుతున్నారు”."
+      },
+      "options": [
+        {
+          "te": "They are playing.",
+          "en": "They are playing."
+        },
+        {
+          "te": "They is playing.",
+          "en": "They is playing."
+        },
+        {
+          "te": "They were play.",
+          "en": "They were play."
+        },
+        {
+          "te": "He are playing.",
+          "en": "He are playing."
+        }
+      ],
+      "correctIndex": 0,
+      "correctOption": "A",
+      "explanation": {
+        "te": "They అనే subject తో are playing వాడాలి.",
+        "en": "With the subject “They,” the correct form is “are playing.”"
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q49",
+      "section": "language",
+      "question": {
+        "te": "Read: “Mina has a red bag. She takes it to school.” What colour is Mina’s bag?",
+        "en": "చదవండి: “Mina has a red bag. She takes it to school.” మీనా బ్యాగ్ ఏ రంగులో ఉంది?"
+      },
+      "options": [
+        {
+          "te": "Blue",
+          "en": "Blue"
+        },
+        {
+          "te": "Green",
+          "en": "Green"
+        },
+        {
+          "te": "Red",
+          "en": "Red"
+        },
+        {
+          "te": "Yellow",
+          "en": "Yellow"
+        }
+      ],
+      "correctIndex": 2,
+      "correctOption": "C",
+      "explanation": {
+        "te": "పాఠ్యంలో Mina has a red bag అని ఉంది. కాబట్టి సమాధానం Red.",
+        "en": "The passage says Mina has a red bag, so the answer is red."
+      },
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q50",
+      "section": "language",
+      "question": {
+        "te": "Read: “Birds have wings. Most birds can fly.” What do birds have?",
+        "en": "చదవండి: “Birds have wings. Most birds can fly.” పక్షులకు ఏమి ఉంటాయి?"
+      },
+      "options": [
+        {
+          "te": "Fins",
+          "en": "రెక్కలు"
+        },
+        {
+          "te": "Wings",
+          "en": "చేప రెక్కలు"
+        },
+        {
+          "te": "Horns",
+          "en": "కొమ్ములు"
+        },
+        {
+          "te": "Hooves",
+          "en": "గిట్టలు"
+        }
+      ],
+      "correctIndex": 1,
+      "correctOption": "B",
+      "explanation": {
+        "te": "పాఠ్యంలో Birds have wings అని ఉంది. కాబట్టి పక్షులకు రెక్కలు ఉంటాయి.",
+        "en": "The passage states that birds have wings."
+      },
+      "difficulty": "easy"
+    }
+  ]
+}
