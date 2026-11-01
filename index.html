@@ -1,375 +1,578 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#123b75">
-<title>MASTER MINDS ACADEMY TIRYANI</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MASTER MINDS ACADEMY | TIRYANI</title>
 <style>
+:root {
+  --blue:#123b75;
+  --cyan:#00bcd4;
+  --light:#f3f8ff;
+  --white:#fff;
+  --dark:#172b4d;
+  --muted:#64748b;
+  --shadow:0 5px 20px rgba(18,59,117,.10);
+}
 *{box-sizing:border-box}
-body{margin:0;background:#f1f5fb;color:#172b49;font-family:Arial,sans-serif}
-header{background:linear-gradient(135deg,#102d59,#1976b9);color:white;text-align:center;padding:25px 12px;border-radius:0 0 24px 24px}
-header h1{font-size:24px;margin:8px}
-header p{font-size:13px}
-nav{display:flex;overflow-x:auto;gap:7px;padding:12px;background:white;position:sticky;top:0;z-index:10}
-nav button{border:0;border-radius:10px;padding:12px;background:#eaf1ff;color:#174477;font-weight:bold;white-space:nowrap}
-nav button.active{background:#174477;color:white}
-.container{max-width:850px;margin:auto;padding:15px}
-.section{display:none}
-.section.active{display:block}
-.card{background:white;padding:17px;border-radius:15px;margin:13px 0;box-shadow:0 3px 12px #0001}
-h2{color:#174477}
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-.tile{background:#eaf1ff;padding:18px 10px;text-align:center;border-radius:13px;cursor:pointer;border:1px solid #d8e5fa}
-.tile b{display:block;margin:8px;color:#174477}
-.tile span{font-size:12px;color:#65748a}
-.btn{background:#155da0;color:white;border:0;border-radius:9px;padding:12px 17px;font-weight:bold;margin:5px 0;cursor:pointer}
-input,select{width:100%;padding:12px;margin:7px 0;border:1px solid #ccd5e3;border-radius:9px;font-size:15px}
-.item{background:#edf3fc;padding:14px;border-radius:10px;margin:9px 0}
-.item button{float:right}
-.video{width:100%;aspect-ratio:16/9;border:0;border-radius:12px;background:#111}
-.small{font-size:12px;color:#718096}
-footer{text-align:center;background:#12345f;color:white;padding:22px;margin-top:25px}
-.option{display:block;background:#edf3fc;padding:12px;margin:8px 0;border-radius:9px}
+body{
+  margin:0;
+  font-family:Arial,"Noto Sans Telugu",sans-serif;
+  background:var(--light);
+  color:var(--dark);
+}
+header{
+  background:linear-gradient(120deg,#123b75,#087eae);
+  color:white;
+  padding:25px 16px;
+  text-align:center;
+}
+header h1{margin:0;font-size:clamp(23px,5vw,36px)}
+header p{margin:8px 0}
+.slogan{color:#b9f5ff;font-weight:bold}
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:7px;
+  background:white;
+  padding:12px;
+  box-shadow:var(--shadow);
+  position:sticky;
+  top:0;
+  z-index:10;
+}
+nav button,.btn{
+  border:0;
+  background:var(--blue);
+  color:white;
+  padding:10px 14px;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:bold;
+}
+nav button:hover,.btn:hover{background:var(--cyan)}
+main{max-width:1150px;margin:auto;padding:18px}
+.page{display:none}
+.page.active{display:block}
+.hero{
+  background:linear-gradient(120deg,#123b75,#00a6c7);
+  color:white;
+  padding:35px 22px;
+  border-radius:18px;
+  text-align:center;
+}
+.hero h2{font-size:30px}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:15px;
+  margin:18px 0;
+}
+.card{
+  background:white;
+  padding:18px;
+  border-radius:14px;
+  box-shadow:var(--shadow);
+}
+.card h3{color:var(--blue);margin-top:0}
+.card button{margin:4px}
+h2.section-title{color:var(--blue)}
+input,select,textarea{
+  width:100%;
+  padding:12px;
+  margin:8px 0;
+  border:1px solid #cbd5e1;
+  border-radius:8px;
+  font-size:16px;
+}
+button{font-size:14px}
+.video-frame{width:100%;aspect-ratio:16/9;border:0;border-radius:12px}
+audio{width:100%;margin:10px 0}
+.item-button{
+  display:block;
+  width:100%;
+  text-align:left;
+  background:#eef6ff;
+  color:#123b75;
+  border:1px solid #cbdff5;
+  padding:12px;
+  margin:7px 0;
+  border-radius:9px;
+  cursor:pointer;
+}
+.item-button:hover{background:#d8f5fb}
+.option{
+  display:block;
+  background:#f1f6fc;
+  padding:12px;
+  margin:8px 0;
+  border-radius:8px;
+  cursor:pointer;
+}
+.option input{width:auto;margin-right:8px}
+.result{padding:12px;border-radius:8px;margin-top:12px}
+.correct{background:#dcfce7;color:#166534}
+.wrong{background:#fee2e2;color:#991b1b}
+footer{
+  background:#102f5e;
+  color:white;
+  text-align:center;
+  padding:22px;
+  margin-top:30px;
+}
+.small{color:var(--muted);font-size:13px}
+@media(max-width:600px){
+  nav{position:relative}
+  nav button{flex:1 1 42%}
+  main{padding:12px}
+}
 </style>
 </head>
 <body>
 
 <header>
-<div style="font-size:40px">🎓</div>
-<h1>MASTER MINDS ACADEMY</h1>
-<p>TIRYANI | KUMRAM BHEEM ASIFABAD</p>
-<p>తెలుగు + English</p>
-<b>LEARN TODAY • LEAD TOMORROW</b>
+  <h1>MASTER MINDS ACADEMY</h1>
+  <h2>మాస్టర్ మైండ్స్ ట్యూషన్ అకాడమీ</h2>
+  <p>Tiryani, Kumram Bheem Asifabad, Telangana</p>
+  <p class="slogan">మా లక్ష్యం అడ్మిషన్లు కాదు… ప్రతి విద్యార్థిలోని ప్రతిభను వెలికితీయడం.</p>
 </header>
 
 <nav>
-<button class="active" onclick="show('home',this)">Home</button>
-<button onclick="show('courses',this)">Courses</button>
-<button onclick="show('videos',this)">🎬 Videos</button>
-<button onclick="show('books',this)">📚 Books</button>
-<button onclick="show('tests',this)">Tests</button>
-<button onclick="show('login',this)">Login</button>
-<button onclick="show('about',this)">About</button>
+  <button onclick="showPage('home')">🏠 Home</button>
+  <button onclick="showPage('courses')">📚 Courses</button>
+  <button onclick="showPage('videos')">🎬 Videos</button>
+  <button onclick="showPage('books')">📖 Books</button>
+  <button onclick="showPage('songs')">🎵 Songs</button>
+  <button onclick="showPage('audio')">🎧 Audio Lessons</button>
+  <button onclick="showPage('audiobooks')">📚 Audio Books</button>
+  <button onclick="showPage('tests')">📝 Online Tests</button>
+  <button onclick="showPage('employees')">🏛️ Employees</button>
+  <button onclick="showPage('login')">👤 Login</button>
+  <button onclick="showPage('about')">ℹ️ About</button>
 </nav>
 
-<main class="container">
+<main>
 
-<section id="home" class="section active">
-<div class="card">
-<h2>Welcome to MASTER MINDS!</h2>
-<p>మా లక్ష్యం అడ్మిషన్లు కాదు… ప్రతి విద్యార్థిలోని ప్రతిభను వెలికితీయడం.</p>
-<p>School Education & Competitive Exam Preparation.</p>
-<button class="btn" onclick="show('courses')">Explore Courses</button>
-</div>
-<h2>Learning Dashboard</h2>
-<div class="grid">
-<div class="tile" onclick="show('courses')">🎓<b>Courses</b><span>All Classes & Exams</span></div>
-<div class="tile" onclick="show('videos')">🎬<b>Video Lessons</b><span>Watch Classes</span></div>
-<div class="tile" onclick="show('books')">📚<b>Digital Books</b><span>Study Materials</span></div>
-<div class="tile" onclick="show('tests')">✍️<b>Online Tests</b><span>Practice MCQs</span></div>
-</div>
+<section id="home" class="page active">
+  <div class="hero">
+    <h2>Welcome to MASTER MINDS ACADEMY</h2>
+    <h3>Learn Today – Lead Tomorrow</h3>
+    <p>School Education | Competitive Exams | Government Employees</p>
+    <button class="btn" onclick="showPage('courses')">Explore Courses</button>
+    <button class="btn" onclick="showPage('tests')">Start Online Test</button>
+  </div>
+  <h2 class="section-title">Our Learning Programs</h2>
+  <div class="grid">
+    <div class="card"><h3>🎒 School Education</h3><p>Classes 1 to 10 – Concept based learning.</p></div>
+    <div class="card"><h3>🇮🇳 UPSC</h3><p>General Studies and Civil Services preparation.</p></div>
+    <div class="card"><h3>📘 TGPSC</h3><p>Telangana state competitive examinations.</p></div>
+    <div class="card"><h3>👮 Police</h3><p>Police recruitment preparation.</p></div>
+    <div class="card"><h3>🎯 Navodaya</h3><p>JNVST entrance examination preparation.</p></div>
+    <div class="card"><h3>🏛️ Employees</h3><p>Service matters and government rules.</p></div>
+  </div>
 </section>
 
-<section id="courses" class="section">
-<h2>Our Courses | మా కోర్సులు</h2>
-<div class="grid">
-<div class="tile" onclick="selectCourse('school')">📖<b>School Education</b><span>LKG – Class 10</span></div>
-<div class="tile" onclick="selectCourse('upsc')">🏛️<b>UPSC</b><span>Civil Services</span></div>
-<div class="tile" onclick="selectCourse('tgpsc')">📚<b>TGPSC</b><span>Group 1–4</span></div>
-<div class="tile" onclick="selectCourse('police')">👮<b>Police</b><span>Constable & SI</span></div>
-<div class="tile" onclick="selectCourse('navodaya')">🏆<b>Navodaya</b><span>JNVST Class 6</span></div>
-</div>
-<div id="courseDetails" class="card">
-<h3>Select a Course</h3>
-<p>Choose a course to view its subjects and learning resources.</p>
-</div>
+<section id="courses" class="page">
+  <h2 class="section-title">📚 Courses – కోర్సులు</h2>
+  <div class="grid">
+    <div class="card"><h3>School Classes 1–10</h3><p>Maths, Science, EVS, English, Telugu and Social Studies.</p></div>
+    <div class="card"><h3>UPSC</h3><p>Indian Polity, History, Geography, Economy, Environment and Current Affairs.</p></div>
+    <div class="card"><h3>TGPSC</h3><p>Telangana History, Geography, Polity and General Studies.</p></div>
+    <div class="card"><h3>Police</h3><p>Arithmetic, Reasoning, General Knowledge and Mental Ability.</p></div>
+    <div class="card"><h3>Navodaya</h3><p>Mental Ability, Arithmetic and Language Tests.</p></div>
+    <div class="card"><h3>Government Employees</h3><p>Service Rules, Leave Rules, Pension Rules and Office Procedures.</p></div>
+  </div>
 </section>
 
-<section id="videos" class="section">
-<h2>🎬 Video Lessons</h2>
-<div class="card">
-<label>Select Course</label>
-<select id="videoCourse" onchange="loadVideos()">
-<option value="upsc">UPSC</option>
-<option value="tgpsc">TGPSC</option>
-<option value="police">Police</option>
-<option value="school">School Education</option>
-<option value="navodaya">Navodaya</option>
-</select>
-<div id="videoList"></div>
-</div>
-<div class="card">
-<h3 id="videoTitle">Select a Video</h3>
-<iframe id="player" class="video"
-src="about:blank"
-title="Academy Video"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-allowfullscreen>
-</iframe>
-<p id="videoHelp" class="small">Select a lesson above. If embedding is unavailable, use Open on YouTube.</p>
-<button class="btn" id="youtubeButton" onclick="openYouTube()" disabled>Open on YouTube</button>
-</div>
+<section id="videos" class="page">
+  <h2 class="section-title">🎬 Educational Videos</h2>
+  <select id="videoCategory" onchange="loadVideos()">
+    <option value="employees">Government Employees</option>
+    <option value="upsc">UPSC</option>
+    <option value="tgpsc">TGPSC</option>
+    <option value="school">School Education</option>
+    <option value="police">Police</option>
+    <option value="navodaya">Navodaya</option>
+  </select>
+  <div id="videoList" class="grid"></div>
 </section>
 
-<section id="books" class="section">
-<h2>📚 Digital Library | డిజిటల్ పుస్తకాలు</h2>
-<div class="card">
-<label>Select Category</label>
-<select id="bookCourse" onchange="loadBooks()">
-<option value="upsc">UPSC Books</option>
-<option value="tgpsc">TGPSC Books</option>
-<option value="police">Police Books</option>
-<option value="school">School Books</option>
-<option value="navodaya">Navodaya Books</option>
-</select>
-<div id="bookList"></div>
-</div>
-<div class="card">
-<h3 id="bookTitle">Select a Book</h3>
-<p id="bookHelp">Choose a book to open its PDF or study resource.</p>
-<button class="btn" id="bookButton" onclick="openBook()" disabled>Open Book / PDF</button>
-</div>
+<section id="books" class="page">
+  <h2 class="section-title">📖 Digital Books Library</h2>
+  <p>PDF పుస్తకాలను ఇక్కడ జోడించవచ్చు.</p>
+  <div id="bookList" class="grid"></div>
 </section>
 
-<section id="tests" class="section">
-<h2>✍️ Online Practice Tests</h2>
-<div class="card">
-<select id="exam" onchange="loadQuestion()">
-<option value="upsc">UPSC</option>
-<option value="tgpsc">TGPSC</option>
-<option value="police">Police</option>
-<option value="school">School</option>
-<option value="navodaya">Navodaya</option>
-</select>
-<p id="qnumber">Question 1</p>
-<h3 id="question"></h3>
-<div id="options"></div>
-<button class="btn" onclick="checkAnswer()">Submit Answer</button>
-<p id="answerResult"></p>
-<button class="btn" onclick="nextQuestion()">Next Question →</button>
-<p id="score">Score: 0</p>
-</div>
+<section id="songs" class="page">
+  <h2 class="section-title">🎵 Songs Library – పాటలు</h2>
+  <select id="songCategory" onchange="loadSongs()">
+    <option value="kids">Kids Songs</option>
+    <option value="learning">Learning Songs</option>
+    <option value="motivation">Motivational Songs</option>
+    <option value="academy">Academy Songs</option>
+  </select>
+  <div id="songList"></div>
+  <h3 id="songTitle">Select a Song</h3>
+  <audio id="songPlayer" controls></audio>
+  <p class="small">MP3 URL జోడించిన తర్వాత పాటలు వినవచ్చు.</p>
 </section>
 
-<section id="login" class="section">
-<h2>Student Login</h2>
-<div class="card">
-<select id="loginType" onchange="loginMode()">
-<option value="password">Username + Password</option>
-<option value="mobile">Mobile Number + OTP</option>
-</select>
-<div id="passwordBox">
-<input id="username" placeholder="Username">
-<input id="password" type="password" placeholder="Password">
-</div>
-<div id="mobileBox" style="display:none">
-<input id="mobile" placeholder="Mobile Number">
-</div>
-<button class="btn" onclick="studentLogin()">Login</button>
-<p id="loginMessage" class="small">Demo interface. Secure student authentication will be connected separately.</p>
-</div>
+<section id="audio" class="page">
+  <h2 class="section-title">🎧 Audio Lessons – ఆడియో పాఠాలు</h2>
+  <select id="audioCategory" onchange="loadAudioLessons()">
+    <option value="school">School Education</option>
+    <option value="upsc">UPSC</option>
+    <option value="tgpsc">TGPSC</option>
+    <option value="police">Police</option>
+    <option value="navodaya">Navodaya</option>
+    <option value="employees">Government Employees</option>
+  </select>
+  <div id="audioLessonList"></div>
+  <h3 id="audioLessonTitle">Select an Audio Lesson</h3>
+  <audio id="audioLessonPlayer" controls></audio>
+  <p class="small">ఆడియో వినడానికి సంబంధిత MP3 URL జోడించాలి.</p>
 </section>
 
-<section id="about" class="section">
-<div class="card">
-<h2>About Our Academy</h2>
-<h3>MASTER MINDS ACADEMY – TIRYANI</h3>
-<p>School Tuition and Competitive Examination Preparation Centre.</p>
-<p>School Education | UPSC | TGPSC | Police | Navodaya</p>
-<p>Our Goal is to Bring Out Every Student's Talent.</p>
-</div>
+<section id="audiobooks" class="page">
+  <h2 class="section-title">📚 Audio Books – ఆడియో పుస్తకాలు</h2>
+  <p>Listen and Learn – వినండి, నేర్చుకోండి.</p>
+  <select id="audioBookCategory" onchange="loadAudioBooks()">
+    <option value="school">School Classes 1–10</option>
+    <option value="upsc">UPSC Audio Books</option>
+    <option value="tgpsc">TGPSC Audio Books</option>
+    <option value="navodaya">Navodaya Audio Books</option>
+    <option value="motivation">Motivational Books</option>
+    <option value="government">Government Employees</option>
+  </select>
+  <div id="audioBookList"></div>
+  <h3 id="audioBookTitle">Select an Audio Book</h3>
+  <audio id="audioBookPlayer" controls></audio>
+  <p id="audioBookHelp" class="small">ఆడియో పుస్తకాన్ని ఎంచుకోండి. MP3 లింక్ జోడించిన తర్వాత వినవచ్చు.</p>
+</section>
+
+<section id="tests" class="page">
+  <h2 class="section-title">📝 Online Tests – ఆన్‌లైన్ పరీక్షలు</h2>
+  <select id="testCategory" onchange="loadTest()">
+    <option value="school">School General Knowledge</option>
+    <option value="upsc">UPSC General Studies</option>
+    <option value="tgpsc">Telangana GK</option>
+  </select>
+  <div class="card">
+    <div id="questionArea"></div>
+    <button class="btn" onclick="checkAnswer()">Submit Answer</button>
+    <button class="btn" onclick="nextQuestion()">Next Question</button>
+    <div id="testResult"></div>
+    <p id="scoreDisplay">Score: 0</p>
+  </div>
+</section>
+
+<section id="employees" class="page">
+  <h2 class="section-title">🏛️ Government Employees Learning Centre</h2>
+  <div class="grid">
+    <div class="card"><h3>Medical Leave Rules</h3><p>Medical leave information and procedures.</p></div>
+    <div class="card"><h3>Service Rules</h3><p>Service book, probation, increments and promotions.</p></div>
+    <div class="card"><h3>Pension Rules</h3><p>Retirement benefits and pension basics.</p></div>
+    <div class="card"><h3>Office Procedures</h3><p>Official letters, memos and file management.</p></div>
+  </div>
+</section>
+
+<section id="login" class="page">
+  <h2 class="section-title">👤 Student Login</h2>
+  <div class="card">
+    <p>Student Demo Login</p>
+    <input id="studentName" placeholder="Enter Student Name">
+    <input id="studentClass" placeholder="Enter Class">
+    <button class="btn" onclick="studentLogin()">Login</button>
+    <p id="loginMessage"></p>
+    <p class="small">ఇది Demo Login మాత్రమే. Secure login కోసం backend అవసరం.</p>
+  </div>
+</section>
+
+<section id="about" class="page">
+  <h2 class="section-title">ℹ️ About Our Academy</h2>
+  <div class="card">
+    <h3>MASTER MINDS ACADEMY – TIRYANI</h3>
+    <p>Location: Tiryani, Kumram Bheem Asifabad, Telangana.</p>
+    <p>Our mission is to bring out the hidden talent in every student through quality education and concept-based learning.</p>
+    <h3>మా లక్ష్యం</h3>
+    <p>మా లక్ష్యం అడ్మిషన్లు కాదు… ప్రతి విద్యార్థిలోని ప్రతిభను వెలికితీయడం.</p>
+  </div>
 </section>
 
 </main>
 
 <footer>
-<h3>MASTER MINDS ACADEMY</h3>
-<p>TIRYANI – TELANGANA</p>
-<p>Learn Today • Lead Tomorrow</p>
-<p>© 2026 MASTER MINDS ACADEMY</p>
+  <h3>MASTER MINDS ACADEMY – TIRYANI</h3>
+  <p>Learn Today – Lead Tomorrow</p>
+  <p>© 2026 MASTER MINDS ACADEMY. All Rights Reserved.</p>
 </footer>
 
 <script>
-function show(id,button){
-document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
-document.getElementById(id).classList.add('active');
-document.querySelectorAll('nav button').forEach(b=>b.classList.remove('active'));
-if(button)button.classList.add('active');
-window.scrollTo(0,0);
+function showPage(id){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  const page=document.getElementById(id);
+  if(page) page.classList.add('active');
+  window.scrollTo(0,0);
 }
-function selectCourse(course){
-show('courses');
-let names={
-school:'LKG, UKG, Classes 1–10 | Maths, Science, English, Telugu, Social Studies, EVS',
-upsc:'Indian Polity, History, Geography, Economy, Science, Environment, Current Affairs',
-tgpsc:'Group 1–4 | Telangana History, Movement, Geography, Economy, Indian Polity',
-police:'Constable & SI | Arithmetic, Reasoning, General Studies, Telangana History',
-navodaya:'JNVST | Mental Ability, Arithmetic, Language Test'
+
+const academyVideos={
+ employees:["BbFzv49GnQ0","62sgp1T4UCs","JufnPLd3Giw","zwhLSy5kBb0","4hJh0jrM_h8","pWqlQ0nwDSY","JKwRiKHZPlY","7aqT4iVQplk","bmQS34uYMIM","6JNV8lAshNg","FYWjY7aqC_k","Lgb-_cyjRX8"],
+ upsc:["rNa8pRqHeiI","oq3NHQltTic","UXgZBVFo5mk","ZVh34-phurY","0jnP7E4RnFY"],
+ tgpsc:["3k5a-c4-RuE","qH_vWB_hNiI"],
+ school:[],police:[],navodaya:[]
 };
-document.getElementById('courseDetails').innerHTML='<h3>'+course.toUpperCase()+'</h3><p>'+names[course]+'</p><button class="btn" onclick="openCourseVideos(\''+course+'\')">Watch Videos</button><button class="btn" onclick="openCourseBooks(\''+course+'\')">Read Books</button>';
-}
-function openCourseVideos(c){document.getElementById('videoCourse').value=c;loadVideos();show('videos');}
-function openCourseBooks(c){document.getElementById('bookCourse').value=c;loadBooks();show('books');}
 
-/* Add real YouTube video IDs here */
-
-const academyVideos = {
-  government: [
-    { title: "Government Employees - Lesson 01", id: "BbFzv49GnQ0" },
-    { title: "Government Employees - Lesson 02", id: "62sgp1T4UCs" },
-    { title: "Government Employees - Lesson 03", id: "JufnPLd3Giw" },
-    { title: "Government Employees - Lesson 04", id: "zwhLSy5kBb0" },
-    { title: "Government Employees - Lesson 05", id: "4hJh0jrM_h8" },
-    { title: "Government Employees - Lesson 06", id: "pWqlQ0nwDSY" },
-    { title: "Government Employees - Lesson 07", id: "JKwRiKHZPlY" },
-    { title: "Government Employees - Lesson 08", id: "7aqT4iVQplk" },
-    { title: "Government Employees - Lesson 09", id: "bmQS34uYMIM" },
-    { title: "Government Employees - Lesson 10", id: "6JNV8lAshNg" },
-    { title: "Government Employees - Lesson 11", id: "FYWjY7aqC_k" },
-    { title: "Government Employees - Lesson 12", id: "Lgb-_cyjRX8" }
-  ],
-
-  upsc: [
-    { title: "UPSC - Lesson 01", id: "rNa8pRqHeiI" },
-    { title: "UPSC - Lesson 02", id: "oq3NHQltTic" },
-    { title: "UPSC - Lesson 03", id: "UXgZBVFo5mk" },
-    { title: "Indian Polity - Lesson 04", id: "ZVh34-phurY" },
-    { title: "Indian History - Lesson 05", id: "0jnP7E4RnFY" }
-  ],
-
-  tgpsc: [
-    { title: "TGPSC - Lesson 01", id: "3k5a-c4-RuE" },
-    { title: "TGPSC - Lesson 02", id: "qH_vWB_hNiI" }
-  ],
-
-  police: [],
-  school: [],
-  navodaya: []
-};
-let selectedVideo=null;
 function loadVideos(){
-let c=document.getElementById('videoCourse').value;
-let list=document.getElementById('videoList');
-list.innerHTML='';
-selectedVideo=null;
-document.getElementById('player').src='about:blank';
-document.getElementById('videoTitle').innerText='Select a Video';
-document.getElementById('youtubeButton').disabled=true;
-academyVideos[c].forEach((v,i)=>{
-let b=document.createElement('button');
-b.className='btn';
-b.style.display='block';
-b.style.width='100%';
-b.textContent='▶ '+(i+1)+'. '+v.title;
-b.onclick=()=>playVideo(v);
-list.appendChild(b);
-});
-if(!academyVideos[c].length)list.innerHTML='<p>No videos added yet. Add YouTube video IDs to this course in academyVideos.</p>';
-}
-function playVideo(v){
-selectedVideo=v;
-document.getElementById('videoTitle').innerText=v.title;
-document.getElementById('player').src='https://www.youtube-nocookie.com/embed/'+v.id;
-document.getElementById('youtubeButton').disabled=false;
-}
-function openYouTube(){
-if(selectedVideo)window.open('https://www.youtube.com/watch?v='+selectedVideo.id,'_blank');
+ const cat=document.getElementById('videoCategory').value;
+ const list=document.getElementById('videoList');
+ list.innerHTML='';
+ const videos=academyVideos[cat]||[];
+ if(!videos.length){list.innerHTML='<p>Videos coming soon.</p>';return;}
+ videos.forEach((id,i)=>{
+  const div=document.createElement('div');
+  div.className='card';
+  div.innerHTML='<h3>Lesson '+(i+1)+'</h3><iframe class="video-frame" src="https://www.youtube.com/embed/'+id+'" allowfullscreen></iframe>';
+  list.appendChild(div);
+ });
 }
 
-/* Add PDF links in the url field. */
-const academyBooks={
-upsc:[{title:'Indian Polity - Study Material',url:''},{title:'UPSC General Studies Notes',url:''}],
-tgpsc:[{title:'Telangana History Notes',url:''},{title:'Telangana Movement Notes',url:''}],
-police:[{title:'Police Arithmetic Notes',url:''},{title:'Police Reasoning Notes',url:''}],
-school:[{title:'School Mathematics Books',url:''},{title:'School Science Books',url:''}],
-navodaya:[{title:'JNVST Mental Ability Book',url:''},{title:'JNVST Arithmetic Book',url:''}]
-};
-let selectedBook=null;
+const academyBooks=[
+ {title:"Indian Polity",url:""},
+ {title:"Indian History",url:""},
+ {title:"Indian Geography",url:""},
+ {title:"General Knowledge",url:""}
+];
+
 function loadBooks(){
-let c=document.getElementById('bookCourse').value;
-let list=document.getElementById('bookList');
-list.innerHTML='';
-selectedBook=null;
-document.getElementById('bookTitle').innerText='Select a Book';
-document.getElementById('bookButton').disabled=true;
-academyBooks[c].forEach((b,i)=>{
-let el=document.createElement('div');
-el.className='item';
-let btn=document.createElement('button');
-btn.className='btn';
-btn.textContent='Select';
-btn.onclick=()=>chooseBook(b);
-el.append(document.createTextNode((i+1)+'. '+b.title+' '),btn);
-list.appendChild(el);
-});
-}
-function chooseBook(b){
-selectedBook=b;
-document.getElementById('bookTitle').innerText=b.title;
-document.getElementById('bookButton').disabled=!b.url;
-document.getElementById('bookHelp').innerText=b.url?'PDF/resource is ready to open.':'No PDF link added yet. Add your PDF link in academyBooks.';
-}
-function openBook(){
-if(selectedBook&&selectedBook.url)window.open(selectedBook.url,'_blank');
-}
-function loginMode(){
-let m=document.getElementById('loginType').value;
-document.getElementById('passwordBox').style.display=m==='password'?'block':'none';
-document.getElementById('mobileBox').style.display=m==='mobile'?'block':'none';
-}
-function studentLogin(){
-document.getElementById('loginMessage').innerText='Demo only. Real login and OTP require a secure authentication backend.';
+ const list=document.getElementById('bookList');
+ list.innerHTML='';
+ academyBooks.forEach(book=>{
+  const div=document.createElement('div');
+  div.className='card';
+  div.innerHTML='<h3>'+book.title+'</h3><p>'+(book.url?'<a href="'+book.url+'" target="_blank">Open PDF</a>':'PDF link not added yet')+'</p>';
+  list.appendChild(div);
+ });
 }
 
-const bank={
-upsc:[
-{q:'Which part of the Indian Constitution deals with Fundamental Rights?',o:['Part I','Part II','Part III','Part IV'],a:2,e:'Fundamental Rights are contained in Part III.'},
-{q:'Who appoints the Prime Minister of India?',o:['President','Chief Justice','Lok Sabha Speaker','Governor'],a:0,e:'The President appoints the Prime Minister.'},
-{q:'Which Article deals with Equality before Law?',o:['Article 14','Article 19','Article 21','Article 32'],a:0,e:'Article 14 provides equality before law.'}
-],
-tgpsc:[
-{q:'What is the capital of Telangana?',o:['Warangal','Hyderabad','Karimnagar','Nizamabad'],a:1,e:'Hyderabad is the capital of Telangana.'},
-{q:'Telangana State was formed on?',o:['1 May 2014','2 June 2014','15 August 2014','1 January 2015'],a:1,e:'Telangana was formed on 2 June 2014.'}
-],
-police:[
-{q:'What is the national emergency number in India?',o:['100','101','112','108'],a:2,e:'112 is the pan-India emergency response number.'}
-],
-school:[
-{q:'What is 12 × 8?',o:['86','96','108','88'],a:1,e:'12 multiplied by 8 equals 96.'}
-],
-navodaya:[
-{q:'Find the next number: 2, 4, 6, 8, ?',o:['9','10','11','12'],a:1,e:'The sequence increases by 2.'}
-]
+const academySongs={
+ kids:[
+  {title:"Kids Song 1",url:""},
+  {title:"Kids Song 2",url:""}
+ ],
+ learning:[
+  {title:"Alphabet Learning Song",url:""},
+  {title:"Numbers Learning Song",url:""}
+ ],
+ motivation:[
+  {title:"Motivational Song 1",url:""}
+ ],
+ academy:[
+  {title:"Master Minds Academy Song",url:""}
+ ]
 };
-let qi=0,score=0,answered=false;
-function loadQuestion(){qi=0;score=0;showQuestion();}
+
+function loadSongs(){
+ const cat=document.getElementById('songCategory').value;
+ const list=document.getElementById('songList');
+ list.innerHTML='';
+ academySongs[cat].forEach((song,i)=>{
+  const b=document.createElement('button');
+  b.className='item-button';
+  b.textContent='▶ '+song.title;
+  b.onclick=()=>playSong(cat,i);
+  list.appendChild(b);
+ });
+}
+function playSong(cat,i){
+ const song=academySongs[cat][i];
+ const player=document.getElementById('songPlayer');
+ document.getElementById('songTitle').textContent=song.title;
+ if(!song.url){player.pause();player.removeAttribute('src');alert('ఈ పాటకు MP3 లింక్ ఇంకా జోడించలేదు.');return;}
+ player.src=song.url;
+ player.play();
+}
+
+const audioLessons={
+ school:[{title:"School Lesson 1",url:""}],
+ upsc:[{title:"Indian Polity Audio Lesson",url:""},{title:"Indian History Audio Lesson",url:""}],
+ tgpsc:[{title:"Telangana History Audio",url:""}],
+ police:[{title:"Police GK Audio",url:""}],
+ navodaya:[{title:"Mental Ability Audio",url:""}],
+ employees:[{title:"Service Rules Audio",url:""},{title:"Leave Rules Audio",url:""},{title:"Pension Rules Audio",url:""}]
+};
+
+function loadAudioLessons(){
+ const cat=document.getElementById('audioCategory').value;
+ const list=document.getElementById('audioLessonList');
+ list.innerHTML='';
+ audioLessons[cat].forEach((lesson,i)=>{
+  const b=document.createElement('button');
+  b.className='item-button';
+  b.textContent='🎧 '+lesson.title;
+  b.onclick=()=>playAudioLesson(cat,i);
+  list.appendChild(b);
+ });
+}
+function playAudioLesson(cat,i){
+ const lesson=audioLessons[cat][i];
+ const player=document.getElementById('audioLessonPlayer');
+ document.getElementById('audioLessonTitle').textContent=lesson.title;
+ if(!lesson.url){player.pause();player.removeAttribute('src');alert('ఈ పాఠానికి MP3 లింక్ ఇంకా జోడించలేదు.');return;}
+ player.src=lesson.url;
+ player.play();
+}
+
+const audioBooks={
+ school:[
+  {title:"Class 1 Audio Book",url:""},
+  {title:"Class 2 Audio Book",url:""},
+  {title:"Class 3 Audio Book",url:""},
+  {title:"Class 4 Audio Book",url:""},
+  {title:"Class 5 Audio Book",url:""},
+  {title:"Class 6 Audio Book",url:""},
+  {title:"Class 7 Audio Book",url:""},
+  {title:"Class 8 Audio Book",url:""},
+  {title:"Class 9 Audio Book",url:""},
+  {title:"Class 10 Audio Book",url:""}
+ ],
+ upsc:[
+  {title:"Indian Polity Audio Book",url:""},
+  {title:"Indian History Audio Book",url:""},
+  {title:"Indian Geography Audio Book",url:""},
+  {title:"Indian Economy Audio Book",url:""},
+  {title:"Environment Audio Book",url:""}
+ ],
+ tgpsc:[
+  {title:"Telangana History",url:""},
+  {title:"Telangana Movement",url:""},
+  {title:"Telangana Geography",url:""},
+  {title:"Telangana Economy",url:""}
+ ],
+ navodaya:[
+  {title:"Children Stories",url:""},
+  {title:"General Knowledge",url:""},
+  {title:"Mental Ability",url:""}
+ ],
+ motivation:[
+  {title:"Motivational Book 1",url:""},
+  {title:"Inspirational Stories",url:""}
+ ],
+ government:[
+  {title:"Service Rules",url:""},
+  {title:"Leave Rules",url:""},
+  {title:"Pension Rules",url:""},
+  {title:"Office Procedures",url:""}
+ ]
+};
+
+function loadAudioBooks(){
+ const cat=document.getElementById('audioBookCategory').value;
+ const list=document.getElementById('audioBookList');
+ list.innerHTML='';
+ audioBooks[cat].forEach((book,index)=>{
+  const button=document.createElement('button');
+  button.className='item-button';
+  button.textContent='▶ '+book.title;
+  button.onclick=()=>playAudioBook(cat,index);
+  list.appendChild(button);
+ });
+}
+function playAudioBook(cat,index){
+ const book=audioBooks[cat][index];
+ const player=document.getElementById('audioBookPlayer');
+ document.getElementById('audioBookTitle').textContent=book.title;
+ const help=document.getElementById('audioBookHelp');
+ if(!book.url){
+  player.pause();
+  player.removeAttribute('src');
+  help.textContent='ఈ పుస్తకానికి MP3 లింక్ ఇంకా జోడించలేదు.';
+  return;
+ }
+ player.src=book.url;
+ player.play();
+ help.textContent='Now Playing: '+book.title;
+}
+
+const questions={
+ school:[
+  {q:"Which planet is known as the Red Planet? / ఎర్ర గ్రహం అని దేనిని పిలుస్తారు?",o:["Earth / భూమి","Mars / అంగారకుడు","Venus / శుక్రుడు","Jupiter / గురుడు"],a:1,e:"Mars is called the Red Planet because of iron oxide on its surface."},
+  {q:"How many days are there in a leap year? / లీపు సంవత్సరంలో ఎన్ని రోజులు?",o:["365","366","364","360"],a:1,e:"A leap year has 366 days."}
+ ],
+ upsc:[
+  {q:"Who is the constitutional head of India? / భారతదేశ రాజ్యాంగ అధిపతి ఎవరు?",o:["Prime Minister","President / రాష్ట్రపతి","Chief Justice","Governor"],a:1,e:"The President is the constitutional head of the Union."},
+  {q:"Fundamental Rights are in which part of the Constitution? / ప్రాథమిక హక్కులు రాజ్యాంగంలోని ఏ భాగంలో ఉన్నాయి?",o:["Part I","Part II","Part III","Part IV"],a:2,e:"Fundamental Rights are contained in Part III."}
+ ],
+ tgpsc:[
+  {q:"What is the capital of Telangana? / తెలంగాణ రాజధాని ఏది?",o:["Warangal","Hyderabad / హైదరాబాద్","Karimnagar","Nizamabad"],a:1,e:"Hyderabad is the capital of Telangana."}
+ ]
+};
+
+let questionIndex=0;
+let score=0;
+let answered=false;
+function loadTest(){
+ questionIndex=0;score=0;answered=false;
+ showQuestion();
+}
 function showQuestion(){
-let list=bank[document.getElementById('exam').value];
-let q=list[qi%list.length];
-answered=false;
-document.getElementById('qnumber').innerText='Question '+(qi+1);
-document.getElementById('question').innerText=q.q;
-document.getElementById('options').innerHTML=q.o.map((x,i)=>'<label class="option"><input type="radio" name="ans" value="'+i+'" style="width:auto"> '+String.fromCharCode(65+i)+'. '+x+'</label>').join('');
-document.getElementById('answerResult').innerText='';
-document.getElementById('score').innerText='Score: '+score;
+ const cat=document.getElementById('testCategory').value;
+ const qlist=questions[cat]||[];
+ const area=document.getElementById('questionArea');
+ if(questionIndex>=qlist.length){
+  area.innerHTML='<h3>Test Completed!</h3>';
+  document.getElementById('testResult').textContent='Your final score: '+score+'/'+qlist.length;
+  return;
+ }
+ const q=qlist[questionIndex];
+ let html='<h3>Question '+(questionIndex+1)+'</h3><p>'+q.q+'</p>';
+ q.o.forEach((option,i)=>{
+  html+='<label class="option"><input type="radio" name="answer" value="'+i+'">'+option+'</label>';
+ });
+ area.innerHTML=html;
+ document.getElementById('testResult').innerHTML='';
+ document.getElementById('scoreDisplay').textContent='Score: '+score;
+ answered=false;
 }
 function checkAnswer(){
-if(answered)return;
-let selected=document.querySelector('input[name="ans"]:checked');
-if(!selected){document.getElementById('answerResult').innerText='Please select an answer.';return;}
-let list=bank[document.getElementById('exam').value];
-let q=list[qi%list.length];
-answered=true;
-if(Number(selected.value)===q.a){score++;document.getElementById('answerResult').innerText='Correct! '+q.e;}
-else{document.getElementById('answerResult').innerText='Incorrect. Correct answer: '+q.o[q.a]+'. '+q.e;}
-document.getElementById('score').innerText='Score: '+score;
+ if(answered)return;
+ const cat=document.getElementById('testCategory').value;
+ const q=questions[cat][questionIndex];
+ const selected=document.querySelector('input[name="answer"]:checked');
+ if(!selected){alert('Please select an answer.');return;}
+ const result=document.getElementById('testResult');
+ if(Number(selected.value)===q.a){
+  score++;
+  result.className='result correct';
+  result.textContent='Correct Answer! '+q.e;
+ }else{
+  result.className='result wrong';
+  result.textContent='Incorrect. Correct answer: '+q.o[q.a]+'. '+q.e;
+ }
+ answered=true;
+ document.getElementById('scoreDisplay').textContent='Score: '+score;
 }
-function nextQuestion(){qi++;showQuestion();}
+function nextQuestion(){
+ const cat=document.getElementById('testCategory').value;
+ if(questionIndex<questions[cat].length-1){questionIndex++;showQuestion();}
+ else{
+  questionIndex++;
+  showQuestion();
+ }
+}
+function studentLogin(){
+ const name=document.getElementById('studentName').value.trim();
+ const cls=document.getElementById('studentClass').value.trim();
+ document.getElementById('loginMessage').textContent=
+  name&&cls?'Welcome '+name+'! Class: '+cls:'Please enter your name and class.';
+}
+
 loadVideos();
 loadBooks();
-loadQuestion();
+loadSongs();
+loadAudioLessons();
+loadAudioBooks();
+loadTest();
 </script>
 </body>
 </html>
