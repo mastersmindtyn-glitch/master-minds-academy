@@ -1,0 +1,86 @@
+<!doctype html><html lang="te"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MASTER MINDS ACADEMY Quiz Battle</title>
+<style>
+body{margin:0;background:#eef5ff;color:#17304d;font-family:Arial,"Noto Sans Telugu",sans-serif}header{background:linear-gradient(110deg,#073b83,#087fbd);color:white;text-align:center;padding:22px}main{max-width:850px;margin:18px auto;padding:0 12px}.card{background:white;border-radius:16px;padding:18px;margin:14px 0;box-shadow:0 5px 20px #1235}h1{margin:0;font-size:26px}label{display:block;font-weight:bold;margin:12px 0 5px}input,select{width:100%;padding:12px;border:1px solid #bdcfe3;border-radius:9px;font-size:16px;box-sizing:border-box}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.scores{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.score{background:#edf5ff;padding:12px;border-radius:10px}.score b{display:block;font-size:23px;color:#0866c8}button{padding:13px;border:0;border-radius:10px;background:#1266d5;color:white;font-weight:bold;font-size:16px;cursor:pointer}.option{background:#f1f7ff;color:#17304d;border:2px solid #cbdcf0;text-align:left}.option:disabled{opacity:.65}.player-panel{border:1px solid #cbdcf0;border-radius:12px;padding:12px;background:#f8fbff}.player-panel h3{margin:0 0 8px}.player-panel .option{width:100%;margin:4px 0}.voicebar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.voicebar button{flex:1;min-width:130px}.submitted{background:#e5f8ed;border-color:#72c99a}.hide{display:none}.question{font-size:21px;font-weight:bold;line-height:1.5}.notice{padding:12px;border-radius:10px;background:#e5f8ed;margin-top:12px}.bad{background:#fff0f0}.muted{color:#60758e;font-size:14px}@media(max-width:520px){.grid,.scores{grid-template-columns:1fr}}
+</style><header><h1>🎓 MASTER MINDS ACADEMY</h1>TIRYANI • QUIZ BATTLE</header><main>
+<section class="card" id="setup"><h2>🎮 Start Quiz Battle</h2><div class="grid"><div><label>Players / ఆటగాళ్లు</label><select id="count"><option value="2">2 Members – 2 Options</option><option value="4" selected>4 Members – 4 Options</option></select></div><div><label>Subject / విషయం</label><select id="cat"><option value="mixed">Mixed Quiz</option><option value="gk">General Knowledge</option><option value="math">Maths</option><option value="science">Science & EVS</option><option value="english">English</option></select></div></div><div id="names" class="grid"></div><p class="muted">ప్రతి సరైన సమాధానానికి 10 పాయింట్లు. ముందుగా 100 పాయింట్లు సాధించినవారు విజేత. ప్రతి గేమ్‌లో ప్రశ్నలు రిపీట్ కావు.</p><button id="start">Start Game ▶</button></section>
+<section class="card hide" id="game"><div class="muted" id="qno"></div><div class="scores" id="scores"></div><p class="notice" id="turn"></p><div class="question" id="question"></div><div class="voicebar"><button type="button" id="speakBoth">🔊 తెలుగు + English</button><button type="button" id="speakTe">తెలుగు Voice</button><button type="button" id="speakEn">English Voice</button><button type="button" id="repeatVoice" style="background:#60758e">🔁 Repeat</button></div><p class="muted">అందరికీ ఒకే ప్రశ్న. ప్రతి ఆటగాడు తన సమాధానాన్ని ఎంచుకోండి. అందరూ ఎంచుకున్నాక ఫలితం తెలుస్తుంది.</p><p class="notice" id="voiceStatus">🔊 Voice వినడానికి పై బటన్‌ను నొక్కండి. మొదటిసారి ఆటోమేటిక్‌గా ప్లే కాకపోవచ్చు.</p><div class="grid" id="options"></div><div id="feedback"></div><p><button id="back" style="background:#60758e">End / Back</button></p></section>
+<section class="card hide" id="result"><h2>🏆 Winner</h2><div class="question" id="winner"></div><p id="final"></p><button onclick="location.reload()">Play Again</button></section>
+</main><script>
+const data={
+gk:[["భారతదేశ రాజధాని? / Capital of India?",["Mumbai","New Delhi","Chennai","Kolkata"],1],["భారత జాతీయ జంతువు? / National animal?",["Lion","Elephant","Tiger","Deer"],2],["అతిపెద్ద గ్రహం? / Largest planet?",["Earth","Jupiter","Mars","Venus"],1],["భారత జాతీయ పక్షి? / National bird?",["Peacock","Parrot","Crow","Swan"],0],["తెలంగాణ అవతరణ దినోత్సవం? / Telangana Formation Day?",["June 2","August 15","January 26","November 1"],0]],
+math:[["12 + 8 = ?",["18","20","22","24"],1],["9 × 7 = ?",["56","63","72","69"],1],["100 లో సగం? / Half of 100?",["25","40","50","60"],2],["144 ÷ 12 = ?",["10","11","12","14"],2],["చతురస్రానికి ఎన్ని భుజాలు? / Square sides?",["3","4","5","6"],1]],
+science:[["మొక్కలు ఆహారం తయారు చేసే ప్రక్రియ? / Photosynthesis is?",["Respiration","Photosynthesis","Digestion","Evaporation"],1],["రక్తాన్ని పంపే అవయవం? / Pumps blood?",["Brain","Heart","Lungs","Liver"],1],["నీటి సూత్రం? / Formula of water?",["CO₂","O₂","H₂O","NaCl"],2],["సూర్యుడు ఏ దిశలో ఉదయిస్తాడు? / Sun rises in?",["West","North","South","East"],3],["శ్వాసకు అవసరమైన వాయువు? / Gas needed to breathe?",["Oxygen","Nitrogen","Helium","Hydrogen"],0]],
+english:[["Plural of Child?",["Childs","Children","Childes","Childrens"],1],["Opposite of Hot?",["Warm","Cold","Big","Fast"],1],["Which is a vowel?",["B","K","A","T"],2],["Correct spelling?",["Bautiful","Beautifull","Beautiful","Beutiful"],2],["Past tense of Go?",["Goed","Gone","Went","Going"],2]]};
+let players=[],qs=[],qi=0,turn=0,answers=[],lastQuestion="",lastEnglish="",voiceMode="both";
+const $=x=>document.getElementById(x);
+function names(){let n=+$("count").value;$("names").innerHTML="";for(let i=0;i<n;i++)$("names").innerHTML+=`<div><label>Player ${i+1} Name</label><input id="p${i}" value="Player ${i+1}" maxlength="22"></div>`}
+$("count").onchange=names;names();
+function shuffle(a){return [...a].sort(()=>Math.random()-.5)}
+function start(){let n=+$("count").value;players=Array.from({length:n},(_,i)=>({name:$("p"+i).value.trim()||"Player "+(i+1),score:0}));let c=$("cat").value;qs=shuffle(c==="mixed"?Object.values(data).flat():data[c]);qi=0;turn=0;$("setup").classList.add("hide");$("game").classList.remove("hide");draw()}
+function splitQuestion(q){let parts=q.split(" / ");return [parts[0]||q,parts[1]||parts[0]||q]}
+function speak(text,lang,onDone){
+if(!('speechSynthesis' in window)||!('SpeechSynthesisUtterance' in window)){
+$('voiceStatus').textContent='ఈ Browserలో Text-to-Speech లేదు. Android Chromeలో ప్రయత్నించండి.';return;
+}
+speechSynthesis.cancel();
+const play=()=>{
+const u=new SpeechSynthesisUtterance(text);u.lang=lang;u.rate=0.88;u.volume=1;u.pitch=1;
+const voices=speechSynthesis.getVoices();const base=lang.split('-')[0].toLowerCase();
+const v=voices.find(x=>x.lang.toLowerCase()===lang.toLowerCase())||voices.find(x=>x.lang.toLowerCase().startsWith(base));
+if(v)u.voice=v;
+u.onstart=()=>$('voiceStatus').textContent='🔊 Playing '+(lang==='te-IN'?'తెలుగు':'English')+' voice'+(v?' – '+v.name:'');
+u.onend=()=>{if(onDone)onDone();else $('voiceStatus').textContent='Voice completed. Repeat నొక్కండి.'};
+u.onerror=(e)=>$('voiceStatus').textContent='Voice error: '+e.error+'. Android Text-to-Speechలో Telugu, English voices enable చేయండి.';
+speechSynthesis.speak(u);
+};
+if(speechSynthesis.getVoices().length)play();else{speechSynthesis.onvoiceschanged=()=>{speechSynthesis.onvoiceschanged=null;play()};setTimeout(()=>{if(!speechSynthesis.speaking&&!speechSynthesis.pending)play()},700)}
+}
+function speakCurrent(mode='both'){
+let parts=splitQuestion(qs[qi%qs.length][0]);
+if(mode==='both')speak(parts[0],'te-IN',()=>speak(parts[1],'en-IN'));
+else speak(mode==='te'?parts[0]:parts[1],mode==='en'?'en-IN':'te-IN');
+}
+function draw(){
+let q=qs[qi%qs.length],parts=splitQuestion(q[0]);lastQuestion=parts[0];lastEnglish=parts[1];
+answers=Array(players.length).fill(null);turn=0;
+$('qno').textContent='Question '+(qi+1)+' of '+qs.length;
+$('scores').innerHTML=players.map(p=>`<div class="score">${p.name}<b>${p.score} / 100</b></div>`).join('');
+$('turn').textContent='అందరికీ ఒకే ప్రశ్న / Same question for everyone';
+$('question').textContent=parts[0]+' / '+parts[1];$('feedback').innerHTML='';$('options').innerHTML='';
+let opts=q[1].map((v,i)=>({v,ok:i===q[2]}));
+opts=players.length===2?shuffle([opts[q[2]],shuffle(opts.filter(x=>!x.ok))[0]]):shuffle(opts);
+window.currentOptions=opts;
+showPlayerTurn();
+$('voiceStatus').textContent='🔊 Voice కోసం తెలుగు + English బటన్ నొక్కండి.';
+}
+function showPlayerTurn(){
+let pi=turn,pl=players[pi],panel=document.createElement('div');panel.className='player-panel';
+let h=document.createElement('h3');h.textContent=pl.name+' – మీ వంతు. సమాధానం ఎంచుకోండి';panel.appendChild(h);
+let hint=document.createElement('p');hint.className='muted';hint.textContent='మీ సమాధానం ఎంచుకున్నాక ఫోన్‌ను తదుపరి ఆటగాడికి ఇవ్వండి.';panel.appendChild(hint);
+window.currentOptions.forEach((o,i)=>{let b=document.createElement('button');b.className='option';b.textContent=String.fromCharCode(65+i)+'. '+o.v;b.onclick=()=>submitAnswer(pi,o.ok,b,panel);panel.appendChild(b)});
+$('options').innerHTML='';$('options').appendChild(panel);
+}
+function submitAnswer(pi,ok,btn,panel){
+if(answers[pi]!==null)return;answers[pi]=ok;
+[...panel.querySelectorAll('button')].forEach(b=>b.disabled=true);
+btn.classList.add('submitted');btn.textContent+=' ✓';
+if(turn<players.length-1){
+turn++;
+$('turn').textContent=players[turn].name+' – ఇప్పుడు మీ వంతు / Pass the phone';
+setTimeout(showPlayerTurn,700);return;
+}
+answers.forEach((a,i)=>{if(a)players[i].score+=10});
+$('scores').innerHTML=players.map(p=>`<div class="score">${p.name}<b>${p.score} / 100</b></div>`).join('');
+$('feedback').innerHTML='<div class="notice">'+players.map((p,i)=>p.name+': '+(answers[i]?'సరైన సమాధానం +10':'తప్పు సమాధానం +0')).join('<br>')+'</div>';
+if(players.some(p=>p.score>=100)){setTimeout(finish,1300);return}
+setTimeout(()=>{qi++;if(qi>=qs.length){finishNoWinner()}else{draw()}},1500);
+}
+$('speakBoth').onclick=()=>speakCurrent('both');$('speakTe').onclick=()=>speakCurrent('te');$('speakEn').onclick=()=>speakCurrent('en');$('repeatVoice').onclick=()=>speakCurrent('both');
+function finishNoWinner(){
+$("game").classList.add("hide");$("result").classList.remove("hide");
+$("winner").textContent="Question Bank Completed – ప్రశ్నలు పూర్తయ్యాయి";
+$("final").innerHTML=players.map(p=>p.name+": <b>"+p.score+"</b> points").join("<br>");
+}
+function finish(){let w=players.filter(p=>p.score>=100);$("game").classList.add("hide");$("result").classList.remove("hide");$("winner").textContent=w.length>1?"Tie – టైబ్రేకర్ అవసరం!":"🎉 "+w[0].name+" is the WINNER!";$("final").innerHTML=players.map(p=>p.name+": <b>"+p.score+"</b> points").join("<br>")}
+$("start").onclick=start;$("back").onclick=()=>{if(confirm("End this game?"))location.reload()};
+</script></html>
