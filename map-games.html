@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MASTER MINDS ACADEMY | Map Games</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#eef5ff;color:#14233b}
+header{background:linear-gradient(120deg,#092b62,#087cc5);color:white;text-align:center;padding:25px 14px}
+header h1{margin:0;font-size:clamp(22px,5vw,34px)}header p{margin:8px 0 0}
+main{max-width:850px;margin:20px auto;padding:0 13px}.panel{background:white;border-radius:18px;padding:20px;margin:14px 0;box-shadow:0 5px 18px #1232}
+button,select{font-size:16px;border:0;border-radius:11px;padding:12px 15px;cursor:pointer}
+.primary{background:#087cc5;color:white;font-weight:bold}.choice{display:block;width:100%;margin:9px 0;background:#eaf3ff;text-align:left;color:#14233b}.choice:hover{background:#d2e8ff}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}.game{background:#e8f5ff;color:#064a83;font-weight:bold;min-height:85px}
+.small{color:#5b6b80;font-size:14px}.top{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-weight:bold}
+#question{font-size:21px;font-weight:bold;line-height:1.45;margin:18px 0}
+#feedback{font-weight:bold;min-height:25px;margin:10px 0}
+footer{text-align:center;padding:20px;color:#607086}
+</style></head>
+<body>
+<header><h1>🗺️ MASTER MINDS ACADEMY</h1><p>MAP GAMES • LEARN TODAY • LEAD TOMORROW</p><p>తెలుగు + English</p></header>
+<main>
+<section class="panel" id="home">
+<h2>Choose Your Map Game / మ్యాప్ గేమ్ ఎంచుకోండి</h2>
+<div class="grid">
+<button class="game" onclick="start('india')">🇮🇳 India Map Game<br><span class="small">States & Capitals</span></button>
+<button class="game" onclick="start('world')">🌍 World Map Game<br><span class="small">Countries & Capitals</span></button>
+<button class="game" onclick="start('telangana')">🏞️ Telangana Map Game<br><span class="small">Districts & Headquarters</span></button>
+</div>
+<p class="small">Choose a category, answer the questions and improve your score. Select the correct answer from the options.</p>
+</section>
+<section class="panel" id="quiz" hidden>
+<div class="top"><span id="category"></span><span>Score: <b id="score">0</b></span><span id="progress"></span></div>
+<div id="question"></div><div id="options"></div><div id="feedback" aria-live="polite"></div>
+<button class="primary" id="next" onclick="nextQuestion()" hidden>Next Question / తదుపరి ప్రశ్న</button>
+<button onclick="speakQuestion()">🔊 Listen / వినండి</button>
+<button onclick="goHome()">Back to Maps / వెనక్కి</button>
+</section>
+<section class="panel" id="result" hidden>
+<h2>🎉 Game Completed!</h2><p id="final"></p><button class="primary" onclick="goHome()">Play Again / మళ్లీ ఆడండి</button>
+</section>
+</main><footer>MASTER MINDS ACADEMY – TIRYANI</footer>
+<script>
+const banks={
+india:[
+['What is the capital of Telangana?','తెలంగాణ రాజధాని ఏది?',['Hyderabad / హైదరాబాద్','Warangal / వరంగల్','Karimnagar / కరీంనగర్','Nizamabad / నిజామాబాద్'],0],
+['What is the capital of Maharashtra?','మహారాష్ట్ర రాజధాని ఏది?',['Pune / పుణే','Mumbai / ముంబై','Nagpur / నాగ్‌పూర్','Nashik / నాసిక్'],1],
+['What is the capital of Karnataka?','కర్ణాటక రాజధాని ఏది?',['Mysuru / మైసూరు','Mangaluru / మంగళూరు','Bengaluru / బెంగళూరు','Hubballi / హుబ్బಳ್ಳಿ'],2],
+['What is the capital of Tamil Nadu?','తమిళనాడు రాజధాని ఏది?',['Chennai / చెన్నై','Madurai / మదురై','Salem / సేలం','Coimbatore / కోయంబత్తూరు'],0],
+['What is the capital of Kerala?','కేరళ రాజధాని ఏది?',['Kochi / కొచ్చి','Kozhikode / కోజికోడ్','Thrissur / త్రిస్సూర్','Thiruvananthapuram / తిరువనంతపురం'],3],
+['What is the capital of Gujarat?','గుజరాత్ రాజధాని ఏది?',['Surat / సూరత్','Gandhinagar / గాంధీనగర్','Rajkot / రాజ్‌కోట్','Ahmedabad / అహ్మదాబాద్'],1],
+['What is the capital of Rajasthan?','రాజస్థాన్ రాజధాని ఏది?',['Udaipur / ఉదయ్‌పూర్','Jodhpur / జోధ్‌పూర్','Jaipur / జైపూర్','Kota / కోట'],2],
+['What is the capital of West Bengal?','పశ్చిమ బెంగాల్ రాజధాని ఏది?',['Kolkata / కోల్‌కతా','Siliguri / సిలిగురి','Howrah / హౌరా','Durgapur / దుర్గాపూర్'],0],
+['What is the capital of Odisha?','ఒడిశా రాజధాని ఏది?',['Cuttack / కటక్','Puri / పూరి','Rourkela / రౌర్‌కెలా','Bhubaneswar / భువనేశ్వర్'],3],
+['What is the capital of Bihar?','బీహార్ రాజధాని ఏది?',['Gaya / గయా','Patna / పాట్నా','Bhagalpur / భాగల్పూర్','Muzaffarpur / ముజఫర్‌పూర్'],1]],
+world:[
+['What is the capital of Japan?','జపాన్ రాజధాని ఏది?',['Seoul / సియోల్','Beijing / బీజింగ్','Tokyo / టోక్యో','Bangkok / బ్యాంకాక్'],2],
+['What is the capital of France?','ఫ్రాన్స్ రాజధాని ఏది?',['Paris / పారిస్','Rome / రోమ్','Madrid / మాడ్రిడ్','Berlin / బెర్లిన్'],0],
+['What is the capital of Australia?','ఆస్ట్రేలియా రాజధాని ఏది?',['Sydney / సిడ్నీ','Melbourne / మెల్‌బోర్న్','Perth / పెర్త్','Canberra / కాన్‌బెర్రా'],3],
+['What is the capital of Nepal?','నేపాల్ రాజధాని ఏది?',['Pokhara / పోఖారా','Kathmandu / ఖాట్మండు','Lalitpur / లలిత్‌పూర్','Biratnagar / బిరాట్‌నగర్'],1],
+['What is the capital of Egypt?','ఈజిప్ట్ రాజధాని ఏది?',['Cairo / కైరో','Alexandria / అలెగ్జాండ్రియా','Giza / గిజా','Luxor / లక్సర్'],0],
+['What is the capital of Canada?','కెనడా రాజధాని ఏది?',['Toronto / టొరంటో','Vancouver / వాంకూవర్','Ottawa / ఒట్టావా','Montreal / మాంట్రియల్'],2],
+['What is the capital of Brazil?','బ్రెజిల్ రాజధాని ఏది?',['Rio de Janeiro / రియో','São Paulo / సావో పాలో','Salvador / సాల్వడార్','Brasília / బ్రసీలియా'],3],
+['What is the capital of Italy?','ఇటలీ రాజధాని ఏది?',['Venice / వెనిస్','Rome / రోమ్','Milan / మిలాన్','Naples / నేపుల్స్'],1],
+['What is the capital of China?','చైనా రాజధాని ఏది?',['Shanghai / షాంఘై','Hong Kong / హాంకాంగ్','Beijing / బీజింగ్','Wuhan / వుహాన్'],2],
+['What is the capital of Bangladesh?','బంగ్లాదేశ్ రాజధాని ఏది?',['Dhaka / ఢాకా','Chittagong / చిట్టగాంగ్','Khulna / ఖుల్నా','Rajshahi / రాజ్‌షాహి'],0]],
+telangana:[
+['What is the capital of Telangana?','తెలంగాణ రాజధాని ఏది?',['Hyderabad / హైదరాబాద్','Warangal / వరంగల్','Nalgonda / నల్గొండ','Karimnagar / కరీంనగర్'],0],
+['Which district is famous for the Ramappa Temple?','రామప్ప దేవాలయం ఏ జిల్లాలో ఉంది?',['Jagtial / జగిత్యాల','Mulugu / ములుగు','Medak / మెదక్','Nirmal / నిర్మల్'],1],
+['Which city is known for the Thousand Pillar Temple?','వేయి స్తంభాల గుడికి ప్రసిద్ధి చెందిన నగరం ఏది?',['Khammam / ఖమ్మం','Nizamabad / నిజామాబాద్','Hanamkonda / హనుమకొండ','Siddipet / సిద్ధిపేట'],2],
+['Which district is associated with Basara Saraswathi Temple?','బాసర సరస్వతి ఆలయం ఏ జిల్లాలో ఉంది?',['Nirmal / నిర్మల్','Adilabad / ఆదిలాబాద్','Mancherial / మంచిర్యాల','Jagtial / జగిత్యాల'],0],
+['Which district headquarters is Bhadradri Kothagudem?','భద్రాద్రి కొత్తగూడెం జిల్లా కేంద్రం ఏది?',['Palvancha / పాల్వంచ','Kothagudem / కొత్తగూడెం','Bhadrachalam / భద్రాచలం','Yellandu / ఇల్లందు'],1],
+['Which district is the headquarters of Sircilla town?','సిరిసిల్ల పట్టణం ఏ జిల్లాకు కేంద్రం?',['Karimnagar / కరీంనగర్','Siddipet / సిద్ధిపేట','Rajanna Sircilla / రాజన్న సిరిసిల్ల','Jagtial / జగిత్యాల'],2],
+['Which district headquarters is Mancherial?','మంచిర్యాల ఏ జిల్లా కేంద్రం?',['Mancherial / మంచిర్యాల','Peddapalli / పెద్దపల్లి','Adilabad / ఆదిలాబాద్','Nirmal / నిర్మల్'],0],
+['Which district headquarters is Asifabad?','ఆసిఫాబాద్ ఏ జిల్లా కేంద్రం?',['Nirmal / నిర్మల్','Kumram Bheem Asifabad / కుమురం భీమ్ ఆసిఫాబాద్','Mancherial / మంచిర్యాల','Adilabad / ఆదిలాబాద్'],1],
+['Which district headquarters is Mahabubnagar?','మహబూబ్‌నగర్ ఏ జిల్లా కేంద్రం?',['Wanaparthy / వనపర్తి','Nagarkurnool / నాగర్‌కర్నూల్','Mahabubnagar / మహబూబ్‌నగర్','Narayanpet / నారాయణపేట'],2],
+['Which district headquarters is Sangareddy?','సంగారెడ్డి ఏ జిల్లా కేంద్రం?',['Sangareddy / సంగారెడ్డి','Medak / మెదక్','Zaheerabad / జహీరాబాద్','Patancheru / పటాన్‌చెరు'],0]]
+};
+let questions=[],index=0,score=0,locked=false,kind='';
+const names={india:'🇮🇳 India Map Game',world:'🌍 World Map Game',telangana:'🏞️ Telangana Map Game'};
+function start(k){kind=k;questions=[...banks[k]].sort(()=>Math.random()-.5);index=0;score=0;document.getElementById('home').hidden=true;document.getElementById('result').hidden=true;document.getElementById('quiz').hidden=false;document.getElementById('category').textContent=names[k];showQuestion()}
+function showQuestion(){locked=false;let q=questions[index];document.getElementById('score').textContent=score;document.getElementById('progress').textContent=`Question ${index+1}/${questions.length}`;document.getElementById('question').textContent=q[0]+'\n'+q[1];document.getElementById('feedback').textContent='';document.getElementById('next').hidden=true;let box=document.getElementById('options');box.innerHTML='';q[2].forEach((v,i)=>{let b=document.createElement('button');b.className='choice';b.textContent=String.fromCharCode(65+i)+'. '+v;b.onclick=()=>answer(i);box.appendChild(b)})}
+function answer(n){if(locked)return;locked=true;let q=questions[index];let buttons=document.querySelectorAll('.choice');buttons.forEach((b,i)=>{b.disabled=true;if(i===q[3])b.style.background='#c9f3d5';else if(i===n)b.style.background='#ffd5d5'});if(n===q[3]){score+=10;document.getElementById('feedback').textContent='✅ Correct! సరైన సమాధానం! +10';}else document.getElementById('feedback').textContent='❌ Correct answer: '+q[2][q[3]];document.getElementById('score').textContent=score;document.getElementById('next').hidden=false}
+function nextQuestion(){index++;if(index>=questions.length){document.getElementById('quiz').hidden=true;document.getElementById('result').hidden=false;document.getElementById('final').textContent=`Your score: ${score} / ${questions.length*10} — మీ స్కోర్`;return}showQuestion()}
+function goHome(){document.getElementById('home').hidden=false;document.getElementById('quiz').hidden=true;document.getElementById('result').hidden=true}
+function speakQuestion(){let q=questions[index];if(!('speechSynthesis'in window)){alert('Voice is not supported in this browser.');return}speechSynthesis.cancel();let u=new SpeechSynthesisUtterance(q[0]+' . '+q[1]);u.lang='en-IN';speechSynthesis.speak(u)}
+</script></body></html>
